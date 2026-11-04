@@ -190,6 +190,140 @@ def _plot_reliability(rel_new: dict, rel_legacy: dict) -> None:
     plt.close(fig)
 
 
+def _round(d: dict) -> dict:
+    return {k: (round(v, 4) if isinstance(v, float) else v) for k, v in d.items()}
+
+
+def evaluate_extraction(world: World) -> dict:
+    from .baseline_2022 import LegacyClassifiers, LegacySearch
+    from .extraction import Extractor, alnum
+    from .labeling import read_labels
+    from .metrics import abstaining_scores, presence_scores
+    from .splits import extraction_test_mask
+
+    df = world.df
+    test = extraction_test_mask(df["nome_norm"])
+    train, held = df[~test].reset_index(drop=True), df[test].reset_index(drop=True)
+
+    t0 = time.time()
+    extractor = Extractor().fit(train)
+    fit_seconds = time.time() - t0
+    legacy = LegacyClassifiers().fit(train)
+    legacy_search = LegacySearch().fit(train, legacy)
+
+    results: dict = {
+        "n_listings": {"train": len(train), "test": len(held)},
+        "thresholds": {k: round(v, 4) for k, v in extractor.thresholds().items()},
+        "fit_seconds": round(fit_seconds, 1),
+        "fields": {},
+    }
+
+    # tipo / categoria / marca: scored against the dataset labels on the test split
+    preds = extractor.extract_many(held["nome"].tolist())
+    curves = {}
+    for fname in ("tipo", "categoria", "marca"):
+        has = held[fname].notna().to_numpy()
+        gold = held.loc[has, fname].tolist()
+        names = held.loc[has, "nome"]
+        new = [p[fname]["value"] for p, h in zip(preds, has, strict=True) if h]
+        conf = np.array([p[fname]["confidence"] for p, h in zip(preds, has, strict=True) if h])
+        raw = extractor_raw(extractor, fname, held.loc[has, "nome_norm"])
+        majority = train[fname].dropna().value_counts().index[0]
+        results["fields"][fname] = {
+            "n_test": int(has.sum()),
+            "n_classes_train": int(train[fname].nunique()),
+            "majority_class": majority,
+            "baseline_majority": _round(abstaining_scores(gold, [majority] * len(gold))),
+            "baseline_2022": _round(abstaining_scores(gold, legacy.predict(names, fname))),
+            "new_no_abstention": _round(abstaining_scores(gold, raw)),
+            "new": _round(abstaining_scores(gold, new)),
+        }
+        curves[fname] = _coverage_curve(gold, raw, conf)
+    _plot_coverage(curves, extractor.thresholds())
+
+    # cor / modelo: scored against the 200 hand-checked names (None is a valid answer)
+    check = read_labels("extraction_check.csv").assign(id=lambda d: d["id"].astype(int))
+    assert test[check["id"]].all(), "hand-checked names must come from the test split"
+    names = df.loc[check["id"], "nome"].tolist()
+    chk_preds = extractor.extract_many(names)
+    nearest = legacy_search.nearest_fields(names)
+    gold_cor = [v or None for v in check["cor"]]
+    gold_mod = [alnum(v) or None for v in check["modelo"]]
+    majority_cor = train["cor"].dropna().value_counts().index[0]
+    majority_mod = alnum(train["modelo"].dropna().value_counts().index[0])
+    new_mod = [alnum(p["modelo"]["value"]) or None for p in chk_preds]
+    results["fields"]["cor"] = {
+        "n_test": len(check),
+        "gold_present": sum(g is not None for g in gold_cor),
+        "baseline_always_none": _round(presence_scores(gold_cor, [None] * len(check))),
+        "baseline_majority": _round(presence_scores(gold_cor, [majority_cor] * len(check))),
+        "baseline_2022": _round(presence_scores(gold_cor, nearest["cor"])),
+        "new": _round(presence_scores(gold_cor, [p["cor"]["value"] for p in chk_preds])),
+        "dataset_field": _round(
+            presence_scores(gold_cor, [v or None for v in check["cor_dataset"]])
+        ),
+    }
+    results["fields"]["modelo"] = {
+        "n_test": len(check),
+        "gold_present": sum(g is not None for g in gold_mod),
+        "baseline_always_none": _round(presence_scores(gold_mod, [None] * len(check))),
+        "baseline_majority": _round(presence_scores(gold_mod, [majority_mod] * len(check))),
+        "baseline_2022": _round(
+            presence_scores(gold_mod, [alnum(v) or None for v in nearest["modelo"]])
+        ),
+        "new": _round(presence_scores(gold_mod, new_mod)),
+        "dataset_field": _round(
+            presence_scores(gold_mod, [alnum(v) or None for v in check["modelo_dataset"]])
+        ),
+        "training_rows_with_label_in_name": extractor.modelo.n_training_rows,
+    }
+    return results
+
+
+def extractor_raw(extractor, fname: str, norms: pd.Series) -> list:
+    """Top prediction with no abstention (for the coverage curve)."""
+    part = getattr(extractor, fname)
+    pred, _ = part.predict_with_confidence(norms)
+    return list(pred)
+
+
+def _coverage_curve(gold: list, pred: list, conf: np.ndarray) -> list[dict]:
+    order = np.argsort(-conf, kind="stable")
+    correct = np.array([p == g for p, g in zip(pred, gold, strict=True)])[order]
+    n = len(gold)
+    points = []
+    for cov in np.linspace(0.05, 1.0, 20):
+        k = max(1, int(round(cov * n)))
+        points.append(
+            {"coverage": round(k / n, 4), "accuracy": round(float(correct[:k].mean()), 4)}
+        )
+    return points
+
+
+def _plot_coverage(curves: dict, thresholds: dict) -> None:
+    import matplotlib
+
+    matplotlib.use("Agg")
+    import matplotlib.pyplot as plt
+
+    fig_dir = REPORTS_DIR / "figures"
+    fig_dir.mkdir(parents=True, exist_ok=True)
+    fig, ax = plt.subplots(figsize=(6, 4))
+    colors = {"tipo": "#2a6fb0", "categoria": "#3a9a5b", "marca": "#c05a28"}
+    for fname, pts in curves.items():
+        ax.plot([p["coverage"] for p in pts], [p["accuracy"] for p in pts],
+                color=colors[fname], lw=1.8, label=fname)  # fmt: skip
+    ax.axhline(0.95, color="#999999", lw=1, ls="--", label="target precision 0.95")
+    ax.set_xlabel("coverage (share of listings answered, most confident first)")
+    ax.set_ylabel("accuracy of the answers given")
+    ax.set_title("Accuracy vs coverage on held-out listings")
+    ax.set_ylim(0.5, 1.0)
+    ax.legend(frameon=False, fontsize=8, loc="lower left")
+    fig.tight_layout()
+    fig.savefig(fig_dir / "coverage.png", dpi=150)
+    plt.close(fig)
+
+
 def run_all(sections: tuple[str, ...] = ("matching", "extraction", "search")) -> dict:
     set_seeds()
     t0 = time.time()
@@ -198,7 +332,7 @@ def run_all(sections: tuple[str, ...] = ("matching", "extraction", "search")) ->
     path = REPORTS_DIR / "metrics.json"
     if path.exists():
         metrics = json.loads(path.read_text())
-    runners = {"matching": evaluate_matching}
+    runners = {"matching": evaluate_matching, "extraction": evaluate_extraction}
     for name in sections:
         if name in runners:
             log.info("evaluating %s", name)
