@@ -1,11 +1,20 @@
-"""Draw the samples that get hand-labelled, and read the labelled CSVs back.
+"""Draw the samples to be labelled, read the label CSVs back, and support human review.
 
-Label files live in labels/ as plain CSV so they can be reviewed and edited:
+The labels in labels/ were produced by an AI assistant (Claude) applying the
+written rules in the README; they have not yet been reviewed by a person.
+They are plain CSV so they can be reviewed and edited:
 
 - pairs.csv             : label 1 = same product, 0 = different (see README for the rule)
-- extraction_check.csv  : hand-corrected `cor` and `modelo` read from the name (empty = None)
+- extraction_check.csv  : `cor` and `modelo` as stated in the name (empty = None)
 - queries.csv           : search queries
 - judgments.csv         : graded relevance 0/1/2 of (query, listing)
+
+Human review (blind: the reviewer never sees the AI label):
+
+- `pm review-sample`    : writes labels/review_pairs.csv (all `unsure` pairs + 100 random
+                          test pairs) with an empty `my_label` column to fill in with 0/1
+- `pm review-agreement` : compares the filled-in file with the AI labels and writes
+                          reports/review.json
 """
 
 from __future__ import annotations
@@ -89,7 +98,7 @@ def sample_pairs(
 def sample_extraction_check(
     df: pd.DataFrame, test_mask: np.ndarray, n: int = 200, seed: int = SEED
 ):
-    """Random test-split listings whose color/model will be read off the name by hand."""
+    """Random test-split listings whose color/model will be read off the name and labelled."""
     pool = df[test_mask]
     sample = pool.sample(n=n, random_state=seed).sort_values("id")
     return pd.DataFrame(
@@ -116,3 +125,68 @@ def labelled_pairs(labels_dir: Path = LABELS_DIR) -> pd.DataFrame:
     for col in ("pair_id", "id_a", "id_b", "label"):
         pairs[col] = pairs[col].astype(int)
     return pairs
+
+
+# ------------------------------------------------------------------ human review
+
+REVIEW_COLUMNS = [
+    "pair_id", "split", "source", "nome_a", "nome_b", "marca_a", "marca_b", "note", "my_label",
+]  # fmt: skip
+REVIEW_N_TEST = 100
+
+
+def review_sample(
+    pairs: pd.DataFrame, is_test: np.ndarray, n_test: int = REVIEW_N_TEST, seed: int = SEED
+) -> pd.DataFrame:
+    """All `unsure` pairs plus `n_test` random test pairs, in random order, without labels.
+
+    `pairs` is labels/pairs.csv as read by `read_labels`; `is_test` is aligned with it.
+    """
+    rng = np.random.default_rng(seed)
+    pairs = pairs.reset_index(drop=True)
+    unsure = pairs["unsure"].astype(str).str.strip() == "1"
+    pool = np.flatnonzero(is_test & ~unsure.to_numpy())
+    chosen = rng.choice(pool, size=min(n_test, len(pool)), replace=False)
+    keep = np.union1d(np.flatnonzero(unsure.to_numpy()), chosen)
+    out = pairs.iloc[keep].copy()
+    out["split"] = np.where(is_test[keep], "test", "train")
+    out["my_label"] = ""
+    out = out.iloc[rng.permutation(len(out))]
+    return out[REVIEW_COLUMNS].reset_index(drop=True)
+
+
+def review_agreement(review: pd.DataFrame, pairs: pd.DataFrame) -> dict:
+    """Agreement between a person's `my_label` and the AI label, overall and by subset."""
+    from sklearn.metrics import cohen_kappa_score
+
+    done = review[review["my_label"].astype(str).str.strip().isin(["0", "1"])].copy()
+    done["my_label"] = done["my_label"].astype(str).str.strip().astype(int)
+    ai = pairs.assign(pair_id=pairs["pair_id"].astype(int)).set_index("pair_id")
+    done["pair_id"] = done["pair_id"].astype(int)
+    done["ai_label"] = done["pair_id"].map(ai["label"].astype(int))
+    done["ai_unsure"] = done["pair_id"].map(ai["unsure"].astype(str).str.strip() == "1")
+
+    def block(d: pd.DataFrame) -> dict:
+        n = len(d)
+        agree = int((d["my_label"] == d["ai_label"]).sum())
+        kappa = None
+        if n and (d["my_label"].nunique() > 1 or d["ai_label"].nunique() > 1):
+            k = cohen_kappa_score(d["ai_label"], d["my_label"])
+            kappa = None if np.isnan(k) else round(float(k), 4)
+        return {"n": n, "agree": agree, "agreement": round(agree / n, 4) if n else None,
+                "cohen_kappa": kappa}  # fmt: skip
+
+    disagree = done[done["my_label"] != done["ai_label"]]
+    return {
+        "n_in_file": len(review),
+        "n_reviewed": len(done),
+        "overall": block(done),
+        "unsure": block(done[done["ai_unsure"]]),
+        "test": block(done[done["split"] == "test"]),
+        "confusion": {
+            f"ai{a}_human{h}": int(((done["ai_label"] == a) & (done["my_label"] == h)).sum())
+            for a in (0, 1)
+            for h in (0, 1)
+        },
+        "disagreeing_pair_ids": sorted(int(i) for i in disagree["pair_id"]),
+    }

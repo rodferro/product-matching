@@ -6,7 +6,7 @@ Match marketplace product listings using only the text sellers type in. Given ~2
 - **(b)** reads **type, category, brand, color and model** from a product name, and answers `None` when it isn't sure;
 - **(c)** returns the **most relevant listings for a short search** such as *notebook sony 4 GB*.
 
-It started as a 2022 data-science take-home ([`legacy/challenge_v1.ipynb`](legacy/challenge_v1.ipynb), kept unchanged). The 2022 version built reasonable pieces but never measured them. This version adds an answer key (hand-labelled pairs, names and search judgments), evaluates everything on held-out data next to the 2022 approach, and packages the result as a small API.
+It started as a 2022 data-science take-home ([`legacy/challenge_v1.ipynb`](legacy/challenge_v1.ipynb), kept unchanged). The 2022 version built reasonable pieces but never measured them. This version adds an answer key (listing pairs, names and search judgments, labelled by an AI assistant (Claude) using the written rules below; not yet reviewed by a person), evaluates everything on held-out data next to the 2022 approach, and packages the result as a small API.
 
 For a plain-language walkthrough of the decisions and results, see [`notebooks/analysis.ipynb`](notebooks/analysis.ipynb).
 
@@ -39,7 +39,7 @@ Type, category and brand are scored against the dataset's own labels on 5,299 he
 | categoria | 20 | 25.6% | 89.3% / 93.4% / 83.4% | 100.0% / 95.9% / **95.9%** |
 | marca | 1260 | 3.2% | 21.7% / 98.5% / 21.3% | 99.1% / 95.6% / **94.8%** |
 
-Color and model are scored against 200 hand-checked names, where None (the name does not state it) is a valid answer. *Accuracy* counts None = None as right; *precision* / *recall* are over the values that are present.
+Color and model are scored against 200 held-out names whose color and model were labelled by an AI assistant (Claude), not yet reviewed by a person. None (the name does not state it) is a valid answer. *Accuracy* counts None = None as right; *precision* / *recall* are over the values that are present.
 
 | Field | Present in name | Always None (accuracy) | 2022 (accuracy) | Dataset field as-is: accuracy / precision / recall | New: accuracy / precision / recall |
 |---|---|---|---|---|---|
@@ -71,7 +71,7 @@ The best new system beats the 2022 baseline on 23 of 30 queries.
 | (b) Extraction | type & category: linear classifier on word + character TF-IDF; brand: brand dictionary, then classifier; color: color words; model: ranked code-like tokens | the model abstains below a confidence set on a validation split (target precision 0.95; 0.90 for model) |
 | (c) Search | BM25, character n-grams, `intfloat/multilingual-e5-small` embeddings, and a reciprocal-rank-fusion hybrid of BM25 + embeddings | fusion constant k = 60 (standard, not tuned on the judged queries) |
 
-**Ground truth** (all editable CSVs in [`labels/`](labels/)):
+**Ground truth** (all editable CSVs in [`labels/`](labels/)). Every label was produced by an AI assistant (Claude) applying the rule below; none has yet been reviewed by a person.
 
 | File | Contents |
 |---|---|
@@ -80,6 +80,14 @@ The best new system beats the 2022 baseline on 23 of 30 queries.
 | `queries.csv`, `judgments.csv` | 30 queries and 1,237 graded results (pooled from every system's top 10 plus pattern matches). |
 
 "Same product" means the same manufacturer model with no conflicting variant (color, voltage, capacity, size) where both listings state one. A detail stated on one side only is not a conflict. Hard cases are flagged in an `unsure` column with a note.
+
+### Human review of the labels
+
+`pm review-sample` writes `labels/review_pairs.csv`: every pair flagged `unsure` plus 100 random test pairs, with an empty `my_label` column and without the AI's label (the review is blind). After filling `my_label` with 1 (same) or 0 (different), `pm review-agreement` reports agreement with the AI labels (overall, on the `unsure` pairs, on the test pairs, and Cohen's kappa), lists the disagreeing pairs, writes `reports/review.json` and updates this section.
+
+<!-- review:start -->
+**Status: pending.** No person has reviewed the labels yet. To review: run `pm review-sample`, fill the `my_label` column of `labels/review_pairs.csv` with 1 (same product) or 0 (different) without looking at `labels/pairs.csv`, then run `pm review-agreement`.
+<!-- review:end -->
 
 ## Run it locally
 
@@ -148,10 +156,10 @@ The first hit shows a known weakness (see Limitations). `GET /health` returns th
 ## Limitations
 
 - **Small answer key.** 52 held-out duplicate pairs and 30 queries. Confidence intervals are wide (see the brackets above); differences inside them are ties. BM25 and the hybrid search are statistically indistinguishable here.
-- **One annotator.** All labels were made by one annotator, without a second opinion; agreement between annotators was not measured. The `unsure` rows are the first to review.
+- **The labels are AI-generated and unreviewed.** Every label was produced by an AI assistant (Claude) applying the written rules, and no person has checked them yet, so the metrics measure agreement with those labels. See *Human review of the labels* for the review workflow.
 - **Test pairs over-represent hard cases** (shared codes and lookalikes), so precision over all candidate pairs in the catalogue would differ. Only 5 of 139 labelled duplicates lack a shared model code, so the model has little evidence for that case, and candidate-generation recall is measured mostly on pairs it was designed to find.
 - **Type, category and brand are scored against seller-entered labels**, which have their own errors.
-- **The model extractor rarely abstains.** Its threshold was tuned on names that all contain a model, so it only says None when no code-like token exists (precision 0.82 against a 0.90 target on the hand-checked names).
+- **The model extractor rarely abstains.** Its threshold was tuned on names that all contain a model, so it only says None when no code-like token exists (precision 0.82 against a 0.90 target on the 200 checked names).
 - **Search ignores product type.** For *notebook sony 4 GB* the top hit is a Sony 4 GB memory stick. The 2022 baseline, which adds a predicted type and brand to the query, still wins on 3 of 30 queries for this reason. Using the query's predicted type and brand (part b) to boost results is the obvious next step.
 - **Pooled judgments.** A listing that no evaluated system retrieved is treated as irrelevant.
 - **8 of 262 names with broken encoding** could not be repaired automatically.
@@ -165,7 +173,7 @@ src/product_matching/   normalize.py (text cleanup), attributes.py (codes, color
                         extraction.py, search.py, embeddings.py, metrics.py, baseline_2022.py,
                         evaluate.py, report.py, service.py, api.py, cli.py
 data/raw/               base_info_produtos.csv (26,241 listings, tab-separated)
-labels/                 hand-made answer key (CSV)
+labels/                 answer key (CSV), labelled by an AI assistant (Claude); not yet reviewed by a person
 reports/                metrics.json, results.md, figures/ (generated by `pm evaluate`)
 notebooks/              analysis.ipynb (plain-language walkthrough)
 legacy/                 challenge_v1.ipynb (the 2022 solution, unchanged)

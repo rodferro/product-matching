@@ -1,6 +1,6 @@
 """(a) Probability that two listings are the same product.
 
-A logistic regression on the pairwise features, trained on hand-labelled
+A logistic regression on the pairwise features, trained on labelled
 pairs. Logistic regression is used on purpose: with ~500 labelled pairs a
 small, well-regularized model is easier to calibrate and to explain than a
 boosted ensemble. Whether to add Platt (sigmoid) calibration on top is decided

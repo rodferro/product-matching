@@ -26,7 +26,7 @@ Type, category and brand are scored against the dataset's own labels on 5,299 he
 | categoria | 20 | 25.6% | 89.3% / 93.4% / 83.4% | 100.0% / 95.9% / **95.9%** |
 | marca | 1260 | 3.2% | 21.7% / 98.5% / 21.3% | 99.1% / 95.6% / **94.8%** |
 
-Color and model are scored against 200 hand-checked names, where None (the name does not state it) is a valid answer. *Accuracy* counts None = None as right; *precision* / *recall* are over the values that are present.
+Color and model are scored against 200 held-out names whose color and model were labelled by an AI assistant (Claude), not yet reviewed by a person. None (the name does not state it) is a valid answer. *Accuracy* counts None = None as right; *precision* / *recall* are over the values that are present.
 
 | Field | Present in name | Always None (accuracy) | 2022 (accuracy) | Dataset field as-is: accuracy / precision / recall | New: accuracy / precision / recall |
 |---|---|---|---|---|---|

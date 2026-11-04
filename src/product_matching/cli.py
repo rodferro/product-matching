@@ -3,10 +3,12 @@
 from __future__ import annotations
 
 import argparse
+import json
 import logging
 import sys
+from pathlib import Path
 
-from .config import ARTIFACTS_DIR, DATA_PATH, LABELS_DIR, set_seeds
+from .config import ARTIFACTS_DIR, DATA_PATH, LABELS_DIR, REPORTS_DIR, ROOT, set_seeds
 
 log = logging.getLogger("product_matching")
 
@@ -63,6 +65,49 @@ def cmd_evaluate(args: argparse.Namespace) -> None:
     run_all()
 
 
+def cmd_review_sample(args: argparse.Namespace) -> None:
+    """Blind review file: all `unsure` pairs + 100 random test pairs, without the AI labels."""
+    from .data import load_products
+    from .labeling import read_labels, review_sample
+    from .splits import pair_test_mask
+
+    out = Path(args.labels_dir) / "review_pairs.csv"
+    if out.exists() and not args.force:
+        log.warning("%s exists, not overwriting (use --force to discard filled-in labels)", out)
+        return
+    df = load_products(args.data)
+    pairs = read_labels("pairs.csv", Path(args.labels_dir))
+    is_test = pair_test_mask(
+        df["nome_norm"], pairs["id_a"].astype(int).to_numpy(), pairs["id_b"].astype(int).to_numpy()
+    )
+    sample = review_sample(pairs, is_test)
+    sample.to_csv(out, index=False)
+    log.info("wrote %s (%d pairs); fill `my_label` with 0/1", out, len(sample))
+
+
+def cmd_review_agreement(args: argparse.Namespace) -> None:
+    """Compare labels/review_pairs.csv (filled in by a person) with the AI labels."""
+    from .labeling import read_labels, review_agreement
+    from .report import write_reports
+
+    labels_dir = Path(args.labels_dir)
+    result = review_agreement(
+        read_labels("review_pairs.csv", labels_dir), read_labels("pairs.csv", labels_dir)
+    )
+    if result["n_reviewed"] == 0:
+        log.warning("no rows with my_label = 0 or 1; nothing written")
+        return
+    reports_dir = Path(args.reports_dir)
+    reports_dir.mkdir(parents=True, exist_ok=True)
+    (reports_dir / "review.json").write_text(json.dumps(result, indent=2))
+    write_reports(reports_dir, Path(args.readme))
+    o = result["overall"]
+    print(
+        f"reviewed {result['n_reviewed']}: agreement {o['agreement']:.1%}, kappa {o['cohen_kappa']}"
+    )
+    print("disagreeing pair_ids:", result["disagreeing_pair_ids"])
+
+
 def cmd_serve(args: argparse.Namespace) -> None:
     import uvicorn
 
@@ -88,6 +133,18 @@ def main(argv: list[str] | None = None) -> None:
 
     p = sub.add_parser("evaluate", help="evaluate baseline vs new and write reports/")
     p.set_defaults(func=cmd_evaluate)
+
+    p = sub.add_parser("review-sample", help="write labels/review_pairs.csv for blind review")
+    p.add_argument("--force", action="store_true")
+    p.add_argument("--data", default=str(DATA_PATH))
+    p.add_argument("--labels-dir", default=str(LABELS_DIR))
+    p.set_defaults(func=cmd_review_sample)
+
+    p = sub.add_parser("review-agreement", help="agreement of a person's labels with the AI labels")
+    p.add_argument("--labels-dir", default=str(LABELS_DIR))
+    p.add_argument("--reports-dir", default=str(REPORTS_DIR))
+    p.add_argument("--readme", default=str(ROOT / "README.md"))
+    p.set_defaults(func=cmd_review_agreement)
 
     p = sub.add_parser("serve", help="run the HTTP API")
     p.add_argument("--host", default="127.0.0.1")

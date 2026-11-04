@@ -209,7 +209,7 @@ def evaluate_extraction(world: World) -> dict:
     extractor = Extractor().fit(train)
     fit_seconds = time.time() - t0
     check = read_labels("extraction_check.csv").assign(id=lambda d: d["id"].astype(int))
-    assert test[check["id"]].all(), "hand-checked names must come from the test split"
+    assert test[check["id"]].all(), "extraction-check names must come from the test split"
     check_names = df.loc[check["id"], "nome"].tolist()
     legacy = run_isolated(extraction_outputs, train, held["nome"].tolist(), check_names)
 
@@ -246,7 +246,7 @@ def evaluate_extraction(world: World) -> dict:
         curves[fname] = _coverage_curve(gold, raw, conf)
     _plot_coverage(curves, extractor.thresholds())
 
-    # cor / modelo: scored against the 200 hand-checked names (None is a valid answer)
+    # cor / modelo: scored against the 200 checked names (None is a valid answer)
     chk_preds = extractor.extract_many(check_names)
     nearest = legacy["nearest"]
     gold_cor = [v or None for v in check["cor"]]
