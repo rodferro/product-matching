@@ -117,7 +117,8 @@ def extract_colors(norm_name: str) -> list[str]:
 def extract_specs(norm_name: str) -> dict[str, frozenset[str]]:
     """Quantities that tell variants apart: capacity, voltage, screen size, etc."""
     specs: dict[str, set[str]] = {
-        k: set() for k in ("capacity", "voltage", "screen", "volume", "weight", "btus", "mp", "dims")
+        k: set()
+        for k in ("capacity", "voltage", "screen", "volume", "weight", "btus", "mp", "dims")
     }
     for tok in norm_name.split():
         if m := _CAPACITY.match(tok):

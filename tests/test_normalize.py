@@ -62,8 +62,17 @@ def test_query_and_listing_agree_on_units():
 
 @pytest.mark.parametrize(
     "tok, expected",
-    [("un40c6900", True), ("mss18cr", True), ("66906760", True), ("4gb", False),
-     ("220v", False), ("50x70cm", False), ("2012", False), ("tv", False), ("i5", False)],
+    [
+        ("un40c6900", True),
+        ("mss18cr", True),
+        ("66906760", True),
+        ("4gb", False),
+        ("220v", False),
+        ("50x70cm", False),
+        ("2012", False),
+        ("tv", False),
+        ("i5", False),
+    ],
 )
 def test_is_code(tok, expected):
     assert is_code(tok) is expected
