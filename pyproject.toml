@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "product-matching"
+version = "2.0.0"
+description = "Product matching, attribute extraction and search for marketplace listings in Portuguese"
+requires-python = ">=3.12,<3.13"
+readme = "README.md"
+
+[project.scripts]
+pm = "product_matching.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+markers = ["slow: end-to-end tests that load the embedding model"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP"]

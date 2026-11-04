@@ -153,3 +153,6 @@ dmypy.json
 
 # Cython debug symbols
 cython_debug/
+# Project: generated model files and caches are built, not committed
+artifacts/
+.hf_cache/
