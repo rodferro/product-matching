@@ -171,8 +171,8 @@ def _plot_reliability(rel_new: dict, rel_legacy: dict) -> None:
     fig, ax = plt.subplots(figsize=(5, 5))
     ax.plot([0, 1], [0, 1], color="#999999", lw=1, ls="--", label="perfect calibration")
     for rel, label, color in (
-        (rel_legacy, "2022: cosine similarity", "#c05a28"),
-        (rel_new, "new: calibrated model", "#2a6fb0"),
+        (rel_legacy, "2022: cosine similarity", "#eb6834"),
+        (rel_new, "new: calibrated model", "#2a78d6"),
     ):
         xs = [b["mean_pred"] for b in rel["bins"]]
         ys = [b["observed"] for b in rel["bins"]]
@@ -311,7 +311,7 @@ def _plot_coverage(curves: dict, thresholds: dict) -> None:
     fig_dir = REPORTS_DIR / "figures"
     fig_dir.mkdir(parents=True, exist_ok=True)
     fig, ax = plt.subplots(figsize=(6, 4))
-    colors = {"tipo": "#2a6fb0", "categoria": "#3a9a5b", "marca": "#c05a28"}
+    colors = {"tipo": "#2a78d6", "categoria": "#eb6834", "marca": "#1baf7a"}
     for fname, pts in curves.items():
         ax.plot([p["coverage"] for p in pts], [p["accuracy"] for p in pts],
                 color=colors[fname], lw=1.8, label=fname)  # fmt: skip
@@ -319,7 +319,7 @@ def _plot_coverage(curves: dict, thresholds: dict) -> None:
     ax.set_xlabel("coverage (share of listings answered, most confident first)")
     ax.set_ylabel("accuracy of the answers given")
     ax.set_title("Accuracy vs coverage on held-out listings")
-    ax.set_ylim(0.5, 1.0)
+    ax.set_ylim(0.85, 1.0)
     ax.legend(frameon=False, fontsize=8, loc="lower left")
     fig.tight_layout()
     fig.savefig(fig_dir / "coverage.png", dpi=150)

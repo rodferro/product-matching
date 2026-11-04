@@ -22,9 +22,9 @@ Type, category and brand are scored against the dataset's own labels on 5,299 he
 
 | Field | Classes | Majority class (overall) | 2022: answered / accuracy / overall | New: answered / accuracy / overall |
 |---|---|---|---|---|
-| tipo | 477 | 3.4% | 29.2% / 95.6% / 28.0% | 96.2% / 96.0% / **92.4%** |
-| categoria | 20 | 25.6% | 89.3% / 93.4% / 83.4% | 99.7% / 95.7% / **95.4%** |
-| marca | 1260 | 3.2% | 21.7% / 98.5% / 21.3% | 99.4% / 95.4% / **94.9%** |
+| tipo | 477 | 3.4% | 29.2% / 95.6% / 28.0% | 96.6% / 96.1% / **92.8%** |
+| categoria | 20 | 25.6% | 89.3% / 93.4% / 83.4% | 100.0% / 95.9% / **95.9%** |
+| marca | 1260 | 3.2% | 21.7% / 98.5% / 21.3% | 99.1% / 95.6% / **94.8%** |
 
 Color and model are scored against 200 hand-checked names, where None (the name does not state it) is a valid answer. *Accuracy* counts None = None as right; *precision* / *recall* are over the values that are present.
 
@@ -41,9 +41,9 @@ Color and model are scored against 200 hand-checked names, where None (the name 
 |---|---|---|---|---|
 | 2022 baseline | 0.629 [0.52, 0.73] | 0.810 [0.69, 0.90] | 0.517 | n/a |
 | BM25 | 0.847 [0.76, 0.93] | 0.930 [0.86, 0.99] | 0.779 | 0.1 ms |
-| Char n-gram TF-IDF | 0.805 [0.72, 0.88] | 0.933 [0.89, 0.97] | 0.712 | 3.4 ms |
-| Embeddings (e5-small) | 0.771 [0.67, 0.87] | 0.843 [0.76, 0.92] | 0.715 | 5.5 ms |
-| **Hybrid: BM25 + e5-small (RRF)** | 0.848 [0.77, 0.92] | 0.917 [0.84, 0.98] | 0.802 | 5.2 ms |
-| Embeddings (e5-base) | 0.712 [0.62, 0.81] | 0.783 [0.70, 0.87] | 0.638 | 14.1 ms |
+| Char n-gram TF-IDF | 0.805 [0.72, 0.88] | 0.933 [0.89, 0.97] | 0.712 | 4.0 ms |
+| Embeddings (e5-small) | 0.771 [0.67, 0.87] | 0.843 [0.76, 0.92] | 0.715 | 5.8 ms |
+| **Hybrid: BM25 + e5-small (RRF)** | 0.848 [0.77, 0.92] | 0.917 [0.84, 0.98] | 0.802 | 5.4 ms |
+| Embeddings (e5-base) | 0.712 [0.62, 0.81] | 0.783 [0.70, 0.87] | 0.638 | 47.5 ms |
 
 The best new system beats the 2022 baseline on 23 of 30 queries.

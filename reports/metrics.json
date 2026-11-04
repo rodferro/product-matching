@@ -220,12 +220,12 @@
       "test": 5299
     },
     "thresholds": {
-      "tipo": 0.1735,
-      "categoria": 0.3065,
-      "marca": 0.0091,
+      "tipo": 0.1808,
+      "categoria": 0.2269,
+      "marca": 0.008,
       "modelo": 0.0021
     },
-    "fit_seconds": 116.3,
+    "fit_seconds": 331.6,
     "fields": {
       "tipo": {
         "n_test": 5253,
@@ -246,14 +246,14 @@
         "new_no_abstention": {
           "n": 5253,
           "coverage": 1.0,
-          "accuracy_answered": 0.94,
-          "accuracy_all": 0.94
+          "accuracy_answered": 0.9406,
+          "accuracy_all": 0.9406
         },
         "new": {
           "n": 5253,
-          "coverage": 0.9621,
-          "accuracy_answered": 0.9602,
-          "accuracy_all": 0.9239
+          "coverage": 0.9661,
+          "accuracy_answered": 0.961,
+          "accuracy_all": 0.9284
         }
       },
       "categoria": {
@@ -275,14 +275,14 @@
         "new_no_abstention": {
           "n": 4583,
           "coverage": 1.0,
-          "accuracy_answered": 0.9548,
-          "accuracy_all": 0.9548
+          "accuracy_answered": 0.9588,
+          "accuracy_all": 0.9588
         },
         "new": {
           "n": 4583,
-          "coverage": 0.9969,
-          "accuracy_answered": 0.9571,
-          "accuracy_all": 0.9542
+          "coverage": 0.9996,
+          "accuracy_answered": 0.9592,
+          "accuracy_all": 0.9588
         }
       },
       "marca": {
@@ -304,14 +304,14 @@
         "new_no_abstention": {
           "n": 5299,
           "coverage": 1.0,
-          "accuracy_answered": 0.9496,
-          "accuracy_all": 0.9496
+          "accuracy_answered": 0.9485,
+          "accuracy_all": 0.9485
         },
         "new": {
           "n": 5299,
-          "coverage": 0.994,
-          "accuracy_answered": 0.9544,
-          "accuracy_all": 0.9487
+          "coverage": 0.9913,
+          "accuracy_answered": 0.9558,
+          "accuracy_all": 0.9475
         }
       },
       "cor": {
@@ -443,7 +443,7 @@
         ],
         "recall@10_grade2": 0.7115,
         "unjudged_in_top10": 0,
-        "median_latency_ms": 3.4
+        "median_latency_ms": 4.0
       },
       "embedding_e5_small": {
         "ndcg@10": 0.7709,
@@ -458,7 +458,7 @@
         ],
         "recall@10_grade2": 0.7148,
         "unjudged_in_top10": 0,
-        "median_latency_ms": 5.5
+        "median_latency_ms": 5.8
       },
       "hybrid_bm25_e5_small": {
         "ndcg@10": 0.8483,
@@ -473,7 +473,7 @@
         ],
         "recall@10_grade2": 0.8022,
         "unjudged_in_top10": 0,
-        "median_latency_ms": 5.2
+        "median_latency_ms": 5.4
       },
       "embedding_e5_base": {
         "ndcg@10": 0.7122,
@@ -488,7 +488,7 @@
         ],
         "recall@10_grade2": 0.6385,
         "unjudged_in_top10": 0,
-        "median_latency_ms": 14.1
+        "median_latency_ms": 47.5
       }
     },
     "best_new_system": "hybrid_bm25_e5_small",
@@ -766,5 +766,5 @@
       }
     }
   },
-  "runtime_seconds": 196.8
+  "runtime_seconds": 420.9
 }
