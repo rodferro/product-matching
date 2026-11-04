@@ -93,14 +93,18 @@ def _merge_units(text: str) -> str:
     return _MB_TO_GB.sub(mb_to_gb, text)
 
 
-def _join_hyphenated_codes(token: str) -> str:
-    """'mss-18cr' -> 'mss18cr' (a model code); 'wi-fi' -> 'wi fi' (plain words)."""
+def _join_hyphenated_codes(token: str, keep_parts: bool = False) -> str:
+    """'mss-18cr' -> 'mss18cr' (a model code); 'wi-fi' -> 'wi fi' (plain words).
+
+    With keep_parts, a joined code is followed by its parts ('i5-2450m' ->
+    'i52450m i5 2450m') so a search for 'core i5' still finds it.
+    """
     parts = [p for p in token.split("-") if p]
     if not parts:
         return ""
     joined = "".join(parts)
     if len(parts) > 1 and re.search(r"[a-z]", joined) and re.search(r"\d", joined):
-        return joined
+        return " ".join([joined, *parts]) if keep_parts else joined
     return " ".join(parts)
 
 
@@ -109,7 +113,7 @@ def _clean_dots(token: str) -> str:
     return re.sub(r"(?<!\d)\.|\.(?!\d)", " ", token)
 
 
-def normalize_text(text: str | None) -> str:
+def normalize_text(text: str | None, keep_code_parts: bool = False) -> str:
     """Lowercase, remove accents, unify units and model codes, drop punctuation.
 
     >>> normalize_text("Notebook Sony 4 GB")
@@ -127,7 +131,7 @@ def normalize_text(text: str | None) -> str:
     tokens = []
     for tok in t.split():
         tok = _clean_dots(tok)
-        tokens.extend(_join_hyphenated_codes(tok).split())
+        tokens.extend(_join_hyphenated_codes(tok, keep_code_parts).split())
     t = " ".join(tokens)
     t = _merge_units(t)
     return _SPACES.sub(" ", t).strip()

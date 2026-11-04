@@ -1,0 +1,1238 @@
+query_id,query,id,nome,first_source,grade
+q01,notebook sony 4 GB,755,"Computador All in One Touchscreen Sony Vaio VPCJ215FB/B c/ Intel Core i5-2410M, 6GB, 1TB, Leitor de Blu-ray, AMD Radeon HD 6470M, 21.5"" e Windows 7 - Sony",regex,0
+q01,notebook sony 4 GB,1132,Notebook Sony Vaio VPC-SB35FB Preto - Sony,baseline_2022,1
+q01,notebook sony 4 GB,1482,"NOTEBOOK DELL INSPIRON I14R-3245 INTEL CORE I5 2430M(2,4GHZ) 4GB/HD500GB PRETO 14"" WINDOWS 7 HOME BASIC",embedding_e5_small,0
+q01,notebook sony 4 GB,1940,Mesa p/ Notebook Branca - BRV Móveis,char_ngram,0
+q01,notebook sony 4 GB,2722,"Notebook Sony AMD Phenom? II Triple-Core P820, VPC-EE25FB/BI, 4GB, HD 500GB, 15,5""",baseline_2022,2
+q01,notebook sony 4 GB,3430,Notebook 2GB HD320 Dual Core,char_ngram,0
+q01,notebook sony 4 GB,3463,"Notebook Sony Vaio Intel® Core? i3-2310M, VPC-EG13EB/B, 4GB, HD 500GB, 14?, Webcam, HDMI, Bluetooth ? Windows® 7 Home Basic",embedding_e5_small,2
+q01,notebook sony 4 GB,4931,Bateria p/ Notebook Sony BB11-SO014-PRO - BestBattery,regex,0
+q01,notebook sony 4 GB,5985,Bateria p/ Notebook Sony Vaio BB11-SO015-PRO  - BestBattery,regex,0
+q01,notebook sony 4 GB,7140,"Notebook Sony Vaio Intel® Core? i3-2310M, VPC-EG13EB/L, 4GB, HD 500GB, 14?, Webcam, Wireless, Bluetooth ? Windows® 7 Home Basic",embedding_e5_small,2
+q01,notebook sony 4 GB,9090,Note Vaio YB35AB-P Amd Dc 2Gb 500Gb Led11 W7S Sony,baseline_2022,1
+q01,notebook sony 4 GB,9551,Memory Stick Pro Duo 4GB - Sony,bm25,0
+q01,notebook sony 4 GB,10316,"Notebook Intel® Core? i5 g4-1170br, 4 GB/RAM, 640 GB/HD, Wireless, Bluetooth, Windows® 7 Home Premium - HP",embedding_e5_small,0
+q01,notebook sony 4 GB,11354,Cartão de Memória Sony MicroSD/MicroSDHC - 4GB,bm25,0
+q01,notebook sony 4 GB,11718,"Notebook Samsung Shark SF410 c/ Intel® Core i5 460M 2,53GHz 4GB 640GB DVD-RW Webcam 1.3MP LED 14"" Windows 7 Premium - Samsung",embedding_e5_base,0
+q01,notebook sony 4 GB,12290,Notebook LG S430-5452 Intel Core i5-2430M 2.4 GHz 4096 MB 500 GB,hybrid_bm25_e5_small,0
+q01,notebook sony 4 GB,15207,"Notebook Samsung Intel® Pentium® T4300, NP-RV410-AD4BR, 2GB, HD 320GB, 14"" LED, Bluetooth, Webcam, Wireless - Windows® 7 Starter Edition",embedding_e5_base,0
+q01,notebook sony 4 GB,15475,Notebook Sony Vaio VPCEG17FB/B - Sony,bm25,1
+q01,notebook sony 4 GB,16400,"Notebook Vaio S110 Core I3 2.13GHZ 4GB 500GB 13.3"" DVDRW Preto Windows 7 Home Professional - Sony",baseline_2022,2
+q01,notebook sony 4 GB,16803,GT Sound Sport 4GB,embedding_e5_small,0
+q01,notebook sony 4 GB,17707,"Notebook Sony Intel® Core? i5-2410M 2.30GHz Turbo Boost 2.90GHz, VPCF223FB/B, 4GB, 500GB, 13,3?, Webcam, Bluetooth, HDMI, Windows® 7 Home Premium",embedding_e5_small,2
+q01,notebook sony 4 GB,17753,"Notebook Sony VAIO EE23EB/WI Athlon® II Dual Core P320 2.1GHz 4GB 320GB DVD-RW Webcam e Saída HDMI LCD 15.5"" Office 2010 Starter (Word e Excel) e Windows 7 Basic 64-Bit - Sony",baseline_2022,2
+q01,notebook sony 4 GB,17940,Pen Drive 4 GB S70,embedding_e5_base,0
+q01,notebook sony 4 GB,18288,Mochila p/ notebook neoprene vgp-ccp5/r vm sony,char_ngram,0
+q01,notebook sony 4 GB,18930,Notebook Sony VAIO VPCF215FB/BI - Sony,baseline_2022,1
+q01,notebook sony 4 GB,19074,Notebook 2330M - Acer,char_ngram,0
+q01,notebook sony 4 GB,19184,"Notebook VPCEE43EB/WI Dual Core P360 4GB 500GB 15.5"" Windows 7 Home Basic Branco - Sony Vaio",baseline_2022,2
+q01,notebook sony 4 GB,19757,Notebook Sony VAIO SA25GB/SI - Sony,baseline_2022,1
+q01,notebook sony 4 GB,19900,Memória DDR3 4GB 1333MHz para Notebook - Goldentec,bm25,0
+q01,notebook sony 4 GB,20192,"Notebook Sony Vaio Intel® Core? i3-2310M, VPC-EG13EB/P, 4GB, HD 500GB, 14?, Webcam, Wireless, Bluetooth ? Windows® 7 Home Basic",embedding_e5_small,2
+q01,notebook sony 4 GB,20293,Notebook Sony Vaio VPCSA35GB/SI prata - Sony,baseline_2022,1
+q01,notebook sony 4 GB,21371,Note vaio vpcse vpcse15fb/b pr 110-240v ac sony,regex,1
+q01,notebook sony 4 GB,22051,"Notebook Intel Core i5, Tela 16,4"", 6GB, HD 500GB, Windows 7, HDMI, Bluetooth, VPCF223FB/B - Sony",embedding_e5_base,1
+q01,notebook sony 4 GB,22387,Note Vaio YB35AB-S Amd Dc 2Gb 500Gb Led11 W7S Sony,baseline_2022,1
+q01,notebook sony 4 GB,23072,"Notebook Sony Vaio Intel® Core? i3-2310M, VPC-EG13EB/W, 4GB, HD 500GB, 14?, Webcam, Wireless, Bluetooth ? Windows® 7 Home Basic",embedding_e5_small,2
+q01,notebook sony 4 GB,23827,"Notebook Sony Intel® Core i3-2310M - 2.10GHz, VPCEH10EB/W, 4GB, 320GB, 15,5?, Webcam, Bluetooth, HDMI, Windows® 7 Home Basic",embedding_e5_small,2
+q01,notebook sony 4 GB,25069,Notebook vaio vpceg15fb/b preto sony,bm25,1
+q02,geladeira frost free,309,Refrigerador Frost Free Side By Side SH70B 504L Branco 220v - Electrolux,embedding_e5_base,2
+q02,geladeira frost free,999,Refrigerador Frost Free Branco 403 Lts RFCT451 - Continental,bm25,2
+q02,geladeira frost free,2014,Refrigerador Frost Free 2 Portas CRM33 249L Inox 220v - Consul,embedding_e5_small,2
+q02,geladeira frost free,2137,Geladeira Branca e Rosa - Magic Toys,char_ngram,0
+q02,geladeira frost free,3235,Refrigerador 2 Portas Frost Free 310L Inox Electrolux - DF36X,regex,2
+q02,geladeira frost free,3239,Refrigerador 348 Litros Frost Free RR82WEPN1XAZ - Samsung,baseline_2022,2
+q02,geladeira frost free,3394,Refrigerador Frost Free CRG36 300L c/ Dispenser,baseline_2022,2
+q02,geladeira frost free,3591,Mini geladeira de viagem 9l-bdc212f-la preto - b&d,char_ngram,1
+q02,geladeira frost free,3657,Refrigerador Consul Bemestar Frost Free 402 litros CRM45,bm25,2
+q02,geladeira frost free,3783,Refrigerador Side by Side Biult In Frost Free 548 Litros com Dispenser Branco - GE,embedding_e5_base,2
+q02,geladeira frost free,4783,"Geladeira / Refrigerador GE RFGE465 Frost Free 403 Litros Duplex / 2 Portas com Função Express Chill Zone, Inox",bm25,2
+q02,geladeira frost free,5237,Refrigerador 430L Duplex Frost Free Celebrate DF50 Blue Touch Branco- Electrolux,regex,2
+q02,geladeira frost free,6054,Refrigerador 429L 2 Portas Frost Free com Smart Ice e Smart Bar BRM50NBANA Branco- Brastemp,embedding_e5_base,2
+q02,geladeira frost free,6365,Refrigerador 498L Frost Free Side by Side GC-L207BSKV Aço Escovado - LG,embedding_e5_base,2
+q02,geladeira frost free,6406,Mini Geladeira 15L - Azul - Mobicool,char_ngram,1
+q02,geladeira frost free,7913,Refrigerador Frost Free Space KDN42V 403 L Branco - Bosch,embedding_e5_small,2
+q02,geladeira frost free,8213,REFRIGERADOR 2PORTAS FROST FREE GE 450FFE 418LITROS LCD TITANIUM 220V,baseline_2022,2
+q02,geladeira frost free,9826,Refrigerador 2P Frost Free Bem Estar 409L Inox Consul - CRM45AR,regex,2
+q02,geladeira frost free,10848,REFRIGERADOR 2PORTAS FROST FREE LG MB582ULVG1 413LITROS TITANIUM 220V,baseline_2022,2
+q02,geladeira frost free,10985,Armário Geladeira Suprema Preto - Itatiaia,char_ngram,0
+q02,geladeira frost free,11378,REFRIGERADOR SIDE BY SIDE BRASTEMP BRS-62 FROST FREE 600L INOX 220V,embedding_e5_small,2
+q02,geladeira frost free,11531,Geladeira/Refrigerador Brastemp Frost Free Duplex - 429L Inox Ative! - BRW50NR,bm25,2
+q02,geladeira frost free,11691,Refrigerador 2 Portas Frost Free 428 Litros DW50X Inox - Electrolux,regex,2
+q02,geladeira frost free,11695,REFRIGERADOR PANASONIC NR-D512XZ-S3 FROST FREE 512 LITROS INOX 110V,regex,2
+q02,geladeira frost free,11748,REFRIGERADOR BRM-49BR BRASTEMP FROST FREE 2 PORTAS 433 LITROS INOX 110V,regex,2
+q02,geladeira frost free,12190,Refrigerador Samsung Frost Free RS21HKLBG 506 Litros Preto,char_ngram,2
+q02,geladeira frost free,12201,Refrigerador 436 Litros Frost Free GRS507GSP Inox - LG,baseline_2022,2
+q02,geladeira frost free,12869,Refrigerador 629L Side By Side Frost Free Top Design PSZ26LGXDSS Aço Inox - GE,embedding_e5_small,2
+q02,geladeira frost free,14765,REFRIGERADOR PANASONIC NR-B461YZ-S3 FROST FREE 2 PORTAS 420 LITROS INOX 220V,regex,2
+q02,geladeira frost free,15660,REFRIGERADOR 2PORTAS FROST FREE MABE REMB420 380LITROS BRANCO 110V,baseline_2022,2
+q02,geladeira frost free,15964,Refrigerador Consul Frost Free 263 litros CRM33,bm25,2
+q02,geladeira frost free,16109,Freezer Vertical Brastemp Frost Free Flex BVR28GB - 228L,embedding_e5_small,0
+q02,geladeira frost free,16736,Refrigerador Consul Facilite Frost Free 300 litros CRB36,bm25,2
+q02,geladeira frost free,16780,Refrigerador 2P Frost Free Ative! 429 Litros Inox Smart Door - BRK50NR,regex,2
+q02,geladeira frost free,17952,Refrigerador Frost Free Space KDN49P 445 L c/ Dispenser de Água Inox - Bosch,regex,2
+q02,geladeira frost free,17987,Freezer Vertical Frost Free 197L Brastemp Branco BVG24GB,char_ngram,0
+q02,geladeira frost free,18748,Refrigerador 2P Frost Free 260L Branco Electrolux - DF34A,regex,2
+q02,geladeira frost free,19024,REFRIGERADOR LG GRB507GSQ1 INSPIRATION FROST FREE 436 LITROS 220V,baseline_2022,2
+q02,geladeira frost free,20485,Refrigerador Frost Free 2 Portas BRM39EB,baseline_2022,2
+q02,geladeira frost free,23832,Refrigerador Infinity Frost Free I Kitchen DT80X 546L - Electrolux,regex,2
+q02,geladeira frost free,25077,REFRIGERADOR FROST FREE 428LITROS ELECTROLUX DFW-50 BRANCO C/DISPENSER 220V,baseline_2022,2
+q02,geladeira frost free,25123,REFRIGERADOR 2PORTAS FROST FREE GE 450FFE 418LITROS LCD TITANIUM 110V,baseline_2022,2
+q02,geladeira frost free,25731,Refrigerador 2P Frost Free Ative! 429L Inox Brastemp - BRM50NR,embedding_e5_small,2
+q03,tv led 42 polegadas,197,TV H-Buster HBTV-40D02FD LED Plana 40 Polegadas,baseline_2022,1
+q03,tv led 42 polegadas,241,CCE LED24TV LED Plana 24 Polegadas,embedding_e5_base,1
+q03,tv led 42 polegadas,303,"Suporte multiplasma bi-art 30 a 42""pt multivisão",regex,0
+q03,tv led 42 polegadas,554,TV Panasonic TC L42E30 LED Plana 42 Polegadas,bm25,2
+q03,tv led 42 polegadas,654,AOC LC42H053 LCD Plana 42 Polegadas,regex,1
+q03,tv led 42 polegadas,1384,LG 42LK450 LCD Plana 42 Polegadas,regex,1
+q03,tv led 42 polegadas,1616,H-Buster 42L02FD LED Plana 42 Polegadas,embedding_e5_base,2
+q03,tv led 42 polegadas,1802,LG Smart TV 42LV3700 LED Plana 42 Polegadas,bm25,2
+q03,tv led 42 polegadas,2018,LG 42LE5600 LED Plana 42 Polegadas,bm25,2
+q03,tv led 42 polegadas,2132,"TV LED 32"" - HBTV32LED - H-Buster",baseline_2022,1
+q03,tv led 42 polegadas,4331,LG 42PJ350 Plasma Plana 42 Polegadas,char_ngram,1
+q03,tv led 42 polegadas,4718,LG M2380A LED 23.0 Polegadas,baseline_2022,1
+q03,tv led 42 polegadas,4771,LG Smart TV 3D 42LW5700 LED Plana 42 Polegadas,bm25,2
+q03,tv led 42 polegadas,6476,TV CCE D42 LCD Plana 42 Polegadas,bm25,1
+q03,tv led 42 polegadas,7609,H-Buster HBTV-4203 LCD Plana 42 Polegadas,baseline_2022,1
+q03,tv led 42 polegadas,7912,AOC Smart TV LE42H158i LED Plana 42 Polegadas,bm25,2
+q03,tv led 42 polegadas,9134,"TV 42"" LCD Full HD c/ 2 Entradas HDMI e Conexão p/ PC Preta L42W831 - AOC",regex,1
+q03,tv led 42 polegadas,9873,TV 42 Led infinita modelo 42LE5500 LG,embedding_e5_small,2
+q03,tv led 42 polegadas,10501,LG 42LD420 LCD Plana 42 Polegadas,embedding_e5_base,1
+q03,tv led 42 polegadas,11189,H-Buster HBTV42D01 LCD Plana 42 Polegadas,regex,1
+q03,tv led 42 polegadas,13727,LG 3D 42LW4500 LED Plana 42 Polegadas,char_ngram,2
+q03,tv led 42 polegadas,14284,Philco PH42M LCD Plana 42 Polegadas,regex,1
+q03,tv led 42 polegadas,15520,"TV 37"" LCD - LCD3730 - (1366 X 768 Pixels) c/ HDTV Ready, Entrada HDMI, Widescreen e Progressive Scan -  Gradiente",baseline_2022,0
+q03,tv led 42 polegadas,16557,TV LG 3D 55LW5700 LED Plana 55 Polegadas,baseline_2022,1
+q03,tv led 42 polegadas,17016,Philco PH42A LED Plana 42 Polegadas,bm25,2
+q03,tv led 42 polegadas,17047,"TV 42"" LCD Full HD - 42LD460 - (1.920 x 1.080 pixels) - c/ Decodificador para TV Digital embutido (DTV), 2 Entradas HDMI, Entrada USB, Entrada PC - LG",regex,1
+q03,tv led 42 polegadas,18613,TV Samsung CL14C600KJ CRT Plana 14 Polegadas,baseline_2022,0
+q03,tv led 42 polegadas,19117,"Escada p/ Piscina 42"" (122cm) - Intex",regex,0
+q03,tv led 42 polegadas,19816,LG 42LV3500 LED Plana 42 Polegadas,bm25,2
+q03,tv led 42 polegadas,20078,Samsung PL42C450 Plasma Plana 42 Polegadas,baseline_2022,1
+q03,tv led 42 polegadas,21612,"TV Plasma 42"" LG 42PW350B",bm25,1
+q03,tv led 42 polegadas,22041,TV LED 42 LG 42LE5300 FULL HD DTV,baseline_2022,2
+q03,tv led 42 polegadas,22247,"Cabo Vídeo Componente TV Digital 1,80m - Power Hill",baseline_2022,0
+q03,tv led 42 polegadas,23604,"TV 42"" LCD Full HD c/ 2 HDMI, Conversor Integrado, Entrada USB e PC HBTV42D04 - H-Buster",regex,1
+q03,tv led 42 polegadas,25330,Toshiba 42XV650DA LCD Plana 42 Polegadas,regex,1
+q03,tv led 42 polegadas,25799,LG Smart TV 42LV5500 LED Plana 42 Polegadas,bm25,2
+q04,celular dual chip,1775,Celular ZTE R228 Barbie Dual Chip,bm25,2
+q04,celular dual chip,2227,Celular Desbloqueado ZTE R236 - Flamengo - Dual Chip - ZTE,regex,2
+q04,celular dual chip,2460,Celular ZTE R236 Preto e Vermelho Dual Chip,baseline_2022,2
+q04,celular dual chip,2752,Celular Huawei 3610 Preto Dual Chip,bm25,2
+q04,celular dual chip,2825,Celular Navcity KINDU Dual Chip,baseline_2022,2
+q04,celular dual chip,2993,"Celular Desbloqueado Freecel F45 Lilás c/ Câmera 1.3MP, Dual Chip, Rádio FM, MP3 Player, Bluetooth e Fone de Ouvido",embedding_e5_base,2
+q04,celular dual chip,3634,Celular Desbloqueado TIM EX128 Branco Dual Chip - Motorola,baseline_2022,2
+q04,celular dual chip,5171,Dermiwil Carros Duplo,embedding_e5_base,0
+q04,celular dual chip,6470,Celular ZTE-G R236 - Dual Chip - ZTE,char_ngram,2
+q04,celular dual chip,7776,"Celular Desbloqueado Huawei G6608 Rosa QWERT c/ Dual Chip, Câmera 3.2 MP, Rádio FM, MP3, WI-FI e Bluetooth",regex,2
+q04,celular dual chip,8891,"Celular Semp Toshiba CTV35D Dual Chip, TV Digital, Câmera, Bluetooth, MP3 - Desbloqueado",baseline_2022,2
+q04,celular dual chip,9073,Celular Dual Chip OT710 Rosa - Alcatel,baseline_2022,2
+q04,celular dual chip,9872,TEL.CELULAR SAMSUNG E2232 DUAL BAND DUOS MUSIC DESB.CLARO,baseline_2022,2
+q04,celular dual chip,10035,"Celular LG Dual Chip GX500 Touchscreen, Wi-Fi, Bluetooth, Câmera de 3MP, Cartão 2GB - Desbloqueado",baseline_2022,2
+q04,celular dual chip,11620,Celular Multilaser Mini - Dual Chip - Multilaser,baseline_2022,2
+q04,celular dual chip,12305,Celular ZTE S215 Preto com Vermelho Dual Chip,embedding_e5_base,2
+q04,celular dual chip,13446,Celular Samsung B5722 Duos Touch Dual Chip Marrom,regex,2
+q04,celular dual chip,14222,"Celular Desbloqueado ZTE R222 Rosa/Branco Dual Chip c/ Câmera, Rádio FM e Fone de Ouvido",regex,2
+q04,celular dual chip,14232,Celular ZTE R228  Dual Chip,bm25,2
+q04,celular dual chip,14322,Celular ZTE R236 - Dual Chip - ZTE,bm25,2
+q04,celular dual chip,15251,"Celular Desbloqueado Freecel F45 Vermelho c/ Câmera 1.3MP, Dual Chip, Rádio FM, MP3 Player, Bluetooth e Fone de Ouvido",regex,2
+q04,celular dual chip,15754,Celular Mirage Pop P3113 Preto Dual Chip - Multilaser,regex,2
+q04,celular dual chip,15882,Celular MEU SN55TV Preto Dual Chip,bm25,2
+q04,celular dual chip,16223,Celular Nokia C2-06 - Dourado - Dual Chip - Nokia,embedding_e5_small,2
+q04,celular dual chip,16618,"Celular Desbloqueado Alcatel OT710 Vermelho Dual Chip c/ Câmera 2MP, MP3, Rádio FM, Bluetooth, Touchscreen e Fone de Ouvido",embedding_e5_base,2
+q04,celular dual chip,17138,Interface Celular GSM - ITcell ND - Identech,baseline_2022,0
+q04,celular dual chip,18539,Celular Desbloqueado ZTE R236 - São Paulo - Dual Chip - ZTE,regex,2
+q04,celular dual chip,20490,"Celular Desbloqueado ZTE G S213 Rosa - Dual Chip, Toque MP3, Rádio FM, Fone de Ouvido - ZTE",regex,2
+q04,celular dual chip,21325,Celular Huawei 6620 Preto Dual Chip,bm25,2
+q04,celular dual chip,23628,Interface Celular GSM - Itcell NDPlus - Identech,baseline_2022,0
+q04,celular dual chip,25730,Celular ZTE S215 Preto Dual Chip,bm25,2
+q04,celular dual chip,26238,Smartphone Dual Chip OT890 Preto/Cinza - Alcatel,regex,2
+q05,fogão 5 bocas inox,741,Continental Evidenza Piso 5 Bocas Inox,embedding_e5_small,2
+q05,fogão 5 bocas inox,744,Continental Decore CTGCT070E5A0CH Cooktop 5 Bocas Preto,regex,1
+q05,fogão 5 bocas inox,927,Atlas Atenas 5 Bocas Piso Inox,embedding_e5_small,2
+q05,fogão 5 bocas inox,2519,GE Glass CTGGE070L5A0GL Cooktop 5 Bocas Preto,regex,1
+q05,fogão 5 bocas inox,3663,Continental Decore CTGCT070E5A0CH Cooktop 5 Bocas Bege,regex,1
+q05,fogão 5 bocas inox,3699,CasaVitra Dot TC E10E56-508 Cooktop 5 Bocas Marrom,regex,1
+q05,fogão 5 bocas inox,4553,Tramontina Glass Penta 5GG Tri 70 Cooktop 5 Bocas Preto,regex,1
+q05,fogão 5 bocas inox,5242,Brastemp Gourmand BF976BR Piso 5 Bocas Inox,regex,2
+q05,fogão 5 bocas inox,6839,Lofra MX76GI Piso 5 Bocas Inox,embedding_e5_small,2
+q05,fogão 5 bocas inox,8937,Fogão 5 Bocas Embutir Gourmand Vapor BYB76BRNNA Inox- Brastemp,bm25,2
+q05,fogão 5 bocas inox,8975,Fogão 5 Bocas Maggiore Inox - Mueller,bm25,2
+q05,fogão 5 bocas inox,9834,Cooktop Gás 5 Bocas Tripla Chama Preto - Layr,regex,1
+q05,fogão 5 bocas inox,9914,Electrolux i-kitchen 76DIX Piso 5 Bocas Inox,regex,2
+q05,fogão 5 bocas inox,11162,Rochedo Luna Inox 5,embedding_e5_small,0
+q05,fogão 5 bocas inox,11329,Atlas Atenas 5 Bocas Piso Branco,regex,1
+q05,fogão 5 bocas inox,12137,Atlas U.Top INOX Piso 5 Bocas Inox,embedding_e5_small,2
+q05,fogão 5 bocas inox,12197,FOGAO DE EMBUTIR GE IMAGINATION DIGITAL 5 BOCAS INOX,baseline_2022,2
+q05,fogão 5 bocas inox,13376,Electrolux Celebrate 76STB Piso 5 Bocas Branco,regex,1
+q05,fogão 5 bocas inox,13512,Brastemp BDD75A Cooktop 5 Bocas Preto,regex,1
+q05,fogão 5 bocas inox,13553,Fogão 5 Bocas Gourmand Inox - BF976BR - Brastemp,bm25,2
+q05,fogão 5 bocas inox,13595,Fogão Gourmand BFB76BR Piso 5 Bocas Inox - Brastemp,baseline_2022,2
+q05,fogão 5 bocas inox,13640,FOGAO MABE GE DOUBLE 5PDBDA2 5 BOCAS INOX 220V,baseline_2022,2
+q05,fogão 5 bocas inox,14139,Esmaltec Santorini Grill Piso 5 Bocas Branco,regex,1
+q05,fogão 5 bocas inox,15010,CasaVitra Croma TC E10E56-502 Cooktop 5 Bocas Roxo,regex,1
+q05,fogão 5 bocas inox,15398,Fogão 4 Bocas Bali Bege - Esmaltec,char_ngram,0
+q05,fogão 5 bocas inox,15891,Tramontina Duo Inox 5,embedding_e5_small,0
+q05,fogão 5 bocas inox,16174,Fogão de embutir imagination grill - 5 bocas - inox - GE,baseline_2022,2
+q05,fogão 5 bocas inox,16182,FOGAO DE EMBUTIR MABE GE COOK 5ECODA0 5 BOCAS INOX,baseline_2022,2
+q05,fogão 5 bocas inox,16193,Fogão 6 Bocas Bali Branco - Esmaltec,char_ngram,0
+q05,fogão 5 bocas inox,16328,Tramontina Standard Brasil 5GG 70 Cooktop 5 Bocas Preto,regex,1
+q05,fogão 5 bocas inox,16601,FOGAO MABE GE TECH 5PTEDA2 5 BOCAS INOX 220V,baseline_2022,2
+q05,fogão 5 bocas inox,17537,Rochedo Ingenio Inox 5,embedding_e5_small,0
+q05,fogão 5 bocas inox,18855,Built BLT5QPR Cooktop 5 Bocas Preto,regex,1
+q05,fogão 5 bocas inox,19555,CasaVitra Vitra E10E56-509 Cooktop 5 Bocas Azul,regex,1
+q05,fogão 5 bocas inox,19675,FOGAO MABE GE TECH 5PTEDA1 5 BOCAS INOX 110V,baseline_2022,2
+q05,fogão 5 bocas inox,20048,Esmaltec Samoa Piso 5 Bocas Inox,embedding_e5_small,2
+q05,fogão 5 bocas inox,20688,Continental Novitá Piso 5 Bocas Inox,embedding_e5_small,2
+q05,fogão 5 bocas inox,21301,Fogão 6 Bocas Nice Branco - Esmaltec,char_ngram,0
+q05,fogão 5 bocas inox,21784,Fogão 5 Bocas Electrolux - Inox Gás Celebrete Glass 76DGX,bm25,2
+q05,fogão 5 bocas inox,22790,FOGAO DE EMBUTIR BOSCH EXPRESS GRILL HEK65X50 5 BOCAS INOX,baseline_2022,2
+q05,fogão 5 bocas inox,22862,Brastemp Ative Timer BF776BB Piso 5 Bocas Branco,regex,1
+q05,fogão 5 bocas inox,23553,Fogão 5 Bocas Piso Inox Satinado 220V Lofra TX9TUGA5,bm25,2
+q05,fogão 5 bocas inox,23663,Esmaltec Santorini Grill Piso 5 Bocas Inox,embedding_e5_base,2
+q05,fogão 5 bocas inox,23739,Layr Tripla Chama Cooktop 5 Bocas Preto,regex,1
+q05,fogão 5 bocas inox,24762,Layr Platinyum De Mesa 2 Bocas Inox,baseline_2022,0
+q05,fogão 5 bocas inox,25341,FOGAO LOFRA MX66GI PISO 4 BOCAS 60CM INOX,char_ngram,0
+q05,fogão 5 bocas inox,25965,Layr Topázio De Mesa 2 Bocas Inox,baseline_2022,0
+q05,fogão 5 bocas inox,26134,Fogão 5B Piacere Inox Mueller,embedding_e5_small,2
+q06,relogio casio masculino,536,Relogio Masculino W-800HG-9AVD - Casio,char_ngram,2
+q06,relogio casio masculino,826,Relógio Feminino LW-200D-4AVD - Casio,regex,1
+q06,relogio casio masculino,863,Relógio Casio G-Shock AW-591 Analógico Digital Masculino,baseline_2022,2
+q06,relogio casio masculino,988,Relógio Mormaii CK Digital Masculino,embedding_e5_base,0
+q06,relogio casio masculino,2711,Relógio Casio W756D Digital Masculino,char_ngram,2
+q06,relogio casio masculino,3077,"Relógio Casio Masculino Digital, Resistente à arranhões, pulseira de resina , horário mundial ate 48 cidades, cronometro progressivo e regressivo, 5 alarmes, calendário automático,formato 12/24horas, vidro mineral,bateria de longa duração.",embedding_e5_base,2
+q06,relogio casio masculino,3988,Relógio Casio Outgear SGW-200 Digital Masculino,regex,2
+q06,relogio casio masculino,4000,Relógio Casio MTP1305D Analógico Masculino,bm25,2
+q06,relogio casio masculino,5045,Relogio Masculino AE-1100W-1AV - Casio,embedding_e5_small,2
+q06,relogio casio masculino,5828,Relógio Casio MTP-1302 Analógico Masculino,regex,2
+q06,relogio casio masculino,6503,Relogio feminino ltp-1275d-12 preto casio,regex,1
+q06,relogio casio masculino,7211,Relógio de pulso lcf-10l-4avd rosa casio,regex,1
+q06,relogio casio masculino,9480,Relógio Casio Edifice EF-312D Analógico Masculino,baseline_2022,2
+q06,relogio casio masculino,10234,Relógio Casio MTP1306 Analógico Masculino,bm25,2
+q06,relogio casio masculino,11164,Relógio Casio W213D Digital Masculino,bm25,2
+q06,relogio casio masculino,11239,Relógio de Pulso Masculino Casio Aq-160w-1bvd,embedding_e5_small,2
+q06,relogio casio masculino,11529,"Relogio Masculino  Casio Analogico, 50m,com vidro mineral resistente arranhões pulseira de aço com fivela de 3 dobras e um toque",embedding_e5_small,2
+q06,relogio casio masculino,12264,Relógio Casio Sport AQ-180WD Analógico Digital Masculino,regex,2
+q06,relogio casio masculino,12727,Relógio Casio Collection AQ190WD Analógico Masculino,embedding_e5_base,2
+q06,relogio casio masculino,13014,Relógio de Pulso Masculino Casio Mtp-1302d-11,embedding_e5_small,2
+q06,relogio casio masculino,13230,Relógio Casio MTP1292 Analógico Masculino,bm25,2
+q06,relogio casio masculino,13529,Relógio Casio AE2000W Digital Masculino,bm25,2
+q06,relogio casio masculino,13959,Relógio Casio LTP-1165 Analógico Feminino,regex,1
+q06,relogio casio masculino,14858,Relógio de Pulso Masculino Casio W-756-2avdf,regex,2
+q06,relogio casio masculino,15441,Relógio de Pulso Casio AW82 Analógico Masculino,embedding_e5_small,2
+q06,relogio casio masculino,16681,Relógio Casio W755D Digital Unisex,baseline_2022,1
+q06,relogio casio masculino,17402,Relogio masculino dw-6900-1vdr preto casio,embedding_e5_small,2
+q06,relogio casio masculino,18260,Relógio Casio Lithium LHT040CR Analógico Masculino,baseline_2022,2
+q06,relogio casio masculino,19976,Relógio Casio G-Shock DW-5600 Digital Masculino,regex,2
+q06,relogio casio masculino,20446,Relógio Casio MTD-1065 Analógico Masculino,baseline_2022,2
+q06,relogio casio masculino,20629,Relógio Casio AE1100WD Digital Masculino,bm25,2
+q06,relogio casio masculino,21434,Relógio Casio MTP1183A Analógico Masculino,baseline_2022,2
+q06,relogio casio masculino,21518,Relógio Masculino Mundial W-210-1BVDF - Casio,regex,2
+q06,relogio casio masculino,21987,Relógio Casio Edifice EF-517D Analógico Masculino,baseline_2022,2
+q06,relogio casio masculino,22377,Relógio Casio Sport W755 Digital Masculino,char_ngram,2
+q06,relogio casio masculino,22640,Relógio Analógico Digital Masculino AW-49H-7EVUD - Casio,char_ngram,2
+q06,relogio casio masculino,22740,Relógio Casio MTP1192 Analógico Masculino,bm25,2
+q06,relogio casio masculino,23109,Relógio Casio AW82D Analógico Masculino,baseline_2022,2
+q06,relogio casio masculino,23479,Relógio Casio EF328SG Analógico Masculino,baseline_2022,2
+q06,relogio casio masculino,24586,Relógio Masculino Analógico/Digital AW-80D-7AVDF - Casio,regex,2
+q06,relogio casio masculino,24619,Relogio masculino aw-81-1a1vdf preto casio,char_ngram,2
+q06,relogio casio masculino,25007,Relogio feminino ltp-1237d-12 preto casio,regex,1
+q06,relogio casio masculino,25337,Relógio Casio Sport AW-80 Analógico Digital Masculino,regex,2
+q06,relogio casio masculino,25501,Relógio Casio W753D Digital Unisex,baseline_2022,1
+q06,relogio casio masculino,25514,Relogio masculino efa-110d-1av preto casio,embedding_e5_small,2
+q06,relogio casio masculino,25735,Relógio Relogio Masculino Esportivo G-2900F-2VDR - Casio,char_ngram,2
+q06,relogio casio masculino,26217,Relógio de Pulso Masculino Casio Ef-326d-1avd,regex,2
+q07,cafeteira expresso,82,Cafeteira expresso/cappuccino 220v preto-zeex,baseline_2022,2
+q07,cafeteira expresso,344,Cafeteira Expresso Automática Odea Giro 220v - Philips / Saeco,regex,2
+q07,cafeteira expresso,648,Cafeteira Philips Saeco Odea Giro RI9754 Expresso,baseline_2022,2
+q07,cafeteira expresso,1161,Cafeteira Philips Saeco Xelsis Black RI9943 Expresso,baseline_2022,2
+q07,cafeteira expresso,1314,Cafeteira Expresso PHC19 - Philco,bm25,2
+q07,cafeteira expresso,3935,Cafeteira expresso cube 2.0 110v vm espressione,char_ngram,2
+q07,cafeteira expresso,6670,Cafeteira Expresso PHC19 220v - Philco,baseline_2022,2
+q07,cafeteira expresso,6784,Cafeteira Expresso/Cappuccino Buon Palato CM-508 Laranja - Zeex,regex,2
+q07,cafeteira expresso,8516,Cafeteira Expresso/Cappuccino Preto 110v - Zeex,baseline_2022,2
+q07,cafeteira expresso,8554,Cafeteira Expresso Dolce Gusto Melody Branca - Arno,regex,2
+q07,cafeteira expresso,8680,Cafeteira Expresso Automática ESAM 3200 - 15 Bar - De Longhi,regex,2
+q07,cafeteira expresso,10403,Cafeteira Expresso Automática Syntia 220v - Philips / Saeco,bm25,2
+q07,cafeteira expresso,10785,Saeco Coffeemotion Expresso,embedding_e5_small,2
+q07,cafeteira expresso,12145,Cafeteira Expresso Nespresso Pixie C60 Eletric Indigo - 19 Bar,baseline_2022,2
+q07,cafeteira expresso,12383,Cafeteira Philco PHC19 Expresso,bm25,2
+q07,cafeteira expresso,12391,Cafeteira Expresso Nespresso Pixie C60 Eletric Indigo,embedding_e5_base,2
+q07,cafeteira expresso,12640,Espressione Linea Expresso,embedding_e5_base,2
+q07,cafeteira expresso,13339,Britânia Vapor Express,embedding_e5_base,1
+q07,cafeteira expresso,14311,Cafeteira Expresso PHC19 110v - Philco,baseline_2022,2
+q07,cafeteira expresso,14638,Cafeteira Espresso Express Arno  110V,char_ngram,2
+q07,cafeteira expresso,15496,Cafeteira Expresso Nespresso Automática CitiZ C110 Vermelha,regex,2
+q07,cafeteira expresso,16460,Cafeteira Expresso Nespresso Pixie C60 Eletric Red,char_ngram,2
+q07,cafeteira expresso,16903,Cafeteira Philips Saeco Odea Go RI9752 Expresso,embedding_e5_small,2
+q07,cafeteira expresso,17759,Cafeteira Expresso Nespresso Automática CitiZ C110 Titan - 19 Bar + Welcome Set Nespresso Grands Crus p/ Degustação,baseline_2022,2
+q07,cafeteira expresso,18272,Gaggia Platinum Vision Expresso,baseline_2022,2
+q07,cafeteira expresso,19868,Cafeteira Expresso Nespresso Pixie C60 Eletric Titan,char_ngram,2
+q07,cafeteira expresso,20152,Cafeteira Expresso Nescafé Dolce Gusto - Vermelho - Arno 110V,regex,2
+q07,cafeteira expresso,21998,Cafeteira Expresso Automática Xelsis Black 220v - Philips / Saeco,regex,2
+q07,cafeteira expresso,23278,Cafeteira Arno Perfectta Elétrica,embedding_e5_small,1
+q07,cafeteira expresso,24607,Cafeteira Expresso C08 Mondial 110V,bm25,2
+q07,cafeteira expresso,24787,Cafeteira Expresso a Vapor com Jarra 3188 - Oster,baseline_2022,2
+q08,jogo de cama queen 200 fios,982,Jogo de Cama Queen Provence Verde 150 Fios - Corttex Casa,regex,1
+q08,jogo de cama queen 200 fios,1112,Jogo de Cama Queen Annecy Branco e Amarelo c/ 4 peças - Percal  200 Fios -  Scavone,regex,2
+q08,jogo de cama queen 200 fios,1568,Jogo de Cama Queen 4 peças Bari Branco - Ruth Sanches,regex,1
+q08,jogo de cama queen 200 fios,2100,Jogo de Cama Queen 200 Fios - Hortência - Camesa,baseline_2022,2
+q08,jogo de cama queen 200 fios,2495,Jogo de Cama Vida Bela Livorno Queen - Percal 200 Fios com 4 peças - Kacyumara,regex,2
+q08,jogo de cama queen 200 fios,2565,Jogo cama 200 fios algodao king cz Corttex Casa,embedding_e5_small,0
+q08,jogo de cama queen 200 fios,5327,Jogo cama 200 fios algodao casal az Corttex Casa,embedding_e5_small,0
+q08,jogo de cama queen 200 fios,5424,Jogo de Cama Queen 200 Fios Com Aba e Dobra Pronta Branco - Naturalle Fashion,regex,2
+q08,jogo de cama queen 200 fios,6016,Jogo de Cama Queen 200 Fios Com Aba e Dobra Pronta Nude - Naturalle Fashion,regex,2
+q08,jogo de cama queen 200 fios,6568,Jogo de Cama Queen 200 Fios - Tivoli - Camesa,baseline_2022,2
+q08,jogo de cama queen 200 fios,7083,Jogo de Cama Queen Sofee Bella Malha 100% algodão - Kacyumara,regex,1
+q08,jogo de cama queen 200 fios,7846,Jogo de Cama Queen 200 Fios Agapanthus - Scavone,bm25,2
+q08,jogo de cama queen 200 fios,8236,Jogo cama 200 fios algodao king lilas Corttex Casa,embedding_e5_base,0
+q08,jogo de cama queen 200 fios,8915,Jogo de Cama Queen Imperial com 4 Peças Verde e Cinza 200 Fios - Enxovais Aquarela,regex,2
+q08,jogo de cama queen 200 fios,9342,Jogo de Cama Queen Branco Prátic 4 peças Palha - Bernadete Casa,regex,1
+q08,jogo de cama queen 200 fios,10492,Jogo cama 200 fios algodao queen lilas Corttex Casa,embedding_e5_small,2
+q08,jogo de cama queen 200 fios,11210,Jogo de Cama Queen 200 fios Roses Azul - Scavone,char_ngram,2
+q08,jogo de cama queen 200 fios,12124,Jogo de Cama Queen 200 Fios - Savana - Camesa,baseline_2022,2
+q08,jogo de cama queen 200 fios,12292,Jogo de Cama Queen Prátic 4 peças Cáqui - Bernadete Casa,regex,1
+q08,jogo de cama queen 200 fios,13541,Jogo cama 200 fios algodao queen cz Corttex Casa,embedding_e5_small,2
+q08,jogo de cama queen 200 fios,14132,Jogo de Cama Queen 200 Fios - Ritz - Camesa,baseline_2022,2
+q08,jogo de cama queen 200 fios,15383,Jogo de Cama Queen 200 Fios Com Aba e Dobra Pronta Natural - Naturalle Fashion,regex,2
+q08,jogo de cama queen 200 fios,18127,Jogo de Cama Vila Bela Queen Size Branco com 4 Peças - Percal 200 Fios -  Kacyumara,regex,2
+q08,jogo de cama queen 200 fios,18399,Jogo de Cama Cs Queen Solaris 200 Fios - Juma,char_ngram,2
+q08,jogo de cama queen 200 fios,18520,Jogo de Cama Queen Liso Bruma c/ Aba e Dobra Pronta - Percal 200 Fios - Naturalle Fashion,regex,2
+q08,jogo de cama queen 200 fios,19064,Jogo de Cama Queen Size - Estilo Cachemere Étnica - Estampado/Rosa - Neo,regex,1
+q08,jogo de cama queen 200 fios,19962,Jogo de Cama Queen Ornare 4 peças - Bernadete Casa,regex,1
+q08,jogo de cama queen 200 fios,20139,Jogo de Cama Queen Neo Estilo Floral - Percal 180 Fios c/ 4 Peças - Laranja - Camesa,regex,1
+q08,jogo de cama queen 200 fios,20436,Jogo de Cama Queen 200 Fios - Origine - Camesa,baseline_2022,2
+q08,jogo de cama queen 200 fios,20837,Jogo de Cama Queen 150 Fios Ouro Aura 1 Azul - Santista,regex,1
+q08,jogo de cama queen 200 fios,21153,Jogo de Cama Queen Percal 200 Fios Folk com Ponto Palito - Naturalle Fashion,regex,2
+q08,jogo de cama queen 200 fios,21407,Jogo de Cama Queen 200 Fios - Chess - Camesa,baseline_2022,2
+q08,jogo de cama queen 200 fios,23412,Jogo cama 200 fios algodao queen az Corttex Casa,embedding_e5_small,2
+q08,jogo de cama queen 200 fios,23612,Jogo cama 200 fios algodao king az Corttex Casa,embedding_e5_small,0
+q08,jogo de cama queen 200 fios,24599,Jogo de Cama Queen Size 200 Fios Lauren - Scavone,baseline_2022,2
+q08,jogo de cama queen 200 fios,25590,Jogo de Cama Queen 200 Fios - Poesie - Camesa,baseline_2022,2
+q08,jogo de cama queen 200 fios,25632,Jogo de Cama Queen 200 Fios - Porcelaine - Camesa,baseline_2022,2
+q08,jogo de cama queen 200 fios,25665,Jogo de Cama Queen 200 Fios - Caroline - Camesa,baseline_2022,2
+q09,tenis infantil,566,Tênis Infantil Vulcano Preto/Cinza Klin,regex,2
+q09,tenis infantil,601,Tênis Infantil Power Kids Marinho Klin,bm25,2
+q09,tenis infantil,870,Tênis Infantil Engatinhar Lilás Pimpolho,baseline_2022,2
+q09,tenis infantil,1398,Tênis Infantil Star Baby Azul/Branco Pimpolho,char_ngram,2
+q09,tenis infantil,1651,Tênis Infantil Guty Ligh Branco e Preto Pé com Pé,char_ngram,2
+q09,tenis infantil,1755,Tênis Infantil Guty Ligh Branco e Vermelho Pé com Pé,regex,2
+q09,tenis infantil,1783,Tênis Infantil Guty Branco e Pink Pé com Pé,char_ngram,2
+q09,tenis infantil,1844,Tênis Infantil Nenem Branco e Rosa Pé com Pé,char_ngram,2
+q09,tenis infantil,2576,Raquete de Tênis Destiny TI - Prokennex,baseline_2022,0
+q09,tenis infantil,2598,Mixs Kids,embedding_e5_base,0
+q09,tenis infantil,2608,Tênis Infantil Star Baby Rosa Pimpolho,bm25,2
+q09,tenis infantil,3091,Tênis Infantil Enjoy Bege e Rosa Klin,hybrid_bm25_e5_small,2
+q09,tenis infantil,3116,Tênis Infantil Guty Ligh Branco e Marinho Pé com Pé,regex,2
+q09,tenis infantil,3524,Tênis Infantil Cravinho Taupe e Verde Klin,baseline_2022,2
+q09,tenis infantil,3668,Tênis Infantil Replay Baby Rosa Klin,baseline_2022,2
+q09,tenis infantil,4178,Tênis Infantil Carinho Branco e Rosa Klin,char_ngram,2
+q09,tenis infantil,7723,Tênis Infantil Diversão Colorido Pimpolho,bm25,2
+q09,tenis infantil,7729,Tênis Infantil Cravinho Branco e Rosa Klin,bm25,2
+q09,tenis infantil,8153,Raquete de Tênis Kinetic  KI 15 - Prokennex,baseline_2022,0
+q09,tenis infantil,8263,Infanti Turim Dobrável,embedding_e5_base,0
+q09,tenis infantil,9865,Gelius Rally Infantil,embedding_e5_base,0
+q09,tenis infantil,11673,Infanti Stripe Berço,embedding_e5_base,0
+q09,tenis infantil,12081,Tênis Infantil Casual Lilás Pimpolho,baseline_2022,2
+q09,tenis infantil,13508,Raquete de Tênis Kinetic  KI 10 - Prokennex,baseline_2022,0
+q09,tenis infantil,13538,Tênis Infantil Recêm Nascido Marinho Klin,embedding_e5_small,2
+q09,tenis infantil,14701,Tênis Infantil Enjoy Branco/Cinza Klin,regex,2
+q09,tenis infantil,16835,Tênis Infantil Star Baby Premium Azul Pimpolho,regex,2
+q09,tenis infantil,16840,Tênis Infantil Guty Eco Branco e Marinho Pé com Pé,regex,2
+q09,tenis infantil,23204,Tênis Infantil Casual Rosa Pimpolho,baseline_2022,2
+q09,tenis infantil,23313,Tênis Infantil Guty Ligh Preto e Verde Pé com Pé,regex,2
+q09,tenis infantil,23451,Tênis Infantil Diversão Vermelho Pimpolho,baseline_2022,2
+q09,tenis infantil,23538,Tênis Infantil Replay Baby Pink Klin,baseline_2022,2
+q09,tenis infantil,24946,Tênis Infantil Honey Sint Preto Pampili,bm25,2
+q09,tenis infantil,26177,Tênis infantil Soleil Bling V branco e rosa tamanho 24 - Puma,regex,2
+q10,furadeira de impacto bosch,271,Furadeira de Impacto BT-ID550 220V - Einhell,baseline_2022,1
+q10,furadeira de impacto bosch,534,Furadeira de Impacto MFI-560 220v - Mallory,baseline_2022,1
+q10,furadeira de impacto bosch,2613,Bosch GKS 7.1/4 Circular,baseline_2022,0
+q10,furadeira de impacto bosch,2624,"Furadeira de Impacto 1/2´ DW508S, Velocidade Variável e Reversível Profissional - Dewalt",embedding_e5_base,1
+q10,furadeira de impacto bosch,3294,Furadeira de Impacto Einhell 500W 220 - BT-ID 550,baseline_2022,1
+q10,furadeira de impacto bosch,3429,Bosch GSB 16 Impacto,baseline_2022,2
+q10,furadeira de impacto bosch,4157,Furadeira de Impacto KR505B2 220v - Black & Decker,bm25,1
+q10,furadeira de impacto bosch,5797,Brastemp BOB61AR de Embutir,embedding_e5_base,0
+q10,furadeira de impacto bosch,7055,Furadeira de Impacto Bosch GSB 13 RE - 600W 220V - 060113D5E0,bm25,2
+q10,furadeira de impacto bosch,7370,"Furadeira de Impacto Industrial DV18VEB 1/2"" 220v - Hitachi",baseline_2022,1
+q10,furadeira de impacto bosch,9126,"Furadeira de Impacto 700Watts, Soft Grip, Limitador e Maleta, GSB 16 RE Professional - Bosch",bm25,2
+q10,furadeira de impacto bosch,9562,Furadeira de Impacto Schulz 650 Vermelha,bm25,1
+q10,furadeira de impacto bosch,10047,"Furadeira de Impacto DWD502-BR 1/2"" 127v - Dewalt",baseline_2022,1
+q10,furadeira de impacto bosch,10433,Furadeira Mallory MFI 400 Impacto,bm25,1
+q10,furadeira de impacto bosch,12856,"Furadeira / Parafusadeira 10,8V Li Semi Profissional - Bosch",regex,1
+q10,furadeira de impacto bosch,13365,Lider Bolichão Barbie,embedding_e5_small,0
+q10,furadeira de impacto bosch,15605,Furadeira Ferrari FI-13 Impacto,char_ngram,1
+q10,furadeira de impacto bosch,18280,Bosch GKS 190 Circular,baseline_2022,0
+q10,furadeira de impacto bosch,21162,Furadeira de Impacto FFI-01 220v - Mondial,char_ngram,1
+q10,furadeira de impacto bosch,22622,Furadeira Skil 6650 Impacto,baseline_2022,1
+q10,furadeira de impacto bosch,22703,Furadeira de Impacto Bosch GSB 13 RE - 600W - 060113D5D0,bm25,2
+q10,furadeira de impacto bosch,22818,Ferrari FUH-10 Impacto,embedding_e5_small,1
+q10,furadeira de impacto bosch,23743,Bosch GSB 13 RE Impacto,baseline_2022,2
+q10,furadeira de impacto bosch,26103,Furadeira de Impacto 13mm HP2050F Profissional - Makita,bm25,1
+q11,ar condicionado split 12000 btus,2024,Ar Condicionado Split Vertu PR MSV212CR 12.000 Btus 220v preto - Midea,bm25,2
+q11,ar condicionado split 12000 btus,2708,Ar Condicionado Split Vertu PR MSV212CR 12.000 Btus - Midea,bm25,2
+q11,ar condicionado split 12000 btus,3171,Ar-Condicionado Split Consul Bem Estar CBU12BB/CBZ12BB Quente/Frio 12.000 BTUs - 220V,embedding_e5_small,2
+q11,ar condicionado split 12000 btus,3848,Ar Condicionado Split Crystal 9000 Btus 220v - Samsung,baseline_2022,1
+q11,ar condicionado split 12000 btus,3952,AR CONDICIONADO SPLIT ELECTROLUX TITE09F 9000BTUS 220V,baseline_2022,1
+q11,ar condicionado split 12000 btus,4805,Ar Condicionado Split 22.000 BTUs Frio Bem Estar 220V - Consul,char_ngram,1
+q11,ar condicionado split 12000 btus,5605,Ar Condicionado 12000 Btus CBV12B Unidade Interna Frio - Consul,regex,1
+q11,ar condicionado split 12000 btus,5785,Ar Condicionado 7000 BTUs GWC07-O Unidade Externa Frio 220v - Gree,baseline_2022,0
+q11,ar condicionado split 12000 btus,5980,AR CONDICIONADO SPLIT ELECTROLUX PEPI09F 9000BTUS 220V,baseline_2022,1
+q11,ar condicionado split 12000 btus,6273,Ar Condicionado 12000Btus Split Clean BBZ12B Quente e Frio Unidade Externa 220v - Brastemp,regex,1
+q11,ar condicionado split 12000 btus,7255,AR CONDICIONADO SPLIT ELECTROLUX PEPI18F 18000BTUS 220V,baseline_2022,1
+q11,ar condicionado split 12000 btus,8623,Ar Condicionado 7000 BTUs Split GWCN07 Frio Un. Interna 220v - Gree,baseline_2022,0
+q11,ar condicionado split 12000 btus,8997,Ar Condicionado Split Clean CBV/BBY09BBBNA 9000 BTUs 220v - Brastemp,baseline_2022,1
+q11,ar condicionado split 12000 btus,9483,DeLonghi AN120 Portátil 12000 BTUs Frio,regex,1
+q11,ar condicionado split 12000 btus,10113,Ar Condicionado Split Estilo 7.000 BTUs 220v - Midea,char_ngram,1
+q11,ar condicionado split 12000 btus,10713,Consul CCY12D Janela 12000 BTUs Frio,regex,1
+q11,ar condicionado split 12000 btus,11224,Ar Condicionado Portátil 12.000 Btus Píu Quente e Frio - Olimpia Splendid,regex,1
+q11,ar condicionado split 12000 btus,11911,Ar Condicionado 12000 BTUs Split Hi Wall Frio Un. Interna Maxiflex 220v - Springer,embedding_e5_small,1
+q11,ar condicionado split 12000 btus,12021,Ar-condicionado Consul - CCI12DB - Frio 12.000 BTUs,regex,1
+q11,ar condicionado split 12000 btus,12792,Ar Condicionado Portátil Four Seasons 12000 BTU Quente e Frio - TCL,regex,1
+q11,ar condicionado split 12000 btus,13105,Ar Condicionado 12000Btus MSE1-12CR Elite Unidade Interna Frio 220v - Midea,regex,1
+q11,ar condicionado split 12000 btus,13793,Ar Condicionado Split Hi Wall 12000BTUS SRF12000 Unidade Interna 220V - Elgin,bm25,1
+q11,ar condicionado split 12000 btus,14177,Ar Condicionado 12000 BTUS PE12F Unidade Externa Frio 220V - Electrolux,regex,1
+q11,ar condicionado split 12000 btus,14880,Ar Condicionado Split 12000Btus BBy12 Unidade Externa Frio 220v - Brastemp,bm25,1
+q11,ar condicionado split 12000 btus,15885,Ar Condicionado Split Vertu MSV212HR 12.000 Btus - Midea,bm25,2
+q11,ar condicionado split 12000 btus,16121,Ar Condicionado Split 12.000 Btus Max Plus Vírus Doctor AS12UWBUXXAZ Frio - Samsung,bm25,2
+q11,ar condicionado split 12000 btus,16464,Ar Condicionado 9000 BTUs GWCN09-O Unidade Externa Frio 220v - Gree,baseline_2022,0
+q11,ar condicionado split 12000 btus,17995,DeLonghi PAC C100 Portátil 12000 BTUs Frio,regex,1
+q11,ar condicionado split 12000 btus,18690,Ar Condicionado Split Elite MSE112HR 12.000 Btus - Midea,bm25,2
+q11,ar condicionado split 12000 btus,19722,Consul CCI12D Janela 12000 BTUs Frio,regex,1
+q11,ar condicionado split 12000 btus,22338,AR CONDICIONADO SPLIT BRASTEMP BBF18 18000BTUS 220V,char_ngram,1
+q11,ar condicionado split 12000 btus,22754,Ar Condicionado Split 12.000 BTUs Consul Bem Estar Frio CBV/CBY12BBBNA - 220V,embedding_e5_small,2
+q11,ar condicionado split 12000 btus,23381,Ar Condicionado Split Elite 12000 btus MSE-12HR 220V - Midea,bm25,2
+q11,ar condicionado split 12000 btus,23954,Olimpia Splendid Piú Portátil 12000 BTUs Frio,regex,1
+q11,ar condicionado split 12000 btus,24102,AR CONDICIONADO SPLIT ELECTROLUX PE24F/PI24F 24000BTUS 220V,baseline_2022,1
+q11,ar condicionado split 12000 btus,24149,Ar Condicionado 12000Btus BBV12 Split Unidade Interna Frio 220v - Brastemp,bm25,1
+q11,ar condicionado split 12000 btus,24151,Consul CCM12D Janela 12000 BTUs Quente/Frio,regex,1
+q11,ar condicionado split 12000 btus,24571,Ar Condicionado 12000 BTUs Split CBU12 Quente e Frio Un. Interna 220v - Consul,embedding_e5_small,1
+q11,ar condicionado split 12000 btus,24652,AR CONDICIONADO SPLIT ELECTROLUX PEPI12F 12000BTUS 220V,baseline_2022,2
+q12,mp4 4gb,709,"Mp3 vid player de 1.44"" 4gb mp601-4g pr biv coby",embedding_e5_small,2
+q12,mp4 4gb,1044,Coby MP315 4GB,embedding_e5_small,2
+q12,mp4 4gb,2031,"Mp4 1.8"" fl670 4gb pr c/entr p/micro sd logic",char_ngram,2
+q12,mp4 4gb,2994,"MP4 Player 4GB Logic FL670 com Tela 1.8"", Rádio FM, Entrada para Micro SD, Gravador de Voz, Laranja",regex,2
+q12,mp4 4gb,3609,"MP4 e Memória c/ Reprodutor de Foto, Jogos e Vídeo - Mobimax",baseline_2022,1
+q12,mp4 4gb,4280,Pendrive 4GB Cruzer Blade Conexão USB 2.0 - SANDISK,baseline_2022,0
+q12,mp4 4gb,4520,"Mp4 1.8"" fl670 4gb pink c/entr p/micro sd logic",embedding_e5_small,2
+q12,mp4 4gb,5501,"mp4 player 4gb lcd 2,8 touchscreen mp827 pr coby",bm25,2
+q12,mp4 4gb,5817,"MP4 Player 4GB Coby MP620, LCD 1.8"", Rádio FM, Preto",baseline_2022,2
+q12,mp4 4gb,6969,"MP4 Player 4 GB GT Sound LPOX4GROS Tela 1.8?, Reprodutor de Multimídia, Gravador de Voz, Pen Drive, Rádio FM, Rosa",regex,2
+q12,mp4 4gb,7152,Mp4 c/ clip modelo miniflip 4gb mp438 pta mixlaser,bm25,2
+q12,mp4 4gb,7720,"Mp4 tela 1,8"" c/fm e grav fl738 4gb pink logic",regex,2
+q12,mp4 4gb,7786,"MP4 Player Sport 4GB GT Sound SPORT4LAR Tela 1.8?, Reprodutor de Multimídia, Gravador de Voz, Pen Drive, Rádio FM, Laranja",regex,2
+q12,mp4 4gb,8413,"MP4 Player Growing Rock in Rio 4GB c/ Tela 1,8"", Rádio FM e Gravador de Voz - Vermelho",regex,2
+q12,mp4 4gb,8685,Mixlaser MP 418 4GB,embedding_e5_small,2
+q12,mp4 4gb,8760,Energy Sistem 2204 4GB,embedding_e5_base,2
+q12,mp4 4gb,8835,Long Jump LIV Hayden,baseline_2022,0
+q12,mp4 4gb,9437,Pendrive cruzer blade 4gb pack c/3 sandisk,baseline_2022,0
+q12,mp4 4gb,9503,"Mp4 1.8"" fl670 4gb azul c/entr p/micro sd logic",char_ngram,2
+q12,mp4 4gb,9726,MP4 Player 2204 4GB USB Rádio FM - Energy Sistem,bm25,2
+q12,mp4 4gb,9809,"MP4 Player 4GB Energy Sistem Duo, Tela LCD 1,8?, Reprodutor Multimídia, Gravador de Voz, Pen Drive, Rádio FM e Transmissor FM, Laranja",regex,2
+q12,mp4 4gb,10643,"MP4 Player 4GB Sony NWZ-E363, Tela 2"", Rádio FM, Preto, Acompanha Dock Station",baseline_2022,2
+q12,mp4 4gb,11817,"Mp4 1.8"" fl670 4gb pt c/entr p/micro sd logic",char_ngram,2
+q12,mp4 4gb,12025,Mp4 c/ clip modelo miniflip 4gb mp438 rs mixlaser,bm25,2
+q12,mp4 4gb,12505,"Mp4 4gb 1,8''01-rds 04 xtreme preto biv red nose",embedding_e5_base,2
+q12,mp4 4gb,13581,"MP4 de 4GB LCD de 1.8"" Falante Slot SD FM com Gravador de Voz Prata - Multitronics",baseline_2022,2
+q12,mp4 4gb,13757,"Mp4 1.8"" fl670 4gb verde c/entr p/micro sd logic",hybrid_bm25_e5_small,2
+q12,mp4 4gb,13839,"MP4 Player 4GB Sony NWZ-E363/BCMX, Tela 2"", Rádio FM, Preto",baseline_2022,2
+q12,mp4 4gb,15286,MP4 player Philips GoGear SA3VBE04KX ViBE 4 GB com FullSound,bm25,2
+q12,mp4 4gb,15316,Coby MP828 4GB,embedding_e5_small,2
+q12,mp4 4gb,15533,"MP4 Player 4GB You Sound Soft Preto, Tela LCD 1,8?, Rádio FM, Reproduz Músicas, Fotos e Vídeos",regex,2
+q12,mp4 4gb,15717,Energy Sistem 4104 4GB,embedding_e5_base,2
+q12,mp4 4gb,16561,"Mp4 4gb 1,8''01-rds 02 girls pink biv red nose",embedding_e5_base,2
+q12,mp4 4gb,16803,GT Sound Sport 4GB,embedding_e5_small,2
+q12,mp4 4gb,16854,You Sound Clip 4GB,embedding_e5_small,2
+q12,mp4 4gb,16860,MP4 Player Mp428 4gb Azul - Mixlaser,bm25,2
+q12,mp4 4gb,17483,Mp4 4gb  3010218003004 colors verde mormaii,bm25,2
+q12,mp4 4gb,18321,MP4 Player 3204 DUO FM-T 4GB Radio FM Amarelo - Energy Sistem,regex,2
+q12,mp4 4gb,19182,Mixlaser MP428 4GB,embedding_e5_small,2
+q12,mp4 4gb,19818,"MP4 Player 4GB Coby MP620, LCD 1.8"", Rádio FM, Vermelho",regex,2
+q12,mp4 4gb,20300,"Mp4 1.8"" fl670 4gb roxo c/entr p/micro sd logic",bm25,2
+q12,mp4 4gb,20552,"MP4 Player 4GB Energy Sistem Duo, Tela LCD 1,8?, Reprodutor Multimídia, Gravador de Voz, Pen Drive, Rádio FM e Transmissor FM, Rosa",regex,2
+q12,mp4 4gb,20918,"MP4 Player 4GB Logic FL 729 Preto, Tela 1.8?, Reprodutor de Mídia, Entrada Auxiliar, Cartão SD Card, Pen Drive, Rádio FM, Preto",regex,2
+q12,mp4 4gb,20957,"Mp4 tela 1.8"" fl 729 4gb rosa logic",bm25,2
+q12,mp4 4gb,21609,Philips SA2VBE04S 4GB,baseline_2022,2
+q12,mp4 4gb,21707,Mp4 liver pool x 4gb lpox4gpta prata gt sound,hybrid_bm25_e5_small,2
+q12,mp4 4gb,24340,MP4 player Philips GoGear SA3VBE4KSX ViBE 4 GB com FullSound e Braçadeira,regex,2
+q12,mp4 4gb,24831,MP4 Player 4GB Goldentec Preto - Goldentec,baseline_2022,2
+q13,cartucho hp preto,434,Cartucho de Tinta HP 940 C4900A Preto e Amarelo,regex,1
+q13,cartucho hp preto,619,Cartucho de Tinta HP 901 Preto - CC653AL,regex,2
+q13,cartucho hp preto,1710,Cartucho HP 93 Tricolor twinpack 5mls cada  CC581FL HP CX 1 UN,baseline_2022,1
+q13,cartucho hp preto,3207,Cartucho de Toner HP 64X CC364XB Preto,embedding_e5_small,2
+q13,cartucho hp preto,4685,Cartucho 901 CC656AL Tricolor - HP,baseline_2022,1
+q13,cartucho hp preto,4919,"Cartucho de Tinta HP 950XL CN045AL 57,5Mls Preto",regex,2
+q13,cartucho hp preto,5090,Cartucho de Toner HP 90A CE390A Preto,regex,2
+q13,cartucho hp preto,5713,Cartucho de toner HP Q5950A Preto,embedding_e5_small,2
+q13,cartucho hp preto,6200,Cartucho de tinta HP 84 C5016A 69 Mls. Preto,regex,2
+q13,cartucho hp preto,6603,Cartucho de toner HP 06A C3906A Preto,regex,2
+q13,cartucho hp preto,8934,Cartucho de Tinta HP 60 Preto - CC640WB,char_ngram,2
+q13,cartucho hp preto,9580,Cartucho de Toner HP 823A CB380A Preto,regex,2
+q13,cartucho hp preto,9823,Cartucho de Tinta HP N675 11mls CN690AL Preto,regex,2
+q13,cartucho hp preto,9828,Cartucho 901 CC653AL  Preto - HP,baseline_2022,2
+q13,cartucho hp preto,10215,Cartucho HP 96 Preto C8767WB - HP,baseline_2022,2
+q13,cartucho hp preto,10600,Cartucho de toner HP 13X Q2613X Preto,regex,2
+q13,cartucho hp preto,11107,Cartucho de tinta HP 10 C4844A 69 Mls. Preto,regex,2
+q13,cartucho hp preto,11893,HP 940 C4902AL Preto,baseline_2022,2
+q13,cartucho hp preto,13811,Cartucho HP74XL Preto CB336WB - HP,baseline_2022,2
+q13,cartucho hp preto,14787,Cartucho HP27 Preto C8727AB - HP,baseline_2022,2
+q13,cartucho hp preto,15264,Cartucho de Toner HP 90X CE390X Preto,embedding_e5_small,2
+q13,cartucho hp preto,15448,Cartucho 02 Preto C8721 - HP,char_ngram,2
+q13,cartucho hp preto,16395,Cartucho de Toner CB390A PRETO HP,bm25,2
+q13,cartucho hp preto,16931,Cartucho de Toner CE270A PRETO HP,bm25,2
+q13,cartucho hp preto,17378,HP 56B C6656BL Preto,baseline_2022,2
+q13,cartucho hp preto,17429,Cartucho de Toner Q6460A Preto HP,char_ngram,2
+q13,cartucho hp preto,18169,Cartucho de toner HP 05A CE505AB Preto,regex,2
+q13,cartucho hp preto,18296,Cartucho HP56 Preto C6656AB - HP,baseline_2022,2
+q13,cartucho hp preto,20098,Cartucho de Toner Q3960A Preto HP,bm25,2
+q13,cartucho hp preto,20171,Cartucho de Toner HP Preto - CE320A,bm25,2
+q13,cartucho hp preto,20949,Cartucho de toner HP C9730A Preto,char_ngram,2
+q13,cartucho hp preto,21167,Cartucho de toner HP C9720A Preto,embedding_e5_small,2
+q13,cartucho hp preto,21516,Cartucho de Toner HP 51A Q7551AB Preto,regex,2
+q13,cartucho hp preto,22084,Cartucho de toner HP Q2670A Preto,char_ngram,2
+q13,cartucho hp preto,22695,Cartucho de toner HP Q6470A Preto,char_ngram,2
+q13,cartucho hp preto,23484,Cartucho de toner cb436a preto hp,embedding_e5_small,2
+q13,cartucho hp preto,23697,Cartucho de Toner HP Preto - CB278A,bm25,2
+q13,cartucho hp preto,23830,Cartucho de Toner HP Preto - Q2612A,regex,2
+q13,cartucho hp preto,23869,Cartucho HP 94 Preto C8765WB - HP,baseline_2022,2
+q13,cartucho hp preto,24062,Cartucho de tinta HP 72 C9403A 130Mls. PRETO,regex,2
+q13,cartucho hp preto,24634,Cartucho de tinta HP 14 C4920A 8 Mls. Preto,regex,2
+q13,cartucho hp preto,24873,Cartucho de Toner HP 305A  CE410A Preto,regex,2
+q13,cartucho hp preto,25878,Estetoscópio duplo premium preto,embedding_e5_base,0
+q14,lavadora de roupas 10 kg,795,Lavadora Safira 8Kg Branco - Latina,baseline_2022,1
+q14,lavadora de roupas 10 kg,1013,Lavadora Tanquinho Aleluia 5 kg - Suggar,baseline_2022,1
+q14,lavadora de roupas 10 kg,1418,Suggar Lavamatic Superior 10 kg Branco,embedding_e5_small,2
+q14,lavadora de roupas 10 kg,2255,Suggar Lavamax Superior 10 kg Branco,embedding_e5_small,2
+q14,lavadora de roupas 10 kg,2934,Lavadora de Roupas 5 kg Semi-Automática Cristal - Latina,baseline_2022,1
+q14,lavadora de roupas 10 kg,2950,"Lavadora de Roupas 15,2 Kg Turbo Capacidade Electrolux - LTC15",bm25,1
+q14,lavadora de roupas 10 kg,3379,Secadora Electrolux STR10 Piso 10 kg,embedding_e5_small,0
+q14,lavadora de roupas 10 kg,6097,Máquina de Lavar Roupas Electrolux LT15F Superior 15 kg Branco,baseline_2022,1
+q14,lavadora de roupas 10 kg,6304,Lavadora de Roupa 10kg Maré Super CWL10 Branca - Consul,char_ngram,2
+q14,lavadora de roupas 10 kg,7802,Lavadora de Alta Pressão Terra Acqua 1400,baseline_2022,0
+q14,lavadora de roupas 10 kg,9849,Intech Machine Acqua 1700,baseline_2022,0
+q14,lavadora de roupas 10 kg,10131,Lavadora de Roupas 6 Kg Duppla Maxx Super Branca - Arno,char_ngram,1
+q14,lavadora de roupas 10 kg,13784,Secadora de Roupas 10kg BSR10AB Ative! Piso Branco - Brastemp,bm25,0
+q14,lavadora de roupas 10 kg,14168,"Lavadora de Roupas 10,1 kg Eco Turbo Branca Electrolux - TRW10",char_ngram,2
+q14,lavadora de roupas 10 kg,14929,Lavadora 10kg LT11F Branco 220v - Electrolux,bm25,2
+q14,lavadora de roupas 10 kg,15808,Lavadora de Roupas 10kg Branca LVCT1030 - Continental,bm25,2
+q14,lavadora de roupas 10 kg,16101,Secadora Brastemp BSI10AB Piso 10 kg,embedding_e5_base,0
+q14,lavadora de roupas 10 kg,17273,Lavadora de Roupa 10 kg Branca Clean BWC10A - Brastemp,bm25,2
+q14,lavadora de roupas 10 kg,18702,Lavadora de Roupas 3 kg Semi-Automática Ônix - Latina,baseline_2022,1
+q14,lavadora de roupas 10 kg,19464,Lavadora de Roupa 10kg Prime WD-1409FD - Branca - LG,char_ngram,2
+q14,lavadora de roupas 10 kg,19970,Lavadora de Roupas Imagination 10Kg Branca - LVGE1020IA - GE,bm25,2
+q14,lavadora de roupas 10 kg,20678,Secadora Brastemp BSX10AR Piso 10 kg,embedding_e5_base,0
+q14,lavadora de roupas 10 kg,21067,Máquina de Lavar Roupas Consul Facilite CWC10 Superior 10 kg Branco,baseline_2022,2
+q14,lavadora de roupas 10 kg,21094,Máquina de Lavar Roupas Suggar Lavamax Superior 10 kg Branco,bm25,2
+q14,lavadora de roupas 10 kg,21801,Lavadora de Roupas Colormaq Gold Semi-Automática - 3kg,bm25,1
+q14,lavadora de roupas 10 kg,21812,Lavadora de Roupas Class 6kg Turbilhão Automática - Mueller,baseline_2022,1
+q14,lavadora de roupas 10 kg,22166,Lavadora 10kg LCM Semi-Automática Branca 220v - Colormaq,regex,2
+q14,lavadora de roupas 10 kg,24450,"Lavadora de Roupas Master Clean 2,5Kg 220V - Brastank",baseline_2022,1
+q15,bicicleta aro 26,500,Caloi XRT 26,embedding_e5_small,2
+q15,bicicleta aro 26,1141,Track & Bikes Master 26,embedding_e5_small,2
+q15,bicicleta aro 26,1165,"Bicicleta Reebok Trakker 19"" - 24V - Aro 26",bm25,2
+q15,bicicleta aro 26,2118,"Bicicleta Reebok Style 17"" - 21V - Aro 26",bm25,2
+q15,bicicleta aro 26,3040,Bicicleta Aro 26 Strada Tam.P - Modelo 2010 - Caloi,baseline_2022,2
+q15,bicicleta aro 26,3115,Bicicleta Oceano aro 26' mas. HX1 Impct Azl/Pto,baseline_2022,2
+q15,bicicleta aro 26,4244,Bicicleta Barbie Aro 12 - Caloi,char_ngram,1
+q15,bicicleta aro 26,4443,Bicicleta Soberana Aro 26 Freio V-Brake Vermelha - Mormaii,regex,2
+q15,bicicleta aro 26,5395,Bicicleta Tropical Aro 26 Freio Inglês Violeta - Monark,baseline_2022,2
+q15,bicicleta aro 26,5799,"Bicicleta MTB Velonna, Quadro em Alumínio, 18 Marchas, Aro 26, Cor Preta - Hebron",regex,2
+q15,bicicleta aro 26,6357,"Bicicleta Track Bikes, Aro 26, Pneus Slick com Faixa Branca, Aço Carbono, Rodas em Alumínio, Branca e Preta - Waikiki",regex,2
+q15,bicicleta aro 26,7337,Caloi Aluminium 26,embedding_e5_base,2
+q15,bicicleta aro 26,7377,"Bicicleta Reebok Argon 17"" - 21V - Aro 26",bm25,2
+q15,bicicleta aro 26,7531,"Bicicleta Colli MTB, Aro 26, 18 Marchas",char_ngram,2
+q15,bicicleta aro 26,8472,Track & Bikes Serena 26,embedding_e5_base,2
+q15,bicicleta aro 26,9513,Track & Bikes Viper 26,embedding_e5_small,2
+q15,bicicleta aro 26,10015,Bicicleta Aro 26 MTB Cassini c/ 21 Marchas Azul Anil Fosco - Prox,baseline_2022,2
+q15,bicicleta aro 26,10623,"Bicicleta Mormaii Aro 26' Fantasy 18V ? Rosa com Cesta, Freios V-Brake, Pedais em Nylon com Refletor, Quadro em Aço Carbono.",regex,2
+q15,bicicleta aro 26,10809,"Bicicleta Runner Aro 26, 21 Marchas Prata - Fischer",regex,2
+q15,bicicleta aro 26,11188,Track & Bikes Blaster 26,embedding_e5_base,2
+q15,bicicleta aro 26,11223,"Bicicleta Track Bikes 18 Marchas, Aro 26, Full Suspension, Aço Carbono, Rosa e Prata - TB200XS",regex,2
+q15,bicicleta aro 26,11819,Bicicleta Oceano aro 26' fem. HX1 Impct Vrm/Bra S. Cesta,baseline_2022,2
+q15,bicicleta aro 26,12563,Bicicleta Bike Oceano aro 26' mas. HX1 Impct Vrd/Pto,regex,2
+q15,bicicleta aro 26,12844,"Bicicleta Track Bikes 18 Marchas, Aro 26, Full Suspension, Aço Carbono, Roxa - TB200XS",regex,2
+q15,bicicleta aro 26,12874,Bicicleta Stryle Aro 20 -Mormaii,char_ngram,1
+q15,bicicleta aro 26,12929,Bicicleta Aro 26 c/ 21 Marchas Andes - Caloi,baseline_2022,2
+q15,bicicleta aro 26,13545,"Bicicleta Reebok Riviera 17"" - 21V - Aro 26",bm25,2
+q15,bicicleta aro 26,13560,Bicicleta Caloi Cross Aro 20,char_ngram,1
+q15,bicicleta aro 26,14033,Bicicleta Aro 26 MTB Cassini Marchas Chumbo Fosco - Prox,baseline_2022,2
+q15,bicicleta aro 26,14279,Bicicleta Princess Aro 26 Feminina FM - Fischer,hybrid_bm25_e5_small,2
+q15,bicicleta aro 26,14548,Bicicleta poti aro26 verde caloi,embedding_e5_small,2
+q15,bicicleta aro 26,14732,Bicicleta Aro 20 Azul SBX Masc.,char_ngram,1
+q15,bicicleta aro 26,14899,"Bicicleta Track Bikes Aro 26 Utilitária com Motor 48cc, Cilindro Refrigerado a Ar 2 Tempos, Potência 1.15kw/5000 rpm, Velocidade 30Km/h, Preta - UT-48CC",embedding_e5_base,1
+q15,bicicleta aro 26,15344,Bicicleta Barra Circular Aro 26 Freio Inglês Vermelha - Monark,baseline_2022,2
+q15,bicicleta aro 26,16009,Track & Bikes Marbela 26,embedding_e5_small,2
+q15,bicicleta aro 26,16036,Bicicleta Barbie Aro 20 - Caloi,char_ngram,1
+q15,bicicleta aro 26,16061,"Bicicleta Chevrolet, aro 26, 36 Raias",bm25,2
+q15,bicicleta aro 26,16303,"Bicicleta Reebok Argon 21"" - 21V - Aro 26",hybrid_bm25_e5_small,2
+q15,bicicleta aro 26,17098,"Bicicleta Reebok Style 19"" - 21V - Aro 26",bm25,2
+q15,bicicleta aro 26,17306,Bicicleta Tropical Aro 26 Freio Inglês Vermelha - Monark,baseline_2022,2
+q15,bicicleta aro 26,17534,"Bicicleta Prince Bike Tradição 1 marcha, Aro 26, Aço Carbono, Rodas de Alumínio, Freios V.Brake -  Tradição 1V Aro 26 Masculina",regex,2
+q15,bicicleta aro 26,17968,"Bicicleta Elétrica 250W Track Bikes Aro 26 com Suspensão Dianteira, Bateria 36V, Velocidade 25 Km/h, Suporta até 90 Kg, Lilás- BE-F250L",regex,1
+q15,bicicleta aro 26,18083,Bicicleta Aro 26 Atlanta Preto e Amarelo - 21 velocidades MTB com Suspensão Dianteira - Track&Bikes,embedding_e5_small,2
+q15,bicicleta aro 26,18475,"Bicicleta Prince Bike Princesa 7 marchas, Aro 26, Aço Carbono, Rodas de Alumínio, Freios V.Brake - Princesa 7v Aro 26 Feminina Branca c/ Violeta",regex,2
+q15,bicicleta aro 26,19783,"Bicicleta Reebok Riviera 19"" - 21V - Aro 26",bm25,2
+q15,bicicleta aro 26,20228,"Bicicleta Reebok Argon 19"" - 21V - Aro 26",bm25,2
+q15,bicicleta aro 26,20288,"Bicicleta Track Bikes 18 Marchas, Aro 26, Alavanca de Câmbio Grip System, Aço Carbono, Rodas em Alumínio, Cesta Aramada, Azul - Marbela",regex,2
+q15,bicicleta aro 26,20987,Colli Alegra City 26,embedding_e5_small,2
+q15,bicicleta aro 26,21312,Bicicleta  Aro 20' Top Lip - Mormaii,char_ngram,1
+q15,bicicleta aro 26,21319,Track & Bikes Pratik 26,embedding_e5_base,2
+q15,bicicleta aro 26,21509,Bicicleta Aro 26 TRS 21 Marchas - Caloi,char_ngram,2
+q15,bicicleta aro 26,22020,"Bicicleta Prince Bike Flame 21 marchas, Aro 26, Rodas de Alumínio, Aço Carbono- Flame 21V Aro 26 Preta com Azul",regex,2
+q15,bicicleta aro 26,22111,Bicicleta Aro 26 Flexus Full Suspension Shimano Altus 24 Marchas - Mormaii,regex,2
+q15,bicicleta aro 26,22202,Bicicleta Aro 26 Atlanta Azul e Branco - 21 velocidades MTB com Suspensão Dianteira,embedding_e5_small,2
+q15,bicicleta aro 26,22605,Bicicleta Oceano aro 26' mas. HX1 Impct Vrm/Pto,baseline_2022,2
+q15,bicicleta aro 26,23216,"Bicicleta Renault, Dupla Suspensão, aro 26, 72 Raias",hybrid_bm25_e5_small,2
+q15,bicicleta aro 26,23812,Bicicleta Aro 26 Supra - 21 Marchas Tamanho 21- Caloi,embedding_e5_small,2
+q15,bicicleta aro 26,24588,Bicicleta Barbie Aro 16 - Caloi,char_ngram,1
+q15,bicicleta aro 26,24642,Track & Bikes Boxxer 26,embedding_e5_base,2
+q15,bicicleta aro 26,24832,"Bicicleta Reebok Pilot 21"" - 21V - Aro 26",bm25,2
+q15,bicicleta aro 26,26211,"Bicicleta Prince Bikes Orion 21 marchas, Aro 26, Alavanca de marcha,  Rodas de Alumínio, Aço Carbono- Orion Alumínio Masculino",regex,2
+q16,perfume feminino,204,Perfume Halle Halle Berry Eau de Parfum Feminino 50 ml,baseline_2022,2
+q16,perfume feminino,319,Perfume Jaime Feminino #50ml - La Perla,bm25,2
+q16,perfume feminino,733,Perfume Heat Beyonce Eau de Parfum Feminino 30 ml,hybrid_bm25_e5_small,2
+q16,perfume feminino,1557,Perfume Intimately David Beckham Eau de Toilette Feminino 50 ml,embedding_e5_small,2
+q16,perfume feminino,2586,Perfume Laloa Blue Feminino #100ml - Via Paris,char_ngram,2
+q16,perfume feminino,2736,Perfume Reveal #50ml - Halle Berry,baseline_2022,1
+q16,perfume feminino,2957,Perfume Very Irresistible Sensual Givenchy Eau de Parfum Feminino 75 ml,embedding_e5_base,2
+q16,perfume feminino,3662,Perfume Live Luxe Jennifer Lopez Eau de Parfum Feminino 100 ml,regex,2
+q16,perfume feminino,3815,Perfume Quartz Molyneux Eau de Parfum Feminino 100 ml,baseline_2022,2
+q16,perfume feminino,4467,Perfume Glow Jennifer Lopez Eau de Toilette Feminino 30 ml,regex,2
+q16,perfume feminino,4667,Perfume SJP NYC Sarah Jessica Parker Eau de Toilette Feminino 60 ml,embedding_e5_small,2
+q16,perfume feminino,5092,Perfume Love and Glamour Jennifer Lopez Eau de Parfum Feminino 50 ml,embedding_e5_base,2
+q16,perfume feminino,6018,Perfume J´aime Les Fleurs La Perla Eau de Parfum Feminino 100 ml,embedding_e5_small,2
+q16,perfume feminino,6190,Perfume Jaime Feminino #100ml - La Perla,bm25,2
+q16,perfume feminino,6324,Perfume Im Going Woman Puma Eau de Toilette Feminino 40 ml,embedding_e5_base,2
+q16,perfume feminino,6336,Perfume J´aime Les Fleurs La Perla Eau de Parfum Feminino 50 ml,embedding_e5_small,2
+q16,perfume feminino,6562,Perfume Hugo XX feminino Eau de Toilette 60ml - Hugo Boss,regex,2
+q16,perfume feminino,6659,Perfume J´aime Les Fleurs La Perla Eau de Parfum Feminino 30 ml,embedding_e5_small,2
+q16,perfume feminino,7744,Perfume Laguna Feminino Eau de Toilette 30ml - Salvador Dali,regex,2
+q16,perfume feminino,8361,Perfume Hilfiger Woman feminino Eau de Parfum 30ml - Tommy Hilfiger,baseline_2022,2
+q16,perfume feminino,8672,Perfume SJP NYC Sarah Jessica Parker Eau de Toilette Feminino 30 ml,embedding_e5_small,2
+q16,perfume feminino,9326,Perfume Nina Nina Ricci Eau de Toilette Feminino 30 ml,regex,2
+q16,perfume feminino,10155,Perfume Intimately David Beckham Eau de Toilette Feminino 30 ml,hybrid_bm25_e5_small,2
+q16,perfume feminino,10721,Perfume Reveal #30ml - Halle Berry,baseline_2022,1
+q16,perfume feminino,11247,Perfume Pink Axis Eau de Toilette Feminino 100 ml,hybrid_bm25_e5_small,2
+q16,perfume feminino,11450,Perfume Jaime Feminino #30ml - La Perla,bm25,2
+q16,perfume feminino,11655,Perfume Heat Beyonce Eau de Parfum Feminino 100 ml,hybrid_bm25_e5_small,2
+q16,perfume feminino,12540,Perfume Puma Aqua Feminino #75ml - Puma,bm25,2
+q16,perfume feminino,12543,Perfume Iris Yardley of London Eau de Toilette Feminino 125 ml,embedding_e5_base,2
+q16,perfume feminino,12819,Perfume Laguna Feminino #50ml - Salvador Dali,bm25,2
+q16,perfume feminino,12841,Perfume Rosso Benetton Eau de Toilette Feminino 30 ml,bm25,2
+q16,perfume feminino,14909,Perfume Lovely Sarah Jessica Parker Eau de Parfum Feminino 100 ml,embedding_e5_small,2
+q16,perfume feminino,15169,Perfume SI Lolita EDP Feminino #80ml - Lolita Lempicka,baseline_2022,2
+q16,perfume feminino,15798,Perfume Laloa Feminino #100ml - Via Paris,bm25,2
+q16,perfume feminino,15811,Perfume Intimately Yours David Beckham Eau de Toilette Feminino 50 ml,embedding_e5_small,2
+q16,perfume feminino,16137,Perfume Love and Glamour Jennifer Lopez Eau de Parfum Feminino 30 ml,embedding_e5_base,2
+q16,perfume feminino,16338,Perfume Heat Rush Beyonce Eau de Toilette Feminino 100 ml,regex,2
+q16,perfume feminino,16579,Perfume 212 Carolina Herrera Eau de Toilette Feminino 60 ml,regex,2
+q16,perfume feminino,16896,Perfume Flower By Kenzo Légère feminino Eau de Toilette 30ml - Kenzo,baseline_2022,2
+q16,perfume feminino,17057,Perfume Perry Ellis Perry Ellis Eau de Parfum Feminino 100 ml,baseline_2022,2
+q16,perfume feminino,17226,Perfume Laguna Maravilla EDT Feminino 100 ml - Salvador Dali,regex,2
+q16,perfume feminino,17238,Perfume Puma Aqua #50ml Feminino - Puma,bm25,2
+q16,perfume feminino,17313,Perfume Flower by Kenzo Légère Feminino Eau de Toilette 30ml - Kenzo,embedding_e5_small,2
+q16,perfume feminino,18211,Perfume Puma Create Woman Puma Eau de Toilette Feminino 75 ml,embedding_e5_small,2
+q16,perfume feminino,18390,Perfume Sea & Sun Feminino #100ml - Salvador Dali,char_ngram,2
+q16,perfume feminino,18482,Perfume Laguna Feminino #100ml - Salvador Dali,bm25,2
+q16,perfume feminino,18495,Perfume Heat Beyonce Eau de Parfum Feminino 50 ml,hybrid_bm25_e5_small,2
+q16,perfume feminino,20088,Perfume Sea & Sun Feminino #50ml - Salvador Dali,char_ngram,2
+q16,perfume feminino,21212,Perfume It is Love Feminino #30ml - Salvador Dali,regex,2
+q16,perfume feminino,24269,Perfume Perry Ellis Perry Ellis Eau de Parfum Feminino 50 ml,baseline_2022,2
+q16,perfume feminino,24690,Perfume Heat Rush Beyonce Eau de Toilette Feminino 50 ml,hybrid_bm25_e5_small,2
+q16,perfume feminino,24859,Perfume Intimately Yours David Beckham Eau de Toilette Feminino 30 ml,regex,2
+q16,perfume feminino,25136,Perfume Very Irrésistible Givenchy Eau de Toilette Feminino 30 ml,regex,2
+q16,perfume feminino,25416,Perfume Seductive Guess Eau de Toilette Feminino 75 ml,baseline_2022,2
+q16,perfume feminino,26056,Perfume Sea & Sun Feminino #30ml - Salvador Dali,char_ngram,2
+q17,panela antiaderente tramontina,279,"Panela de Pressão Advanced Fechamento Externo 3,0L Antiaderente - Alux",bm25,1
+q17,panela antiaderente tramontina,609,Frigideira Paris de Alumínio Antiaderente Starflon 16 cm - Tramontina,regex,2
+q17,panela antiaderente tramontina,1566,"Panela de Pressão Antiaderente 4,5 litros - Panelux",bm25,1
+q17,panela antiaderente tramontina,1745,Frigideira de Aluminio 32cm Antiaderente com Haste em Inox Alongado - Tramontina,regex,2
+q17,panela antiaderente tramontina,1864,Frigideira Reta de Alumínio Antiaderente 24 cm - Tramontina,regex,2
+q17,panela antiaderente tramontina,1976,Panelux Antiaderente Alumínio 4,char_ngram,1
+q17,panela antiaderente tramontina,3300,Frigideira Reta de Aluminio Antiaderente Com Cabo em Aco Inox e Fundo Lixado 36 cm - Tramontina,regex,2
+q17,panela antiaderente tramontina,3698,Frigideira Funda de Alumínio Antiaderente 26 cm - Tramontina,regex,2
+q17,panela antiaderente tramontina,3980,Frigideira Napoli Reta de Aluminio Antiaderente 16 cm - Tramontina,regex,2
+q17,panela antiaderente tramontina,4785,"Panela de Pressão Advanced Fechamento Externo 4,5 L Antiaderente - Alux",bm25,1
+q17,panela antiaderente tramontina,5229,Frigideira Colorida de Alumínio Antiaderente 20 cm - Tramontina,regex,2
+q17,panela antiaderente tramontina,5435,"Panela Pressa Alum 4,5L Valencia Verm - Tramontina",baseline_2022,1
+q17,panela antiaderente tramontina,5560,Mesa de passar top mel dobrável tramontina,embedding_e5_base,0
+q17,panela antiaderente tramontina,5729,Panela de Pressão 6L Valência Vermelho - Tramontina,embedding_e5_small,1
+q17,panela antiaderente tramontina,6916,Frigideira Paris Alumínio Antiaderente Starflon 30 cm - Tramontina,regex,2
+q17,panela antiaderente tramontina,6978,Panela de pressao aco solar inox tramontina,embedding_e5_base,1
+q17,panela antiaderente tramontina,7237,Panelux Antiaderente Alumínio 5,char_ngram,1
+q17,panela antiaderente tramontina,8113,Panela wok antiaderente 36 cm retro viva cor - tramontina,baseline_2022,2
+q17,panela antiaderente tramontina,8248,Frigideira Reta de Alumínio Antiaderente 22 cm - Tramontina,regex,2
+q17,panela antiaderente tramontina,8661,Conjunto de Frigideiras Alumínio Antiaderente 3 Peças - Tramontina,embedding_e5_small,2
+q17,panela antiaderente tramontina,8797,Frigideira de Alumínio Antiaderente 20 cm - Tramontina,embedding_e5_small,2
+q17,panela antiaderente tramontina,9995,JOGO PANELA TRAMONTINA MONTREAL BRANCA 5 PECAS,baseline_2022,1
+q17,panela antiaderente tramontina,10241,Frigideira Panquequeira de Alumínio Antiaderente - MTA,embedding_e5_base,1
+q17,panela antiaderente tramontina,11124,Frigideira Paris de Alumínio Antiaderente 22 cm - Tramontina,regex,2
+q17,panela antiaderente tramontina,11916,Frigideira de Alumínio 24cm Antiaderente Starflon - Tramontina,regex,2
+q17,panela antiaderente tramontina,12160,Frigideira de Alumínio Antiaderente com Cabo em Aço Inox 25 cm - Tramontina,regex,2
+q17,panela antiaderente tramontina,12377,Frigideira Reta de Alumínio Antiaderente 30 cm - Tramontina,regex,2
+q17,panela antiaderente tramontina,12478,Conjunto de Panelas em Aluminio Amarela com 5 Peças - Tramontina,embedding_e5_small,1
+q17,panela antiaderente tramontina,12530,Panela Wok Supra em Alumínio Antiaderente com Tampa de Vidro - MTA,bm25,1
+q17,panela antiaderente tramontina,13668,Conjunto de Panelas Antiaderente Caribe c/ 5 Peças - Tramontina - 20299/012,embedding_e5_small,2
+q17,panela antiaderente tramontina,13742,"Panela de Pressão 3,0 Litros Antiaderente - Marcolar",bm25,1
+q17,panela antiaderente tramontina,14102,Panelux Grill Antiaderente Gás,char_ngram,1
+q17,panela antiaderente tramontina,14549,Frigideira de Alumínio Antiaderente com Cabo em Aço Inox 20 cm - Tramontina,regex,2
+q17,panela antiaderente tramontina,15069,Frigideira Colorida de Alumínio Antiaderente 24 cm - Tramontina,regex,2
+q17,panela antiaderente tramontina,15990,Frigideira alumínio antiaderente 24 cm retro viva cor - Tramontina,regex,2
+q17,panela antiaderente tramontina,16212,"Panela Pres Alum 4,5L Valencia Purpura - Tramontin",baseline_2022,1
+q17,panela antiaderente tramontina,16382,Conjunto de Frigideiras Alumínio Antiaderente 2 Peças - Tramontina,embedding_e5_small,2
+q17,panela antiaderente tramontina,16594,Panela Wok Tramontina Napoli Antiaderente Starflon - 36cm,baseline_2022,2
+q17,panela antiaderente tramontina,16812,Dosador de Sabão - Tramontina,embedding_e5_base,0
+q17,panela antiaderente tramontina,17822,Frigideira de Aluminio 28cm Antiaderente com Haste em Inox Alongado - Tramontina,regex,2
+q17,panela antiaderente tramontina,18267,Assadeira Funda 28 cm Antiaderente - Tramontina,char_ngram,1
+q17,panela antiaderente tramontina,18552,Panela alumínio antiaderente 18 cm retro viva cor - Tramontina,bm25,2
+q17,panela antiaderente tramontina,18992,Tramontina Paris Antiaderente 20 Centímetros,char_ngram,2
+q17,panela antiaderente tramontina,19133,Prancha Com Esfregadeira Para Tanque Tramontina,embedding_e5_small,0
+q17,panela antiaderente tramontina,20702,Frigideira Reta Napoli de Alumínio Antiaderente 26 cm - Tramontina,regex,2
+q17,panela antiaderente tramontina,21872,Cj. Panelas Antiaderente Versalhes 13pçs Tramontina 20699066,baseline_2022,2
+q17,panela antiaderente tramontina,21973,Assadeira Redonda 26cm Antiaderente Brasil - Tramontina,baseline_2022,1
+q17,panela antiaderente tramontina,23032,Panela Wok Antiaderente 32 cm Retro Viva Cor - Tramontina,baseline_2022,2
+q17,panela antiaderente tramontina,24952,Panela Redonda Lyon 20 cm - Tramontina - 20981/020,baseline_2022,1
+q17,panela antiaderente tramontina,25694,Panela Wok Paris 36cm - Tramontina,baseline_2022,1
+q17,panela antiaderente tramontina,25876,Conjunto de Panelas em Alumínio 5 Peças Montreal Antiaderente Starflon Plus - Tramontina,embedding_e5_small,2
+q17,panela antiaderente tramontina,26147,Frigideira Alumínio Antiaderente 20cm Retro Viiva cor - Tramontina,regex,2
+q18,microondas 30 litros,42,Forno Elétrico Britânia Prime em Aço Escovado - 30L,hybrid_bm25_e5_small,0
+q18,microondas 30 litros,217,"Torre Chopp Beer 3,5 Litros Grátis Churrasqueira - Mariz",baseline_2022,0
+q18,microondas 30 litros,251,Lixeira inox com pedal 30litros tramontina,bm25,0
+q18,microondas 30 litros,649,Biona Puebla 30 Peças,embedding_e5_small,0
+q18,microondas 30 litros,989,Biona Dreams 30 Peças,embedding_e5_small,0
+q18,microondas 30 litros,1555,FORNO MICROONDAS GE MOGE031SD2B1IN 31 LITROS INOX 110V,regex,2
+q18,microondas 30 litros,1719,ANLODIPINO 5 MEG 30'S,baseline_2022,0
+q18,microondas 30 litros,2045,Tanque duplo de apoio 30L - Tramontina,bm25,0
+q18,microondas 30 litros,3168,Microondas Brastemp BMX 40 Inox,char_ngram,1
+q18,microondas 30 litros,3299,Micro-ondas 30L Inox - Built,bm25,2
+q18,microondas 30 litros,3536,Micro-ondas 30 Litros Inox MM-25EL - Midea,embedding_e5_small,2
+q18,microondas 30 litros,4262,Curtlo Crux 30L,bm25,0
+q18,microondas 30 litros,4717,Micro-ondas 31L PMS38NP Espelhado 110v - Philco,regex,2
+q18,microondas 30 litros,4754,Tramontina Lyon 30 Centímetros,embedding_e5_base,0
+q18,microondas 30 litros,5974,FORNO MICROONDAS LG MH7049CA GRILL 30 LITROS PRATA 220V,baseline_2022,2
+q18,microondas 30 litros,8240,Mochila GigaByte 30 Litros Preto - Curtlo,bm25,0
+q18,microondas 30 litros,8268,Microondas - Magic Toys,baseline_2022,0
+q18,microondas 30 litros,8808,Tintura 30 Castanho Escuro - Provital,baseline_2022,0
+q18,microondas 30 litros,9155,Balcão para Microondas com Fruteira 537071 Preto e Branco -  Big Domus,baseline_2022,0
+q18,microondas 30 litros,9655,Microondas Midea Mix MM-30EL Prata,embedding_e5_small,1
+q18,microondas 30 litros,10273,Microondas Midea Must MM-30EL Branco,embedding_e5_small,1
+q18,microondas 30 litros,10833,Microondas CCE M20T Branco,char_ngram,1
+q18,microondas 30 litros,10955,Forno de Micro-ondas 31 Litros MEF41 Branco - Electrolux,regex,2
+q18,microondas 30 litros,11702,Toyster Princesas Inflável 30 Litros,bm25,0
+q18,microondas 30 litros,11978,Microondas Brastemp BMX 40,char_ngram,1
+q18,microondas 30 litros,12086,Micro-ondas 31L MG41R Minha Escolha Grill Branco 220v - Electrolux,regex,2
+q18,microondas 30 litros,12354,KÄRCHER CV-30/1 1150 W,baseline_2022,0
+q18,microondas 30 litros,13682,Minancora Action Tubo 30gr,embedding_e5_small,0
+q18,microondas 30 litros,15242,Forno de Microondas Solo 30L MS3047G Branco - LG,bm25,2
+q18,microondas 30 litros,15301,FORNO MICROONDAS ELECTROLUX MEV41 31LITROS INOX 220V,regex,2
+q18,microondas 30 litros,15890,Forno de micro-ondas Brastemp - BMS45A Ative! c/ Timer - 30L,regex,2
+q18,microondas 30 litros,16529,Micro-ondas 31L PMS38NP Espelhado 220v - Philco,regex,2
+q18,microondas 30 litros,17468,Microondas 28L Perfect Branco - NN-ST571,regex,2
+q18,microondas 30 litros,17711,Micro-ondas 31L PMS35N Branco 110v - Philco,regex,2
+q18,microondas 30 litros,17784,Tris Fadas 30 Centímetros Acrílico,embedding_e5_base,0
+q18,microondas 30 litros,18194,MICROONDAS 31L PHILCO PMS32 BRANCO,regex,2
+q18,microondas 30 litros,19141,Microondas LG MH4046SP Inox,char_ngram,1
+q18,microondas 30 litros,19431,Microondas Built BLT-MO-EMB-30 Inox,embedding_e5_small,1
+q18,microondas 30 litros,19557,NavCity Way 30,baseline_2022,0
+q18,microondas 30 litros,19677,Microondas Brastemp BMY25AR Inox,char_ngram,1
+q18,microondas 30 litros,20440,Microondas Consul CMN34,bm25,1
+q18,microondas 30 litros,20873,Microondas LG Solo MS3047G,hybrid_bm25_e5_small,1
+q18,microondas 30 litros,21863,Lixeira Automática com Sensor Inox 30 Litros - Tramontina,hybrid_bm25_e5_small,0
+q18,microondas 30 litros,22069,Microondas Electrolux MEC41 Inox,char_ngram,1
+q18,microondas 30 litros,23063,Absorvente para seios com 30 - York,baseline_2022,0
+q18,microondas 30 litros,23534,FORNO MICROONDAS MABE GE MOGE031SD2B2IN 31 LITROS INOX 220V,regex,2
+q18,microondas 30 litros,24109,Tramontina Profissional Aço 30 Centímetros,embedding_e5_base,0
+q18,microondas 30 litros,24316,Microondas LG MS2346 Branco,char_ngram,1
+q18,microondas 30 litros,25306,"Penedo Polida 4,5 Litros",baseline_2022,0
+q18,microondas 30 litros,26098,Micro-ondas 31L PMS35N Branco 220v - Philco,regex,2
+q19,colchao casal mola ensacada,126,Colchão Casal Gazin Vitoria de Mola Ensacada/Pocket c/Pillow top de visco e tecido Jacquard,bm25,2
+q19,colchao casal mola ensacada,933,Colchão Casal c/ Bomba 23x137x191cm - Intex,baseline_2022,1
+q19,colchao casal mola ensacada,1679,Minaspuma Gran Relax Casal,embedding_e5_base,1
+q19,colchao casal mola ensacada,2312,Colchão Casal Americanflex Moonlight One Face c/ Molas Pocket - 31x138,regex,2
+q19,colchao casal mola ensacada,2634,Ortobom Light Saúde Mola Casal,embedding_e5_small,1
+q19,colchao casal mola ensacada,2929,Colchão Casal Ortobom Freedom Mola Ensacada/Pocket D30 c/tecido de bambu e Pillow top com visco,bm25,2
+q19,colchao casal mola ensacada,3027,Colchão Casal Herval Berlin Bambu de Mola Ensacada c/tecido Fibra de bambu e Pillow In,bm25,2
+q19,colchao casal mola ensacada,4010,Colchão Inflável Casal Veludo,embedding_e5_small,1
+q19,colchao casal mola ensacada,4832,Colchão Casal Perfil Saúde D-33 138x188cm - Probel,baseline_2022,1
+q19,colchao casal mola ensacada,5526,Colchão Casal Probel Italy de Mola Ensacada c/tecido em Algodão/Poliéster/Bambu e Pillow Super,bm25,2
+q19,colchao casal mola ensacada,5662,Paropas Esplêndido Casal,embedding_e5_small,1
+q19,colchao casal mola ensacada,5731,Colchão Americanflex Essence Casal,embedding_e5_small,1
+q19,colchao casal mola ensacada,6201,Gelius Móveis Gênesis Casal,embedding_e5_small,1
+q19,colchao casal mola ensacada,6608,Colchão Casal Espuma Perfil Saúde D-45 138x188cm - Probel,baseline_2022,1
+q19,colchao casal mola ensacada,7735,Colcha boutis espanha casal estampado corttexcasa,embedding_e5_small,0
+q19,colchao casal mola ensacada,8090,"Colchão + Cama Box Casal Queen Mola Pocket 1,58x1,98cm Intense Three Bege - Simbal",regex,2
+q19,colchao casal mola ensacada,8342,Colchão Casal Plumatex Mola Ensacada Ecolife c/tecido em Fibra de bambu e Pillow Top,baseline_2022,2
+q19,colchao casal mola ensacada,8366,Colchão Casal Queen Mola Paropas Pocket Excellent Uniface Pilow Touch 158x198cm,regex,2
+q19,colchao casal mola ensacada,9924,Colchão King Castor de Mola Ensacada/Pocket Silver Star Luxo Hibrido com Pillow Top,char_ngram,1
+q19,colchao casal mola ensacada,10186,"Colchão Casal King Mola Pocket Moonlight 1,93x2,03cm ? Americanflex",regex,2
+q19,colchao casal mola ensacada,11649,Colcha patchwork proenca casal corttexcasa,embedding_e5_small,0
+q19,colchao casal mola ensacada,12272,"Colchão Casal Castor Eurotop Supreme c/Molas Ensacadas/Pocket, Pillow In e Viscoelástico",regex,2
+q19,colchao casal mola ensacada,12949,Minaspuma Soft Sleep Casal,embedding_e5_base,1
+q19,colchao casal mola ensacada,13571,"Colchão Tropical Visco Casal (138x188x32) - Mola Pocket, Pillow Top - Gazin",regex,2
+q19,colchao casal mola ensacada,14445,"Colchão Casal Queen Mola Bonner Platinum Americanflex 1,58x1,98cm",baseline_2022,1
+q19,colchao casal mola ensacada,14821,Colchão casal    59510000 capri,baseline_2022,1
+q19,colchao casal mola ensacada,15068,Colchão Casal Herval Luxuri Intense Plus de Mola Ensacada c/ Euro Pillow Top c/Visco,bm25,2
+q19,colchao casal mola ensacada,15261,Colchão Casal Gazin Sweet Dream de Mola Ensacada/Pocket c/Euro Pillow Top e tecido Jacquard,bm25,2
+q19,colchao casal mola ensacada,15283,Colchão Americanflex Classic Casal,embedding_e5_small,1
+q19,colchao casal mola ensacada,15532,Colchão Casal Queen Mola Americanflex Pocket Classic Euro 158x198cm,regex,2
+q19,colchao casal mola ensacada,16131,"Colchão Casal Sofistic 1,38x1,88 - Probel Colchões",baseline_2022,1
+q19,colchao casal mola ensacada,16261,"Colchão Nápoli Preto Casal (138x188x28) - Mola Pocket, Pillow Top - Gazin",regex,2
+q19,colchao casal mola ensacada,16702,Colchão Americanflex Eucalyptus Casal,embedding_e5_small,1
+q19,colchao casal mola ensacada,17274,Colchão Casal Herval Vercelly Bambu de Mola Ensacada c/tecido Fibra de bambu e Pillow top c/Visco,bm25,2
+q19,colchao casal mola ensacada,17678,"Colchão Casal Mola Castor Pocket Gran Hotel 1,38x1,88cm",baseline_2022,2
+q19,colchao casal mola ensacada,20330,Colchão Casal Mola Pocket Freedom - Ortobom,bm25,2
+q19,colchao casal mola ensacada,20341,Colchão Solteiro Pelmex Max Pocket No Turn de Mola Ensacada c/tecido Jacquard,char_ngram,1
+q19,colchao casal mola ensacada,20579,Colchão Casal Mola Paropas Bonnel Predilecto Uniface Pillow 138x188cm,baseline_2022,1
+q19,colchao casal mola ensacada,20760,Colchão Casal Castor de Mola Ensacada/Pocket Silver Star Luxo Hibrido com Pillow Top,bm25,2
+q19,colchao casal mola ensacada,20963,Colchão Casal Pocket Unity Soft 138x188cm - Mannes,regex,2
+q19,colchao casal mola ensacada,21025,Colcha matelasse algodao casal az corttexcasa,embedding_e5_small,0
+q19,colchao casal mola ensacada,21752,Paropas Colchobox Box Conjugado Casal,embedding_e5_base,1
+q19,colchao casal mola ensacada,21771,"Colchão Neo Classic Casal (138x188x30) - Mola Pocket, Pillow Top - Americanflex",regex,2
+q19,colchao casal mola ensacada,23841,Colchão Casal Mannes c/ Molas Pocket e Pillow Top Palladium - 26x138,regex,2
+q19,colchao casal mola ensacada,24298,"Colchão Casal Ventura Mola Pocket 1,38 x 1,88cm - Araxá",baseline_2022,2
+q19,colchao casal mola ensacada,25076,Colchão Inflável Casal Veludo  -  Intex,embedding_e5_base,1
+q19,colchao casal mola ensacada,25456,"Colchão Daniel Casal (138x188x34) - Mola Pocket, Pillow Top - Gazin",regex,2
+q19,colchao casal mola ensacada,26034,"Colchão Sweet Dreams Branco Casal (138x188x36) - Mola Pocket, Pillow Top - Gazin",regex,2
+q20,camera digital 14 megapixels,677,Câmera Digital AgfaPhoto AP OPTIMA 145 14.1 Megapixels,embedding_e5_small,2
+q20,camera digital 14 megapixels,1517,Câmera Digital ST90 - 14.2MP - Azul - Samsung,regex,2
+q20,camera digital 14 megapixels,2730,Câmera Digital VG-120 14.0MP - Olympus,regex,2
+q20,camera digital 14 megapixels,2781,Câmera Digital Nikon Coolpix S4100 14.0 Megapixels,regex,2
+q20,camera digital 14 megapixels,3174,Câmera Digital Coolpix S3100 - 14MP - Nikon,bm25,2
+q20,camera digital 14 megapixels,4379,Câmera Digital - 14.0 MP - Mirage,embedding_e5_small,2
+q20,camera digital 14 megapixels,4498,Câmera Digital Z90 - 14MP - Pink - Fujifilm,bm25,2
+q20,camera digital 14 megapixels,4980,Câmera Digital Nikon Coolpix S6000 14.2 Megapixels,baseline_2022,2
+q20,camera digital 14 megapixels,5174,Câmera Digital Nikon Coolpix S3100 14 Megapixels,bm25,2
+q20,camera digital 14 megapixels,5268,Câmera Digital Olympus VR320 14.0 Megapixels,regex,2
+q20,camera digital 14 megapixels,5584,Câmera Digital Olympus FE-4030 14 Megapixels,char_ngram,2
+q20,camera digital 14 megapixels,8466,Câmera Digital GE Smart J1455 14.1 Megapixels,embedding_e5_base,2
+q20,camera digital 14 megapixels,9128,Câmera Digital Fujifilm FinePix JX300 14.0 Megapixels,baseline_2022,2
+q20,camera digital 14 megapixels,9154,Câmera Digital Canon PowerShot SX30 IS 14.1 Megapixels,embedding_e5_small,2
+q20,camera digital 14 megapixels,9259,Câmera Digital PL120 - Lilás - 14.2MP - Samsung,regex,2
+q20,camera digital 14 megapixels,10773,"Câmera Digital 5MP 5025 Prata c/ LCD 2.4"" e Zoom Digital 5x - Mitsuca",baseline_2022,1
+q20,camera digital 14 megapixels,13135,Câmera Digital Fujifilm FinePix S4000 14.0 Megapixels,embedding_e5_base,2
+q20,camera digital 14 megapixels,13472,Câmera Digital BenQ E1420 14.0 Megapixels,embedding_e5_small,2
+q20,camera digital 14 megapixels,15527,Câmera Digital Fujifilm FinePix AX300 14.0 Megapixels,baseline_2022,2
+q20,camera digital 14 megapixels,15799,Câmera Digital R502 Slice 14MP - Preta - Kodak,regex,2
+q20,camera digital 14 megapixels,15958,Câmera Digital Fujifilm FinePix JX280 14.0 Megapixels,regex,2
+q20,camera digital 14 megapixels,16346,Câmera Digital NewLink CD104 14.1 Megapixels,embedding_e5_base,2
+q20,camera digital 14 megapixels,16921,Câmera Digital Olympus E-PL1 12.3 Megapixels,baseline_2022,1
+q20,camera digital 14 megapixels,17359,Câmera Digital BenQ C1450 14.0 Megapixels,baseline_2022,2
+q20,camera digital 14 megapixels,17461,Câmera Digital Sanyo S770 7.1 Megapixels,baseline_2022,1
+q20,camera digital 14 megapixels,17521,Câmera Digital Sony NEX-3K 14.2 Megapixels,baseline_2022,2
+q20,camera digital 14 megapixels,18139,"Câmera Digital JX 300 (14MP) Rosa c/ 5x Zoom Óptico, Filma em HD, LCD de 2.7"" e Bateria Recarregável + Cartão SD 4GB - Fuji",regex,2
+q20,camera digital 14 megapixels,18470,Câmera Digital AX300 - 14MP - Preta - Fujifilm,bm25,2
+q20,camera digital 14 megapixels,18571,Câmera Digital Samsung ST70 14.2 Megapixels,regex,2
+q20,camera digital 14 megapixels,20473,Câmera Digital Z90 - 14MP - Silver - Fujifilm,bm25,2
+q20,camera digital 14 megapixels,20520,Câmera Digital AgfaPhoto Projekta 147b 14.1 Megapixels,baseline_2022,2
+q20,camera digital 14 megapixels,20622,Câmera Digital NX100 - 14.6MP - Samsung,regex,2
+q20,camera digital 14 megapixels,22889,Câmera Digital Mirage Trend DC100 14.0 Megapixels,regex,2
+q20,camera digital 14 megapixels,23187,Câmera Digital Z90 - 14MP - Vermelha - Fujifilm,bm25,2
+q20,camera digital 14 megapixels,23544,Câmera Digital Sony Cyber-shot T99 14.1 Megapixels,regex,2
+q20,camera digital 14 megapixels,23868,Câmera Digital FinePix AX300 14MP - Cartão 4GB - Fuji,regex,2
+q20,camera digital 14 megapixels,24574,Câmera Digital Samsung SH100 14.2 Megapixels,embedding_e5_base,2
+q20,camera digital 14 megapixels,24763,Câmera Digital Nikon Coolpix S80 14.1 Megapixels,baseline_2022,2
+q20,camera digital 14 megapixels,25062,Câmera Digital 14MP PC14 - Preta - Philco,bm25,2
+q20,camera digital 14 megapixels,25488,Câmera Digital Z90 - 14MP - Purple - Fujifilm,bm25,2
+q20,camera digital 14 megapixels,25572,Câmera Digital S4100 - 14MP - Vermelha - Nikon,bm25,2
+q20,camera digital 14 megapixels,25656,Câmera Digital Samsung ST65 14.2 Megapixels,embedding_e5_small,2
+q20,camera digital 14 megapixels,25672,Câmera Digital 14MP JX300 - Fuji,bm25,2
+q20,camera digital 14 megapixels,25808,Câmera Digital Samsung ST90 14.2 Megapixels,embedding_e5_small,2
+q21,secador de cabelo taif,289,Secador sc 401 127 v-vec,baseline_2022,1
+q21,secador de cabelo taif,936,Secador de Cabelos 1900W com Cristais de Jade - Creativity,baseline_2022,1
+q21,secador de cabelo taif,4325,Taiff Saffira Cerâmica,embedding_e5_small,0
+q21,secador de cabelo taif,4918,Secador de Cabelo 2000W Íons AT1081 - Eterny,baseline_2022,1
+q21,secador de cabelo taif,5535,Taiff Escova Cerâmica,embedding_e5_small,0
+q21,secador de cabelo taif,6664,Secador de Cabelo Profissional Parlux 3500 2000W com Revestimento em Cerâmica Preto220v,baseline_2022,1
+q21,secador de cabelo taif,8905,Secador de Cabelos 1900W Red Ion - Taiff,char_ngram,2
+q21,secador de cabelo taif,9311,Secador de Cabelos 1800W Gloss - Taiff,char_ngram,2
+q21,secador de cabelo taif,10487,Máquina de Cortar Cabelo Taiff POWER,hybrid_bm25_e5_small,0
+q21,secador de cabelo taif,11623,Secador de Cabelo Taiff Fox Ion,bm25,2
+q21,secador de cabelo taif,13078,Secador de Cabelo Profissional 1800W Claudia Leitte - Mallory,baseline_2022,1
+q21,secador de cabelo taif,13425,Secador de Cabelo Taiff Turbo 6000,bm25,2
+q21,secador de cabelo taif,15152,Secador de Cabelo Taiff Smart,bm25,2
+q21,secador de cabelo taif,15320,Secador Cabelo Taiff Fire Fox 2100W 110V,baseline_2022,2
+q21,secador de cabelo taif,15735,Secador Taiff Energy 2000W - Taiff,embedding_e5_base,2
+q21,secador de cabelo taif,16213,Secador de Cabelo Taiff Tourmaline Íon Cerâmica,bm25,2
+q21,secador de cabelo taif,16272,SECADOR DE CABELO MONDIAL SC05 BIVOLT,baseline_2022,1
+q21,secador de cabelo taif,16980,Secador de Cabelo Taiff New Onix,bm25,2
+q21,secador de cabelo taif,18037,Secador de Cabelo Profissional Maxi Pro 3000- Mallory,baseline_2022,1
+q21,secador de cabelo taif,18787,Secador de Cabelos 1700W - 220v - Taiff,char_ngram,2
+q21,secador de cabelo taif,19768,Secador de Cabelo Profissional Infinity Pro - Tany,baseline_2022,1
+q21,secador de cabelo taif,20328,Secador de Cabelo Lizz Super Ionic,baseline_2022,1
+q21,secador de cabelo taif,20459,Secador Taiff Red Íon c/ Emissão de Íons - 1.900W,regex,2
+q21,secador de cabelo taif,24211,SECADOR MERCABEL TAIFF TURBO ION 1900W PRETO 220V,regex,2
+q22,liquidificador philips walita,11,Philips SA2VBE16K 16GB,baseline_2022,0
+q22,liquidificador philips walita,1530,Philips SHE1360,baseline_2022,0
+q22,liquidificador philips walita,3898,Liquidificador 3 Velocidades RI2034 Philips 110V,char_ngram,2
+q22,liquidificador philips walita,3956,LIQUIDIFICADOR WALITA 3 VELOCIDADES RI2034/10 BRANCO 220V,char_ngram,2
+q22,liquidificador philips walita,5861,Philips Walita RI7774,bm25,0
+q22,liquidificador philips walita,6267,Liquidificador RI2009/40 - Philips Walita,bm25,2
+q22,liquidificador philips walita,6507,Philips Walita RI7567 Elétrica,embedding_e5_small,0
+q22,liquidificador philips walita,8335,Liquidificador Alumínio RI2094 Philips 110V,char_ngram,2
+q22,liquidificador philips walita,8340,Processador de Alimentos Compacto RI7625 - Philips Walita,embedding_e5_small,0
+q22,liquidificador philips walita,8895,Philips SBCHL140,baseline_2022,0
+q22,liquidificador philips walita,11007,Philips CED1700,baseline_2022,0
+q22,liquidificador philips walita,11416,Liquidificador RI2044 2L preto - Philips Walita,bm25,2
+q22,liquidificador philips walita,12492,Liquidificador PP RI 2008 2 Velocidades 220v - Walita,char_ngram,2
+q22,liquidificador philips walita,13390,LIQUIDIFICADOR WALITA RI2008/20BR 2V PP 220V,char_ngram,2
+q22,liquidificador philips walita,14598,Liquidificador RI2009/40 Preto 2 velocidades com Filtro Philips 110V,embedding_e5_small,2
+q22,liquidificador philips walita,16578,Liquidificador RI2035 Com Filtro 3 Velocidades 500W 220V - Walita,regex,2
+q22,liquidificador philips walita,16845,Liquidificador Multivelocidades Preto RI2084 Walita 110V,regex,2
+q22,liquidificador philips walita,18120,Philips Walita RI133,bm25,0
+q22,liquidificador philips walita,18181,Philips AZ302,baseline_2022,0
+q22,liquidificador philips walita,18253,Philips Walita RI7546 Elétrica,bm25,0
+q22,liquidificador philips walita,19148,Liquidificador 220v ri2008/30 philips walita,bm25,2
+q22,liquidificador philips walita,19736,Philips SHL5500,baseline_2022,0
+q22,liquidificador philips walita,20482,LIQUIDIFICADOR PHILIPS WALITA 5 VELOCIDADE RI2054/00 PRATA 220V,baseline_2022,2
+q22,liquidificador philips walita,21239,Miniprocessador HR2939/00 Para Liquidificador RI2044 - Philips Walita,bm25,0
+q22,liquidificador philips walita,21804,BATEDEIRA COM TIGELA PHILIPS WALITA RI7725/50 BRANCO 110V,baseline_2022,0
+q22,liquidificador philips walita,22918,Philips Walita RI2044 2 Litros,embedding_e5_base,2
+q22,liquidificador philips walita,23139,Philips Walita RI2034 2 Litros,bm25,2
+q22,liquidificador philips walita,23660,Depilador Satinelle Low End HP2843 - Philips,baseline_2022,0
+q22,liquidificador philips walita,24860,Liquidificador PH5000CL - Philco,embedding_e5_small,1
+q22,liquidificador philips walita,24895,Philips Walita RI2084 2 Litros,bm25,2
+q22,liquidificador philips walita,25533,Philips Walita RI2094 2 Litros,embedding_e5_base,2
+q22,liquidificador philips walita,25904,Philips CEM2000,baseline_2022,0
+q23,notebook samsung core i5,384,"Notebook Intel Core i5, 6GB, 500GB, Tela 14'', DVD-RW, Bluetooth, HDMI - Megaware",embedding_e5_small,1
+q23,notebook samsung core i5,1102,"Notebook Samsung RF511SD6 c/ Intel® Core i5 2ª Geração 2450M 2.50GHz 6GB 1TB DVD-RW Webcam e Saída HDMI LED 15.6"" Windows® 7 Premium - Samsung",baseline_2022,2
+q23,notebook samsung core i5,1153,"NOTEBOOK CCE 525B CORE I5 2GB/500HD WINDOWS 7 HOME BASIC,TELA DE 14 EM LED,WEBCAM: 1.3 MP",embedding_e5_small,1
+q23,notebook samsung core i5,1482,"NOTEBOOK DELL INSPIRON I14R-3245 INTEL CORE I5 2430M(2,4GHZ) 4GB/HD500GB PRETO 14"" WINDOWS 7 HOME BASIC",embedding_e5_small,1
+q23,notebook samsung core i5,2455,Notebook R440 Core I5 4GB 640GB LED 14P Windows 7 Premium Preto - Samsung,baseline_2022,2
+q23,notebook samsung core i5,3430,Notebook 2GB HD320 Dual Core,char_ngram,0
+q23,notebook samsung core i5,3764,"Notebook Samsung RV415AD3 c/AMD® Dual Core 3GB 500GB DVD-RW Webcam e Saída HDMI LED 14"" Windows 7 Basic - Samsung",char_ngram,1
+q23,notebook samsung core i5,4056,Notebook Samsung RV420 Intel Core i5-2410M 2.3 GHz 4096 MB 640 GB,bm25,2
+q23,notebook samsung core i5,4071,Samsung RF511 Intel Core i5-2450M 2.5 GHz 6144 MB 1024 GB,baseline_2022,2
+q23,notebook samsung core i5,4350,Samsung RF511 Intel Core i5-2410M 2.3 GHz 6144 MB 750 GB,baseline_2022,2
+q23,notebook samsung core i5,4705,"Notebook Qbex Intel® Core? i5, MS-1454, 2GB, HD 500GB, 14"", Webcam, HDMI, Wireless ? Linux",embedding_e5_small,1
+q23,notebook samsung core i5,5034,"Notebook Samsung RV411-CD1 c/ Intel® Core i3 380M 2.53GHz 2GB 500GB DVD-RW Webcam e Saída HDMI LED 14"" Windows® 7 Basic - Samsung",char_ngram,1
+q23,notebook samsung core i5,5145,"Notebook Samsung Intel® Core? i3 2310M Segunda Geração, NP-SF311-AD1BR, 4GB, HD 320GB, 13,3? LED, HDMI, Webcam, Bluetooth - Windows® 7 Home Premium",embedding_e5_base,1
+q23,notebook samsung core i5,8498,"Notebook Microboard Intel® Core? i5 430M, Evolution EI565, 6GB, HD 500GB, 14.1"" LED, Webcam, HDMI, Bluetooth - Windows® 7 Home Premium",embedding_e5_small,1
+q23,notebook samsung core i5,9013,"Notebook Core I5 6GB 500GB LED 14"" DVDRW Windows 7 Basic - Megaware",bm25,1
+q23,notebook samsung core i5,10316,"Notebook Intel® Core? i5 g4-1170br, 4 GB/RAM, 640 GB/HD, Wireless, Bluetooth, Windows® 7 Home Premium - HP",embedding_e5_base,1
+q23,notebook samsung core i5,10470,Samsung RC420 Intel Core i5-2410M 2.3 GHz 6144 MB 750 GB,bm25,2
+q23,notebook samsung core i5,10716,Samsung NP300E4A-AD1 Intel Core i5-2450M 2.5 GHz 4096 MB 500 GB,regex,2
+q23,notebook samsung core i5,11718,"Notebook Samsung Shark SF410 c/ Intel® Core i5 460M 2,53GHz 4GB 640GB DVD-RW Webcam 1.3MP LED 14"" Windows 7 Premium - Samsung",baseline_2022,2
+q23,notebook samsung core i5,12290,Notebook LG S430-5452 Intel Core i5-2430M 2.4 GHz 4096 MB 500 GB,embedding_e5_base,1
+q23,notebook samsung core i5,17707,"Notebook Sony Intel® Core? i5-2410M 2.30GHz Turbo Boost 2.90GHz, VPCF223FB/B, 4GB, 500GB, 13,3?, Webcam, Bluetooth, HDMI, Windows® 7 Home Premium",embedding_e5_base,1
+q23,notebook samsung core i5,17866,"Notebook Microboard Iron, Intel® Core? i5 430M, I545, 4GB, HD 500GB, 14.0"", HDMI, Webcam, Wireless, Bluetooth - Windows® 7 Home Premium",embedding_e5_small,1
+q23,notebook samsung core i5,18235,Notebook RV415-AD2 - Samsung,baseline_2022,1
+q23,notebook samsung core i5,19536,"Notebook Samsung Intel® Core? i3 2310M NP-RV420-AD3BR, 3GB, HD 500, 14? LED, HDMI, Webcam, Bluetooth - Windows® 7 Home Basic",embedding_e5_base,1
+q23,notebook samsung core i5,19735,"Notebook Itautec Intel® Core? i5 460M, P220, 6GB, HD 500GB, 14"", Webcam, HDMI, Wireless - Windows® 7 Home Premium",embedding_e5_small,1
+q23,notebook samsung core i5,22051,"Notebook Intel Core i5, Tela 16,4"", 6GB, HD 500GB, Windows 7, HDMI, Bluetooth, VPCF223FB/B - Sony",embedding_e5_base,1
+q23,notebook samsung core i5,22759,"Notebook Itautec Intel® Core? i5-450M, N1151, 4GB, HD 500GB, 15,6 "", Bluetooth, Webcam, HDMI, Wireless - Windows® 7 Home Premium",embedding_e5_small,1
+q23,notebook samsung core i5,23206,"Notebook Microboard Intel® Core? i5 430M, Evolution EI543, 4GB, HD 320GB, Webcam, HDMI, Bluetooth - Windows® 7 Home Premium",embedding_e5_small,1
+q23,notebook samsung core i5,23827,"Notebook Sony Intel® Core i3-2310M - 2.10GHz, VPCEH10EB/W, 4GB, 320GB, 15,5?, Webcam, Bluetooth, HDMI, Windows® 7 Home Basic",embedding_e5_base,0
+q23,notebook samsung core i5,23881,Samsung RF511 Intel Core i5-2450M 2.5 GHz 6144 MB 500 GB,baseline_2022,2
+q23,notebook samsung core i5,23960,Samsung 700Z4A Intel Core i5-2450M 2.5 GHz 6144 MB 1024 GB,baseline_2022,2
+q23,notebook samsung core i5,24712,"Notebook Samsung Série 9 c/ Intel® Core i5 2537M 2ª geração 4GB 128GB (SSD) Webcam e Micro-HDMI LED 13,3"" Preto Windows 7 Premium - Samsung",baseline_2022,2
+q23,notebook samsung core i5,25095,Notebook NP300V4A-AD1 - Samsung,baseline_2022,1
+q23,notebook samsung core i5,26180,Notebook CCE WIN T545P Intel Core i5-450M 2.66 GHz 4096 MB 500 GB,bm25,1
+q24,tablet android,341,Tablet Apple iPad 2 3G 64 GB,hybrid_bm25_e5_small,1
+q24,tablet android,516,Tablet Apple iPad 2 16 GB,bm25,1
+q24,tablet android,1300,Tablet Samsung Galaxy Tab 10.1 GT-P7500UWLZTO - Samsung,embedding_e5_small,2
+q24,tablet android,2579,Tablet Apple iPad 2 32 GB,bm25,1
+q24,tablet android,2779,Tablet Huawei S7 3G 8 GB,bm25,2
+q24,tablet android,3172,Biscoito Alemão First Class 125g - Bahlsen,baseline_2022,0
+q24,tablet android,5212,Tablet Motorola Xoom Wi-Fi 32 GB,bm25,2
+q24,tablet android,5313,Tablet Phaser Kinno 2GB - Phaser Kinno,bm25,1
+q24,tablet android,5495,Tablet Samsung Galaxy Tab 7.7 GT-P6800 3G 16 GB,embedding_e5_small,2
+q24,tablet android,5524,Airfree BabyAir Purificar,baseline_2022,0
+q24,tablet android,5826,TEL.CELULAR LG C660H CLARO DESBL.TOUCH/QWERTY ANDROID 2.3,char_ngram,0
+q24,tablet android,6408,Samsung Galaxy TAB P1000,embedding_e5_small,2
+q24,tablet android,7722,Tablet Positivo TB07STA - Positivo,bm25,1
+q24,tablet android,8160,Tablet Megatron KD-700 Wi-Fi 2 GB,regex,1
+q24,tablet android,8294,Tablet AOC Breeze MW0811 Wi-Fi 4 GB,regex,2
+q24,tablet android,8671,Tablet Asus Eee Pad Slider SL101 Wi-Fi 16 GB,regex,2
+q24,tablet android,9136,Tablet Positivo Ypy 7 Wi-Fi 2 GB,char_ngram,2
+q24,tablet android,9212,Tablet Apple iPad 2 Wi-Fi 32 GB,regex,1
+q24,tablet android,9336,Tablet Samsung Galaxy Tab 7.0 Plus GT-P6200 3G 16 GB,embedding_e5_base,2
+q24,tablet android,9678,Tablet Apple iPad 2 Wi-Fi 16 GB,embedding_e5_base,1
+q24,tablet android,9697,Casinha Alegre em Sacola - Calesita,baseline_2022,0
+q24,tablet android,10297,Biscoito Alemão Choco Leibniz 125g - Bahlsen,baseline_2022,0
+q24,tablet android,11953,Tablet Samsung Galaxy S YP-G70 Wi-Fi 8 GB,embedding_e5_small,2
+q24,tablet android,12339,Whey Protein Optimazer - Cyberform,baseline_2022,0
+q24,tablet android,12728,Tablet Acer Iconia Tab A500 Wi-Fi 16 GB,embedding_e5_base,2
+q24,tablet android,12747,Tablet Multilaser Life Wi-Fi 4 GB,bm25,1
+q24,tablet android,13493,Long Jump Liv Noite De Verão Hayden,baseline_2022,0
+q24,tablet android,13815,Bananada em Pasta 135g - Diet House,baseline_2022,0
+q24,tablet android,13974,"Tablet Samsung Galaxy TAB P6200 Desbloq. TIM c/ Sistema Operacional Android 3.2, Tela 7.0'', Wi-Fi, 3G, Câmera, MP3 Player, Bluetooth, Cabo de Dados e Memória Interna 16GB",char_ngram,2
+q24,tablet android,14606,Tablet Apple iPad 2 64 GB,bm25,1
+q24,tablet android,15023,Tablet Apple iPad 2 3G 32 GB,char_ngram,1
+q24,tablet android,15157,Tablet Samsung Galaxy Tab 8.9 GT-P7300 3G 16 GB,embedding_e5_small,2
+q24,tablet android,15560,Tablet Apple iPad 2 Wi-Fi 64 GB,hybrid_bm25_e5_small,1
+q24,tablet android,18063,"Tablet AOC Breeze c/ Sistema Operacional Android 2.3, Wi-Fi, Tela 8"", MP3 Player e Memória Interna 4GB",bm25,2
+q24,tablet android,19022,Vacuum Bag Cabide P 80x68cm - Profisa,baseline_2022,0
+q24,tablet android,19833,Tablet Motorola Xoom 3G 32 GB,bm25,2
+q24,tablet android,21142,Tablet Samsung Galaxy Tab 10.1 Wi-Fi P7510 - Samsung,embedding_e5_small,2
+q24,tablet android,22829,LV FIGURA 25CM Kilowog,baseline_2022,0
+q24,tablet android,23705,Tablet Samsung Galaxy Tab 7.0 Plus GT-P6210 Wi-Fi 16 GB,embedding_e5_small,2
+q24,tablet android,23987,Tablet Samsung Galaxy Tab 10.1 GT-P7500 3G 16 GB,embedding_e5_small,2
+q24,tablet android,24505,Nobreak Senoidal GII c/ 2 Anos de Garantia - 2200VA S. 120V - NHS,baseline_2022,0
+q24,tablet android,24594,Tablet Apple iPad 2 3G 16 GB,char_ngram,1
+q24,tablet android,24610,Tablet Asus Eee Pad Transformer TF101 Wi-Fi 16 GB,regex,2
+q25,berço infantil,21,Burigotto AT6 Berço,bm25,1
+q25,berço infantil,1337,Peg-Pérego Pliko P3 Clássico Berço,baseline_2022,1
+q25,berço infantil,1611,Colchão Infantil Espuma Paropas Berço Maximus D23 60x130cm,bm25,1
+q25,berço infantil,2153,Berço Alumínio Baby Style Rosa,embedding_e5_small,2
+q25,berço infantil,2368,Ortobom Baby Light Infantil,embedding_e5_base,0
+q25,berço infantil,2610,Long Jump Liv Noite De Verão Alexis,baseline_2022,0
+q25,berço infantil,3256,Jogo Berço 3 Peças Malha Viés Colorido - Magia e Fantasia,regex,1
+q25,berço infantil,3700,Edredom de Berço Disney Princess - Fitedi,regex,1
+q25,berço infantil,4514,Berco camping ixbe5021vdun verde burigotto,regex,2
+q25,berço infantil,6270,Botinha Infantil Infantil Pompom Rosa Pimpolho,char_ngram,0
+q25,berço infantil,6399,Berco Desmontavel Turim Fit Red - Infanti,char_ngram,2
+q25,berço infantil,6812,Calesita Cachorro,baseline_2022,0
+q25,berço infantil,8156,Kit Infantil em Inox - Tramontina,char_ngram,0
+q25,berço infantil,8229,Berço Tecla Baby - Branco,hybrid_bm25_e5_small,2
+q25,berço infantil,8263,Infanti Turim Dobrável,embedding_e5_base,0
+q25,berço infantil,9661,Paropas Maximus Infantil,embedding_e5_base,0
+q25,berço infantil,9865,Gelius Rally Infantil,embedding_e5_base,0
+q25,berço infantil,10212,Móbile de Berço Soother Day & Night - Tiny Love,baseline_2022,1
+q25,berço infantil,11673,Infanti Stripe Berço,bm25,1
+q25,berço infantil,12046,Berço Infantil Branco com Detalhe Decorativo em Rosa - IF440-RO - Branco e Rosa - Kappesberg,bm25,2
+q25,berço infantil,13450,Lenox Buddy Berço,baseline_2022,1
+q25,berço infantil,13493,Long Jump Liv Noite De Verão Hayden,baseline_2022,0
+q25,berço infantil,14898,Carrinho para Bebê Infanti Trentino S281 Berço,char_ngram,1
+q25,berço infantil,15163,Gazin Nana Baby Infantil,char_ngram,0
+q25,berço infantil,15354,Berço sim carin c/rodizio br/rosa 34000095 zanzini,regex,2
+q25,berço infantil,15419,Colchão Infantil Espuma Paropas Berço Kids D20 60x130cm,bm25,1
+q25,berço infantil,15734,"Saia para Berço 3804 - 135x70cm, 100% Algodão - Batistela Baby",regex,1
+q25,berço infantil,15910,Sapatilha Infantil Toy Rosa Klin,embedding_e5_small,0
+q25,berço infantil,16200,Berço com Rodízio Nana-Neném Branco - Henn,baseline_2022,2
+q25,berço infantil,16276,Berço Alumínio Baby Style Azul,embedding_e5_small,2
+q25,berço infantil,16401,Hércules Moranguinho Berço,bm25,1
+q25,berço infantil,17558,Long Jump LIV Férias Tropicais Alexis,baseline_2022,0
+q25,berço infantil,18048,Sandalia Infantil Branca Pimpolho,embedding_e5_small,0
+q25,berço infantil,18907,Carro Berço Sporting Marron c/ Cinza - Prime Baby,regex,1
+q25,berço infantil,19147,Infanti Bari Dobrável,embedding_e5_base,0
+q25,berço infantil,19462,Infanti Ravello Berço,bm25,1
+q25,berço infantil,20069,Berço Infantil Branco com Detalhe Decorativo em Azul - IF440-AZ - Branco e Azul - Kappesberg,bm25,2
+q25,berço infantil,20074,Burigotto Baby Coupé,embedding_e5_base,0
+q25,berço infantil,20417,Berço Cercado Play'N Sleep Azul - Lenox,regex,2
+q25,berço infantil,20764,"Andador Articulado, Dobrável Simples - Infantil - Dilepe",baseline_2022,0
+q25,berço infantil,21031,Berço Sacola Verona Plus Tubline - Lilás/Rosa - Tubline,regex,1
+q25,berço infantil,21593,Ayoba Millenium 7033 Berço,regex,1
+q25,berço infantil,21990,Berço Portátil - Girotondo,bm25,2
+q25,berço infantil,23046,Carrinho de Bebê Berço-Passeio Reversível - Azul Estampado Ursinho - Angel Baby,regex,1
+q25,berço infantil,23442,Capa para Berço Antí-Ácaro Super Macia Super Soft - Alergoshop,regex,1
+q25,berço infantil,24127,Berço 2015 Branco Fosco - Multimóveis,baseline_2022,2
+q25,berço infantil,24179,Angel Baby Biway Berço,embedding_e5_small,1
+q25,berço infantil,24278,Caixa Musical para Berço Physiotoys - Bébé Confort,regex,1
+q25,berço infantil,24403,Berço Portátil Lilás - Cosco,regex,2
+q25,berço infantil,24632,Sapatilha Infantil Nina Branco Pampili,embedding_e5_small,0
+q25,berço infantil,24841,Sapatilha Infantil Branca Pimpolho,embedding_e5_small,0
+q26,cadeira de escritorio,376,Cadeira Giratória Executiva Capri - Preto - Designflex,regex,2
+q26,cadeira de escritorio,1129,Cadeira para Refeição Contemp Dots - Graco,baseline_2022,1
+q26,cadeira de escritorio,1235,Cadeira de Escritório Executivo c/ Braço Corino - Branco - Assentex,bm25,2
+q26,cadeira de escritorio,1357,Cadeira Office Doctor em Courino c/ Função Relax - Cinza - Importado,regex,2
+q26,cadeira de escritorio,1916,Cadeira para Automovel Adventure 2-3 Olivia,baseline_2022,1
+q26,cadeira de escritorio,2749,"Cadeira de Escritório em P.U. (couro sintético) Giratória, Regulagem de Altura, Rodízio - 6005H - Preta - Classic Home",bm25,2
+q26,cadeira de escritorio,2997,Cadeira Para Escritório Presidente Com Respiro no Encosto e Multiplos Ajustes  - Importada - Seatwell,bm25,2
+q26,cadeira de escritorio,3274,Philco Comfort Cerâmica,embedding_e5_small,0
+q26,cadeira de escritorio,3858,Cadeira Office Phanton Preto - Importado,regex,2
+q26,cadeira de escritorio,4325,Taiff Saffira Cerâmica,embedding_e5_small,0
+q26,cadeira de escritorio,4431,Cadeira home office fusion branca,regex,2
+q26,cadeira de escritorio,5017,Cadeira home office fusion vermelha,embedding_e5_small,2
+q26,cadeira de escritorio,5656,Cadeira Secretaria Giratória a Gás - Preto - Designflex,regex,2
+q26,cadeira de escritorio,5940,Cadeira de Escritório Longarina c/ 3 Lugares - Azul - Multivisão,bm25,1
+q26,cadeira de escritorio,6114,"Cadeira de escritório secretária, giratória, c/ regulagem de altura a gás, rodízio - 6213H - Preta - Classic Home",bm25,2
+q26,cadeira de escritorio,7034,Cadeira Office de Massagem Bivolt CM5491 - Relax Medic,regex,1
+q26,cadeira de escritorio,7044,Cadeira para Automovel Adventure 2-3 Alex,baseline_2022,1
+q26,cadeira de escritorio,8541,Mesa Politorno Resende,embedding_e5_base,0
+q26,cadeira de escritorio,8720,Cadeira home office organic cinza,regex,2
+q26,cadeira de escritorio,9061,Cadeira Office Doctor em Courino  Branca - Importado,regex,2
+q26,cadeira de escritorio,10024,Cadeira Home Office One c/ Encosto em Nylon e Regulagem de Altura Preta,regex,2
+q26,cadeira de escritorio,10338,Cadeira Para Escritório Presidente com Regulagem de Altura e Encosto para Cabeça - Importada - Seatwell,bm25,2
+q26,cadeira de escritorio,10709,Cesto Redondo Para Escritório Ø 27 X 30Cm - 12 Lts,char_ngram,0
+q26,cadeira de escritorio,11070,Cadeira office chromium,embedding_e5_small,2
+q26,cadeira de escritorio,11512,Cadeira de escritório giratória NF-306C - Preta - Classic Home,bm25,2
+q26,cadeira de escritorio,13486,Cadeira de Escritório Giratória H-8678FA - Branca - Classic Home,bm25,2
+q26,cadeira de escritorio,13546,Carretilha Utilitá,embedding_e5_small,0
+q26,cadeira de escritorio,13993,Cadeira de Balanço Minha Infância - Fisher-Price,baseline_2022,1
+q26,cadeira de escritorio,15226,Cadeira de escritório giratória NFX 251 Preta - Importado,bm25,2
+q26,cadeira de escritorio,15671,Mueller Preludio de Mesa,embedding_e5_base,0
+q26,cadeira de escritorio,17058,Mesa de Passar Sabrina Mor,embedding_e5_base,0
+q26,cadeira de escritorio,17517,Cadeira office detroit preta,embedding_e5_small,2
+q26,cadeira de escritorio,17932,Cadeira Office Way c/ Encosto em Nylon e Função Relax - Preta - Importado,regex,2
+q26,cadeira de escritorio,19062,Cadeira Giratória Executiva Capri - Azul - Designflex,regex,2
+q26,cadeira de escritorio,19888,Mueller Questo de Mesa,embedding_e5_base,0
+q26,cadeira de escritorio,20799,Cadeira de Balanço Minha Infância - Fisher-Price,baseline_2022,1
+q26,cadeira de escritorio,21465,Cadeira Refeição Prima Pappa Diner - Orsi Arancio - Peg-Pérego,baseline_2022,1
+q26,cadeira de escritorio,21548,Cadeira Giratória com Assento/Encosto Plastico - Vermelho - Designflex,regex,2
+q26,cadeira de escritorio,21893,Cadeira para Automovel Evolva 1-2-3 Felix,baseline_2022,1
+q26,cadeira de escritorio,22085,Cadeira Para Escritório Executiva Casey - Importada - Seatwell,baseline_2022,2
+q26,cadeira de escritorio,22733,Cadeira Presidente c/ Rodízio - Azul - Multivisão,regex,2
+q26,cadeira de escritorio,24580,"Cadeira Cromada Pop, assento e encosto em corino preto - AGO",baseline_2022,1
+q26,cadeira de escritorio,25300,"Cadeira de escritório em P.U. (couro sintético) c/ base cromada, função relax (reclinável), giratória, regulagem de altura a gás, rodízio - 6171H - Preta - Classic Home",hybrid_bm25_e5_small,2
+q26,cadeira de escritorio,26117,Cadeira 260 Encosto Tramado Palha - Fibrillare,baseline_2022,1
+q27,pneu aro 14,379,Pneu de Passeio Aro 18 80/100-18 M/C 47P Mandu - Pirelli,bm25,1
+q27,pneu aro 14,644,Pneu 185/65R14 85T P400 - Pirelli,char_ngram,2
+q27,pneu aro 14,1131,Pneu Michelin 175 65 R14 82T Energy XM1 TL,baseline_2022,2
+q27,pneu aro 14,1347,Pirelli Cinturato P4 175/70 R 14 Polegadas,regex,2
+q27,pneu aro 14,1420,TV CCE 14 HPS 1497P,bm25,0
+q27,pneu aro 14,1476,Michelin Energy XM1 185/65 R 14 Polegadas,regex,2
+q27,pneu aro 14,2306,Arno Nitro Hepa 1400 W,embedding_e5_small,0
+q27,pneu aro 14,3136,Pirelli P6000 185/60 R 14 Polegadas,regex,2
+q27,pneu aro 14,3909,Pneu Michelin 195 60 R15 88H Pilot Primacy,baseline_2022,1
+q27,pneu aro 14,5395,Bicicleta Tropical Aro 26 Freio Inglês Violeta - Monark,baseline_2022,0
+q27,pneu aro 14,5630,Pneu de Passeio Aro 18 90/90-18 M/C 51P Mandu - Pirelli,bm25,1
+q27,pneu aro 14,5755,Cafeteira NCB 14 14 Cafés Branca 110v - Britânia,bm25,0
+q27,pneu aro 14,5778,Airis Amici A4,embedding_e5_base,0
+q27,pneu aro 14,6226,Pneu 175/65R14 82T P400 - Pirelli,char_ngram,2
+q27,pneu aro 14,6285,Pneu 185/60R14 82H P6000 - Pirelli,char_ngram,2
+q27,pneu aro 14,6908,Pneu Bridgestone Potenza RE740 175/65 R 14 Polegadas,baseline_2022,2
+q27,pneu aro 14,7176,Britânia BRPA4 Arroz,embedding_e5_small,0
+q27,pneu aro 14,7382,Pneu General Tire Altimax RT 175/70 R 14 Polegadas,baseline_2022,2
+q27,pneu aro 14,7792,Arno AGPO 1200 W,embedding_e5_base,0
+q27,pneu aro 14,10248,Pneu Bridgestone Potenza RE740 195/70 R 14 Polegadas,baseline_2022,2
+q27,pneu aro 14,10541,Pirelli P400 Touring 185/65 R 14 Polegadas,regex,2
+q27,pneu aro 14,10579,General Tire Altimax RT 175/65 R 14 Polegadas,regex,2
+q27,pneu aro 14,11214,Britânia DUN-14,bm25,0
+q27,pneu aro 14,12075,"Calculadora de Mesa c/Bobina Logos 804 T, 14 Dígito - Olivetti",baseline_2022,0
+q27,pneu aro 14,12207,Arno DD40,embedding_e5_base,0
+q27,pneu aro 14,15171,Cadence Pan254 Arroz,embedding_e5_small,0
+q27,pneu aro 14,15685,Pneu Michelin 195 60 R15 88H XH-AS,baseline_2022,1
+q27,pneu aro 14,15710,Arlen TRIO 15,embedding_e5_small,0
+q27,pneu aro 14,16170,Michelin Energy XM1 185/70 R 14 Polegadas,regex,2
+q27,pneu aro 14,16314,Michelin Energy XM1 175/70 R 14 Polegadas,regex,2
+q27,pneu aro 14,16696,Pneu Pirelli P7 195/65 R 15 Polegadas,char_ngram,1
+q27,pneu aro 14,18595,Curtlo Trail Lite 14L,embedding_e5_small,0
+q27,pneu aro 14,19413,Pneu 165/70R13 79T P400 - Pirelli,baseline_2022,1
+q27,pneu aro 14,20915,Pirelli P400 Touring 185/70 R 14 Polegadas,regex,2
+q27,pneu aro 14,20994,Wap Aero Clean 1400 W,embedding_e5_small,0
+q27,pneu aro 14,21296,Art des Caves Avant-Garde 14 14 Garrafas,bm25,0
+q27,pneu aro 14,21395,Bandeirante Batman 14,bm25,0
+q27,pneu aro 14,21761,Arno Access 15,embedding_e5_base,0
+q27,pneu aro 14,21818,Pneu altimax 185/65 r14 rt,char_ngram,2
+q27,pneu aro 14,21988,General Tire Altimax HP 185/60 R 14 Polegadas,regex,2
+q27,pneu aro 14,22046,Britânia NCB-14 Elétrica,bm25,0
+q27,pneu aro 14,22500,Pirelli Cinturato P4 175/65 R 14 Polegadas,regex,2
+q27,pneu aro 14,22516,Bandeirante X-Bike Bakugan 14,embedding_e5_small,0
+q27,pneu aro 14,22609,Lanterna 14 LEDs Preta Fixxar,bm25,0
+q27,pneu aro 14,22861,Pneu 185/70 R14 87H P400 - Pirelli,char_ngram,2
+q27,pneu aro 14,24254,Pneu 195/60R14 85H P6000 - Pirelli,regex,2
+q27,pneu aro 14,24258,Bandeirante X-Bike Cars 2 14,hybrid_bm25_e5_small,0
+q27,pneu aro 14,24333,Pneu Bridgestone Potenza RE740 185/65 R 14 Polegadas,baseline_2022,2
+q27,pneu aro 14,24711,"Bicicleta Reebok Santin 14"" - 21V - Aro 24",embedding_e5_small,0
+q27,pneu aro 14,25389,Arno Ultragliss 40,embedding_e5_base,0
+q27,pneu aro 14,25934,Pneu de Passeio Aro 18 80/100-18 47P CDemon - Pirelli,bm25,1
+q28,boneca barbie,64,Boneca Stephany Teen Princess - Baby Brink,embedding_e5_base,1
+q28,boneca barbie,512,Boneca Baby Alive - Hasbro,embedding_e5_base,1
+q28,boneca barbie,1442,Lider Tacos Barbie,embedding_e5_base,1
+q28,boneca barbie,1479,Conjunto Barbie Branco Malwee,embedding_e5_small,1
+q28,boneca barbie,1841,Barbie Real Bicicleta com Boneca - Mattel,bm25,2
+q28,boneca barbie,2156,Boneca Barbie Coleção Samantha - Mattel,bm25,2
+q28,boneca barbie,2167,Boneca Barbie Quero Ser Artista - Mattel,char_ngram,2
+q28,boneca barbie,2610,Long Jump Liv Noite De Verão Alexis,baseline_2022,1
+q28,boneca barbie,2650,Calça Jeans Barbie Blue Dark Skinny Malwee,regex,1
+q28,boneca barbie,3226,Boneca Barbie Fashionistas Sassy + Animal de Estimação - Mattel,embedding_e5_small,2
+q28,boneca barbie,3552,Boneca Barbie Fashionistas Glam + Animal de Estimação - Mattel,embedding_e5_small,2
+q28,boneca barbie,3678,Boneca Barbie Móveis e Boneca Deluxe Pátio - Mattel,bm25,2
+q28,boneca barbie,5119,Mototico Barbie Passeio,embedding_e5_base,1
+q28,boneca barbie,5283,Baldinho de Praia Barbie Lilás - Líder,regex,1
+q28,boneca barbie,6812,Calesita Cachorro,baseline_2022,0
+q28,boneca barbie,6889,Boneca Charmosa - Cotiplás,baseline_2022,1
+q28,boneca barbie,7019,Cama Barbie Happy Solteiro Star 1A Branco e Rosa - Pura Magia 102x194cm,regex,1
+q28,boneca barbie,7205,Barbie e o Segredo das Fadas Boneca Barbie Fada Básica Rosa - Mattel,bm25,2
+q28,boneca barbie,8769,Sandália Branca Ortopé,embedding_e5_base,0
+q28,boneca barbie,8835,Long Jump LIV Hayden,baseline_2022,1
+q28,boneca barbie,9303,Boneca Barbie Princesa Noiva - Mattel,bm25,2
+q28,boneca barbie,10337,Boneca Neném Nanando - Cotiplás,baseline_2022,1
+q28,boneca barbie,11045,Mattel Barbie Family Irmãs da Barbie Skipper,regex,2
+q28,boneca barbie,12291,Boneca Barbie Nikki Praia - Mattel,bm25,2
+q28,boneca barbie,12597,Boneca Barbie Real ccom Móvel Guarda-Roupa - Mattel,regex,2
+q28,boneca barbie,13365,Lider Bolichão Barbie,embedding_e5_small,1
+q28,boneca barbie,13477,Boneca Barbie Fashionistas Vestido de Gala Sweetie - Mattel,regex,2
+q28,boneca barbie,13493,Long Jump Liv Noite De Verão Hayden,baseline_2022,1
+q28,boneca barbie,14690,Boneca Liv - Daniela Outdoors - Long Jump,baseline_2022,1
+q28,boneca barbie,15135,Boneca Barbie Glitter Manicure Fashion Fever - Mattel,embedding_e5_small,2
+q28,boneca barbie,15693,Carro Real da Barbie com Boneca - Mattel,bm25,2
+q28,boneca barbie,17019,Boneca Barbie Roupa e Acessórios Vestido Rosa e Luva Preta - Mattel,regex,2
+q28,boneca barbie,17038,Boneca Barbie Quero Ser Bailarina - Mattel,regex,2
+q28,boneca barbie,17558,Long Jump LIV Férias Tropicais Alexis,baseline_2022,1
+q28,boneca barbie,18351,Boneca Aninha Morena M - Buba,baseline_2022,1
+q28,boneca barbie,19139,Bandeirante Moto Cross Barbie,embedding_e5_base,1
+q28,boneca barbie,19667,Barbie - Escola de Princesas - Mini Fada & Dragão - Azul - Mattel,regex,1
+q28,boneca barbie,20564,Casinha de Boneca 90g - Montevérgine,baseline_2022,0
+q28,boneca barbie,21150,Barbie - Cômodas da Casa c/ Boneca - Mattel,bm25,2
+q28,boneca barbie,21432,Casa de Boneca da Barbie Glam 2011 - Mattel,char_ngram,1
+q28,boneca barbie,21917,Barbie Móveis e Boneca Deluxe Quarto - Mattel,bm25,2
+q28,boneca barbie,21983,Boneca Barbie Esporte com as Irmãs Barbie & Stacie - Mattel,bm25,2
+q28,boneca barbie,22410,Boneca Barbie Figura Básica Glitz Roxo - Mattel,regex,2
+q28,boneca barbie,22677,Mattel Barbie Vida de Sereia 2 Amigos do Mar,regex,1
+q28,boneca barbie,23512,Boneca Barbie Família Tenda Acampamento - Mattel,regex,2
+q28,boneca barbie,25722,Barbie sereia - verde e amarela t7403/t7406 mattel,regex,2
+q28,boneca barbie,26143,Barbie Collector Crepúsculo - Edward - Mattel,regex,2
+q29,aspirador de po,28,"Aspirador de Pó Ambiance 1400w, Filtro Permanente, Bico Múltiplo e de Canto, Preto 220v - Wap",regex,2
+q29,aspirador de po,326,Aspirador de Pó Automotivo 12V MyCar Acessórios,hybrid_bm25_e5_small,2
+q29,aspirador de po,398,Aspirador de Pó e Água A2104 220v - Karcher,regex,2
+q29,aspirador de po,1448,Aspirador Água e Pó Flex S 220V,bm25,2
+q29,aspirador de po,1523,Aspirador de PÓ ASP DUST OFF BRD700 220V PR/CZ BRITANIA,embedding_e5_small,2
+q29,aspirador de po,2061,Aspirador de po pa30 054902010 vm c/pt 220v philco,embedding_e5_small,2
+q29,aspirador de po,4184,Tubo de Extensão p/ Aspirador de Pó 1 7/8 para WD-0635 VT-1708 - Ridgid,baseline_2022,1
+q29,aspirador de po,4287,Aspirador de Pó Leve Pedal Liga/Desliga Branco 1300w com Saco de Pó Permanente 220v - Consul,embedding_e5_small,2
+q29,aspirador de po,6094,Aspirador Zion Classic AP-07 1000w - Mondial,regex,2
+q29,aspirador de po,7388,Aspirador Ingenio 1600W INGE9 Electrolux 110V,regex,2
+q29,aspirador de po,7782,Aspirador de Pó Nitro Hepa 1400W - Arno,baseline_2022,2
+q29,aspirador de po,8446,Aspirador Nasal NUK,char_ngram,0
+q29,aspirador de po,8543,"Aspirador de Pó e Água Energy 1400w, 20 Litros, Bico de Canto, Múltiplo e Universal 220v - Wap",regex,2
+q29,aspirador de po,9649,Aspirador de Pó Portátil Ergo3 Tangerine 220v - Electrolux,regex,2
+q29,aspirador de po,9713,Aspirador de Pó Wap Carpet Cleaner - 1.600W,baseline_2022,2
+q29,aspirador de po,9819,Aspirador de Pó Turbo 1640W Philco 110V,bm25,2
+q29,aspirador de po,9846,Aspirador de Pó ASP1600W Britania 110V,bm25,2
+q29,aspirador de po,10364,Aspirador aguapó h2po az/cinza 220v arno,regex,2
+q29,aspirador de po,10418,Aspirador de Pó VCL 002 1200w - Vicini,baseline_2022,2
+q29,aspirador de po,10702,Aspirador Pó e Líquido Residencial Compact Cinza 1250w - Lavor,regex,2
+q29,aspirador de po,12227,Aspirador de Pó Arno Nitro HEPA 110V,char_ngram,2
+q29,aspirador de po,13378,Aspirador de Pó Britânia ASP1610 - 1.200W,bm25,2
+q29,aspirador de po,13507,Aspirador de Pó / Água Brastemp Ative B7M16A4,regex,2
+q29,aspirador de po,14072,Aspirador Para Carro 60 W,char_ngram,2
+q29,aspirador de po,14632,Aspirador de Pó / Água Brastemp Clean B7B14A4,regex,2
+q29,aspirador de po,14949,Aspirador de Pó Neo 1200W 220V - Electrolux,char_ngram,2
+q29,aspirador de po,15003,ASPIRADOR DE PO MONDIAL ZION 1500 AP03 110V,embedding_e5_small,2
+q29,aspirador de po,15562,Aspirador de Pó 1600W Compacteo Arno 110V,bm25,2
+q29,aspirador de po,15961,Aspirador de Pó / Água Wap Hydro A25,char_ngram,2
+q29,aspirador de po,16676,Aspirador Profissional T 12/1 - 220 V - Karcher,regex,2
+q29,aspirador de po,16864,Aspirador de Pó Prático 1400W - Lavor,baseline_2022,2
+q29,aspirador de po,17013,"Aspirador de Pó e Água Aero Clean Filtro Hepa, 1400w, 15 Litros, Bico Múltiplo, Canto e Escova 110v - Wap",embedding_e5_base,2
+q29,aspirador de po,18674,Aspirador de Pó - ASP1400 de 110v - Britânia,bm25,2
+q29,aspirador de po,18705,Aspirador de Pó One3 Preto 1600W Electrolux 110V,embedding_e5_small,2
+q29,aspirador de po,18717,Aspirador de po fit cleaner 1600w verm 127v lg,embedding_e5_small,2
+q29,aspirador de po,19058,Aspirador de Pó Nitro Cyclonic Arno 110V,bm25,2
+q29,aspirador de po,19820,Aspirador de Pó ASP 1610 - Britânia,bm25,2
+q29,aspirador de po,21127,Aspirador de Pó / Água Britânia Turbo ASP1650,bm25,2
+q29,aspirador de po,22700,Aspirador de Pó c/ Filtro Hepa 1500W - De Longhi,baseline_2022,2
+q29,aspirador de po,22782,Aspirador de Pó Electrolux Titan Ergoeasy Vermelho - 1.450W,baseline_2022,2
+q29,aspirador de po,22876,Aspirador de Pó e Liquidos WD-1670 - 110V - Ridgid,baseline_2022,2
+q29,aspirador de po,23652,Aspirador de pó nile 110v 1400w vc6814nrt prata lg,regex,2
+q29,aspirador de po,23961,Aspirador de pó nitro nit1 127v 2720008030 pr arno,embedding_e5_base,2
+q29,aspirador de po,24626,Aspirador de po one maxx/1600w am 220v electrolux,regex,2
+q29,aspirador de po,24827,Bico Utilitário p/ Aspirador de Pó 2 1/2 VT 2509 - Ridgid,baseline_2022,1
+q29,aspirador de po,25775,Aspirador de Pó Whisper Profissional 1300W - Lavor,baseline_2022,2
+q30,jogo ps3,2658,Game child of eden ps3 ubisoft,embedding_e5_small,2
+q30,jogo ps3,2870,Game God of War III - PS3,embedding_e5_small,2
+q30,jogo ps3,3007,Jogo super street fighter iv  ps3 - capcom,regex,2
+q30,jogo ps3,3243,Jogo PS3 Star Wars The Clone Wars Republic Heroes,regex,2
+q30,jogo ps3,3945,Jogo PS3 Superstars Tennis Sega,baseline_2022,2
+q30,jogo ps3,5269,Jogo PS3 The Golden Compass Sega,char_ngram,2
+q30,jogo ps3,5422,Jogo Street Fighter 4 - PS3,baseline_2022,2
+q30,jogo ps3,7001,Jogo sonic & sega all-stars racing ps3 - sega,regex,2
+q30,jogo ps3,8076,Jogo tekken 6  ps3 - namco,bm25,2
+q30,jogo ps3,9174,Jogo PS3 Far Cry 2 UB34408 Ubisoft,regex,2
+q30,jogo ps3,10450,Jogo guitar hero van halen ps3 - activision,baseline_2022,2
+q30,jogo ps3,10750,Jogo PS3 Blur,bm25,2
+q30,jogo ps3,10951,Jogo band hero software ps3 - activision,baseline_2022,2
+q30,jogo ps3,11226,Jogo PS3 The Chronicles of Riddick: Assault on Dar,regex,2
+q30,jogo ps3,11284,Jogo PS3 Lost Planet: Extreme Conditions Capcom,baseline_2022,2
+q30,jogo ps3,11551,Jogo Assassin's Creed Revelations - PS3,bm25,2
+q30,jogo ps3,15239,Jogo PS3 Tony Hawk: Ride,bm25,2
+q30,jogo ps3,19864,Game wall e sony ps3,embedding_e5_small,2
+q30,jogo ps3,21226,Jogo resident evil 5 ps3,char_ngram,2
+q30,jogo ps3,22867,Jogo PS3 - 007: Blood Stone,baseline_2022,2
+q30,jogo ps3,23399,Jogo PS3 Assassin's Creed Ubisoft,baseline_2022,2
+q30,jogo ps3,24114,Jogo PS3 Devil My Cry 4 Capcom,baseline_2022,2
+q30,jogo ps3,24689,Jogo Call of Duty - Modern Warfare 3 - PS3,char_ngram,2
+q30,jogo ps3,24884,Jogo PS3 Fallout 3 Bethesda,baseline_2022,2
+q30,jogo ps3,25231,Jogo james cameron's avatar:the game ps3 - ubisoft,regex,2
+q30,jogo ps3,25944,Jogo Little Big Planet - PS3,bm25,2
+q30,jogo ps3,26111,Jogo bayonetta ps3 - sega,baseline_2022,2

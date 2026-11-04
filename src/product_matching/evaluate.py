@@ -195,7 +195,7 @@ def _round(d: dict) -> dict:
 
 
 def evaluate_extraction(world: World) -> dict:
-    from .baseline_2022 import LegacyClassifiers, LegacySearch
+    from .baseline_2022 import extraction_outputs, run_isolated
     from .extraction import Extractor, alnum
     from .labeling import read_labels
     from .metrics import abstaining_scores, presence_scores
@@ -208,8 +208,10 @@ def evaluate_extraction(world: World) -> dict:
     t0 = time.time()
     extractor = Extractor().fit(train)
     fit_seconds = time.time() - t0
-    legacy = LegacyClassifiers().fit(train)
-    legacy_search = LegacySearch().fit(train, legacy)
+    check = read_labels("extraction_check.csv").assign(id=lambda d: d["id"].astype(int))
+    assert test[check["id"]].all(), "hand-checked names must come from the test split"
+    check_names = df.loc[check["id"], "nome"].tolist()
+    legacy = run_isolated(extraction_outputs, train, held["nome"].tolist(), check_names)
 
     results: dict = {
         "n_listings": {"train": len(train), "test": len(held)},
@@ -224,7 +226,6 @@ def evaluate_extraction(world: World) -> dict:
     for fname in ("tipo", "categoria", "marca"):
         has = held[fname].notna().to_numpy()
         gold = held.loc[has, fname].tolist()
-        names = held.loc[has, "nome"]
         new = [p[fname]["value"] for p, h in zip(preds, has, strict=True) if h]
         conf = np.array([p[fname]["confidence"] for p, h in zip(preds, has, strict=True) if h])
         raw = extractor_raw(extractor, fname, held.loc[has, "nome_norm"])
@@ -234,7 +235,11 @@ def evaluate_extraction(world: World) -> dict:
             "n_classes_train": int(train[fname].nunique()),
             "majority_class": majority,
             "baseline_majority": _round(abstaining_scores(gold, [majority] * len(gold))),
-            "baseline_2022": _round(abstaining_scores(gold, legacy.predict(names, fname))),
+            "baseline_2022": _round(
+                abstaining_scores(
+                    gold, [p for p, h in zip(legacy["fields"][fname], has, strict=True) if h]
+                )
+            ),
             "new_no_abstention": _round(abstaining_scores(gold, raw)),
             "new": _round(abstaining_scores(gold, new)),
         }
@@ -242,11 +247,8 @@ def evaluate_extraction(world: World) -> dict:
     _plot_coverage(curves, extractor.thresholds())
 
     # cor / modelo: scored against the 200 hand-checked names (None is a valid answer)
-    check = read_labels("extraction_check.csv").assign(id=lambda d: d["id"].astype(int))
-    assert test[check["id"]].all(), "hand-checked names must come from the test split"
-    names = df.loc[check["id"], "nome"].tolist()
-    chk_preds = extractor.extract_many(names)
-    nearest = legacy_search.nearest_fields(names)
+    chk_preds = extractor.extract_many(check_names)
+    nearest = legacy["nearest"]
     gold_cor = [v or None for v in check["cor"]]
     gold_mod = [alnum(v) or None for v in check["modelo"]]
     majority_cor = train["cor"].dropna().value_counts().index[0]
@@ -324,6 +326,60 @@ def _plot_coverage(curves: dict, thresholds: dict) -> None:
     plt.close(fig)
 
 
+def evaluate_search(world: World) -> dict:
+    from .config import EMBEDDING_MODEL_LARGE
+    from .metrics import ndcg_at_k, recall_at_k
+    from .search import build_systems, read_judgments, read_queries, run_system
+
+    queries = read_queries()
+    judgments = read_judgments()
+    emb_large = Encoder(EMBEDDING_MODEL_LARGE).encode_catalog(world.df["nome"].tolist())
+    systems = build_systems(world.df, world.emb, emb_large, queries["query"].tolist())
+
+    per_query: dict[str, dict] = {}
+    summary: dict[str, dict] = {}
+    for name, system in systems.items():
+        ndcgs, recalls, strict, unjudged, latency = [], [], [], 0, []
+        for q in queries.itertuples():
+            rel = judgments.get(q.query_id, {})
+            t = time.perf_counter()
+            ranked = run_system(system, q.query, 10)
+            latency.append((time.perf_counter() - t) * 1000)
+            unjudged += sum(1 for d in ranked if d not in rel)
+            n, r = ndcg_at_k(ranked, rel, 10), recall_at_k(ranked, rel, 10)
+            s = recall_at_k(ranked, rel, 10, min_grade=2)
+            ndcgs.append(n)
+            recalls.append(r)
+            strict.append(s)
+            per_query.setdefault(q.query_id, {"query": q.query})[name] = round(n, 4)
+        mean = lambda xs: float(np.mean(xs))  # noqa: E731
+        summary[name] = {
+            "ndcg@10": round(mean(ndcgs), 4),
+            "ndcg@10_ci95": _ci(lambda a: float(np.mean(a.astype(float))), ndcgs),
+            "recall@10": round(mean(recalls), 4),
+            "recall@10_ci95": _ci(lambda a: float(np.mean(a.astype(float))), recalls),
+            "recall@10_grade2": round(mean(strict), 4),
+            "unjudged_in_top10": unjudged,
+            # the 2022 baseline runs in a separate process and is precomputed: not measured
+            "median_latency_ms": None
+            if name == "baseline_2022"
+            else round(float(np.median(latency)), 1),
+        }
+    best = max((n for n in summary if n != "baseline_2022"), key=lambda n: summary[n]["ndcg@10"])
+    wins = sum(per_query[q][best] > per_query[q]["baseline_2022"] for q in per_query)
+    return {
+        "n_queries": len(queries),
+        "n_judgments": sum(len(v) for v in judgments.values()),
+        "relevant_per_query_min": min(
+            sum(1 for g in v.values() if g >= 1) for v in judgments.values()
+        ),
+        "systems": summary,
+        "best_new_system": best,
+        "queries_where_best_beats_baseline": wins,
+        "per_query_ndcg@10": per_query,
+    }
+
+
 def run_all(sections: tuple[str, ...] = ("matching", "extraction", "search")) -> dict:
     set_seeds()
     t0 = time.time()
@@ -332,7 +388,11 @@ def run_all(sections: tuple[str, ...] = ("matching", "extraction", "search")) ->
     path = REPORTS_DIR / "metrics.json"
     if path.exists():
         metrics = json.loads(path.read_text())
-    runners = {"matching": evaluate_matching, "extraction": evaluate_extraction}
+    runners = {
+        "matching": evaluate_matching,
+        "extraction": evaluate_extraction,
+        "search": evaluate_search,
+    }
     for name in sections:
         if name in runners:
             log.info("evaluating %s", name)

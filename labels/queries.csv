@@ -1,0 +1,31 @@
+query_id,query,relevant_if,pool_regex
+q01,notebook sony 4 GB,2: Sony notebook with 4GB RAM. 1: Sony notebook with other/unstated RAM.,\b(notebook|vaio)\b.*\bsony\b|\bsony\b.*\b(notebook|vaio)\b
+q02,geladeira frost free,"2: refrigerator stated as frost free. 1: refrigerator, frost free not stated.",\b(refrigerador|geladeira)\b.*\b(frost free|ff)\b
+q03,tv led 42 polegadas,"2: LED TV 42 inch. 1: 42 inch TV of another panel type, or LED TV of another size.",\b42pol\b
+q04,celular dual chip,"2: phone stated as dual chip. 1: phone, dual chip not stated.",\bdual chip\b
+q05,fogão 5 bocas inox,"2: 5-burner stove in stainless steel. 1: 5-burner stove, other finish.",\bfogao\b.*\b5 bocas\b|\b5 bocas\b
+q06,relogio casio masculino,"2: men's Casio watch. 1: Casio watch, gender not stated or women's.",\bcasio\b.*\brelogio\b|\brelogio\b.*\bcasio\b
+q07,cafeteira expresso,2: espresso coffee machine. 1: other coffee maker.,\bcafeteira\b.*\bexpresso\b
+q08,jogo de cama queen 200 fios,"2: queen sheet set, 200 thread count. 1: queen sheet set with other or unstated thread count.",\bjogo de cama\b.*\bqueen\b
+q09,tenis infantil,2: children's sneakers. 1: other children's shoes.,\btenis\b.*\binfantil\b
+q10,furadeira de impacto bosch,"2: Bosch impact drill. 1: impact drill of another brand, or other Bosch drill.",\bfuradeira\b.*\bbosch\b
+q11,ar condicionado split 12000 btus,"2: split air conditioner 12000 BTU. 1: split AC of other capacity, or 12000 BTU window unit.",\b12000btus\b
+q12,mp4 4gb,2: MP4 player with 4GB. 1: MP4 player with other capacity.,\bmp4\b.*\b4gb\b
+q13,cartucho hp preto,2: black HP ink/toner cartridge. 1: HP cartridge of another color.,\bcartucho\b.*\bhp\b.*\bpreto\b
+q14,lavadora de roupas 10 kg,2: washing machine 10 kg. 1: washing machine of another capacity.,\b(lavadora|lava roupa)\b.*\b10kg\b
+q15,bicicleta aro 26,2: bicycle with 26-inch wheels. 1: bicycle with other or unstated wheel size.,\bbicicleta\b.*\baro 26\b
+q16,perfume feminino,"2: women's perfume. 1: perfume, gender not stated.",\bperfume\b.*\bfeminino\b
+q17,panela antiaderente tramontina,"2: Tramontina non-stick pan/pot. 1: Tramontina pan not non-stick, or non-stick pan of another brand.",\b(panela|frigideira)\b.*\bantiaderente\b.*\btramontina\b
+q18,microondas 30 litros,2: microwave about 30 L (28-32). 1: microwave of another size.,\bmicro ?ondas\b.*\b(28|29|30|31|32)l\b
+q19,colchao casal mola ensacada,2: double mattress with pocket springs. 1: double mattress with other or unstated construction.,\bcolchao\b.*\bcasal\b.*\b(ensacada|pocket)\b
+q20,camera digital 14 megapixels,2: digital camera 14 MP (14.0-14.9). 1: digital camera of other resolution.,\bcamera digital\b.*\b14(\.\d)?mp\b
+q21,secador de cabelo taif,Typo for Taiff. 2: Taiff hair dryer. 1: hair dryer of another brand.,\bsecador\b.*\btaiff\b
+q22,liquidificador philips walita,2: Philips Walita blender. 1: blender of another brand.,\bliquidificador\b.*\bwalita\b
+q23,notebook samsung core i5,"2: Samsung notebook with Core i5. 1: Samsung notebook with other CPU, or i5 notebook of another brand.",\bsamsung\b.*\bi5|\bi5.*\bsamsung\b
+q24,tablet android,"2: Android tablet. 1: tablet, OS not stated.",\btablet\b
+q25,berço infantil,"2: baby crib. 1: crib accessory or crib-like (berço portátil, cercado).",\bberco\b
+q26,cadeira de escritorio,2: office chair. 1: other chair.,\bcadeira\b.*\b(escritorio|office|giratoria|presidente|diretor)\b
+q27,pneu aro 14,2: car tyre for 14-inch rims (R14). 1: tyre of another rim size.,\b(pneu|pirelli|bridgestone|michelin|general tire|goodyear)\b.*(\d+r ?14(pol)?\b|\br 14(pol)?\b)
+q28,boneca barbie,2: Barbie doll. 1: other Barbie product or other doll.,\bbarbie\b
+q29,aspirador de po,2: vacuum cleaner. 1: cleaning appliance that is not a vacuum.,\baspirador\b
+q30,jogo ps3,2: PlayStation 3 game. 1: PS3 accessory or game for another platform.,\bps3\b.*\bjogo\b|\bjogo\b.*\bps3\b

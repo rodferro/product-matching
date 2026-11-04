@@ -143,3 +143,46 @@ class LegacySearch:
         _, idx = self.nn.kneighbors(x, n_neighbors=1)
         rows = self.catalogue.iloc[idx[:, 0]]
         return {f: [v if isinstance(v, str) else None for v in rows[f]] for f in fields}
+
+
+# ---------------------------------------------------------------- process isolation
+#
+# On macOS, torch (embeddings) and xgboost (this baseline) each bundle an OpenMP
+# runtime, and running both in one process crashes or deadlocks. The baseline
+# only needs plain data in and out, so it runs in a child process that never
+# imports torch.
+
+
+def run_isolated(func, *args):
+    import multiprocessing
+
+    ctx = multiprocessing.get_context("spawn")
+    with ctx.Pool(1) as pool:
+        return pool.apply(func, args)
+
+
+def extraction_outputs(train: pd.DataFrame, held_names: list[str], check_names: list[str]) -> dict:
+    """2022 answers to (b): classifier fields for held-out names, nearest-neighbour color/model."""
+    clf = LegacyClassifiers().fit(train)
+    search = LegacySearch().fit(train, clf)
+    held = pd.Series(held_names)
+    return {
+        "fields": {f: clf.predict(held, f) for f in LegacyClassifiers.fields},
+        "nearest": search.nearest_fields(check_names),
+    }
+
+
+def search_outputs(catalogue: pd.DataFrame, queries: list[str], k: int) -> dict[str, list[int]]:
+    """2022 answers to (c): top-k positions for each query."""
+    search = LegacySearch().fit(catalogue, LegacyClassifiers().fit(catalogue))
+    return {q: search.search(q, k) for q in queries}
+
+
+class PrecomputedSearch:
+    """Serves search results computed ahead of time (used for the isolated baseline)."""
+
+    def __init__(self, results: dict[str, list[int]]):
+        self.results = results
+
+    def search(self, query: str, k: int = 10) -> list[int]:
+        return self.results[query][:k]
