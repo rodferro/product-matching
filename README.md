@@ -4,7 +4,6 @@ A data science take-home challenge (2022): match product listings from an e-comm
 
 - [`challenge_v1.ipynb`](challenge_v1.ipynb): the solution notebook.
 - [`base_info_produtos.csv`](base_info_produtos.csv): the product sample (26,241 listings, tab-separated). The notebook reads this file.
-- [`base_info_produtos.xlsx`](base_info_produtos.xlsx): the sample as originally provided in spreadsheet form. Each row holds the whole tab-separated line in one cell, and accented characters are mis-encoded; use the CSV.
 - [`requirements.txt`](requirements.txt): the conda environment used to run the notebook.
 
 ## The challenge
