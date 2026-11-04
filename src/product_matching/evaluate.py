@@ -123,14 +123,9 @@ def evaluate_matching(world: World) -> dict:
     emb_cos = x["emb_cos"].to_numpy()
     t_emb = best_f1_threshold(y[tr], emb_cos[tr])
 
-    # blocking: how many labelled duplicates the candidate generator keeps
+    # Candidate generation: only the size reduction is reported. Its recall cannot be measured
+    # with these labels, because every labelled pair was sampled from the candidate pools.
     cands = world.candidates
-    cand_set = set(zip(cands["a"], cands["b"], strict=True))
-    pos_pairs = [(min(i, j), max(i, j)) for i, j, lab in zip(a, b, y, strict=True) if lab == 1]
-    kept = [p in cand_set for p in pos_pairs]
-    by_source = pairs.assign(kept=[
-        (min(i, j), max(i, j)) in cand_set for i, j in zip(a, b, strict=True)
-    ]).query("label == 1").groupby("source")["kept"].agg(["sum", "count"])  # fmt: skip
     n = len(world.df)
 
     rel = reliability(y[te], prob_new)
@@ -152,10 +147,6 @@ def evaluate_matching(world: World) -> dict:
             "candidate_pairs": len(cands),
             "all_pairs": n * (n - 1) // 2,
             "reduction_ratio": round(1 - len(cands) / (n * (n - 1) / 2), 6),
-            "labelled_positives_kept": int(sum(kept)),
-            "labelled_positives": len(kept),
-            "kept_by_source": {s: {"kept": int(r["sum"]), "of": int(r["count"])}
-                               for s, r in by_source.iterrows()},
         },
     }  # fmt: skip
 

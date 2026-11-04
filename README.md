@@ -27,7 +27,7 @@ Held-out pairs: 300 (52 same-product). Training pairs: 500 (87 same-product). Th
 
 ¹ A cosine similarity is not a probability; Brier/ECE show what happens if it is read as one.
 
-Candidate generation keeps 269,042 of 344,281,920 possible pairs (0.1%) and 139 of 139 labelled duplicates.
+Candidate generation keeps 269,042 of 344,281,920 possible pairs (0.1%). Its recall is not measured (see Limitations).
 
 ### (b) Attributes from the name
 
@@ -54,10 +54,10 @@ Color and model are scored against 200 held-out names whose color and model were
 |---|---|---|---|---|
 | 2022 baseline | 0.629 [0.52, 0.73] | 0.810 [0.69, 0.90] | 0.517 | n/a |
 | BM25 | 0.847 [0.76, 0.93] | 0.930 [0.86, 0.99] | 0.779 | 0.1 ms |
-| Char n-gram TF-IDF | 0.805 [0.72, 0.88] | 0.933 [0.89, 0.97] | 0.712 | 4.0 ms |
-| Embeddings (e5-small) | 0.771 [0.67, 0.87] | 0.843 [0.76, 0.92] | 0.715 | 5.8 ms |
-| **Hybrid: BM25 + e5-small (RRF)** | 0.848 [0.77, 0.92] | 0.917 [0.84, 0.98] | 0.802 | 5.4 ms |
-| Embeddings (e5-base) | 0.712 [0.62, 0.81] | 0.783 [0.70, 0.87] | 0.638 | 47.5 ms |
+| Char n-gram TF-IDF | 0.805 [0.72, 0.88] | 0.933 [0.89, 0.97] | 0.712 | 3.4 ms |
+| Embeddings (e5-small) | 0.771 [0.67, 0.87] | 0.843 [0.76, 0.92] | 0.715 | 5.6 ms |
+| **Hybrid: BM25 + e5-small (RRF)** | 0.848 [0.77, 0.92] | 0.917 [0.84, 0.98] | 0.802 | 5.2 ms |
+| Embeddings (e5-base) | 0.712 [0.62, 0.81] | 0.783 [0.70, 0.87] | 0.638 | 14.0 ms |
 
 The best new system beats the 2022 baseline on 23 of 30 queries.
 <!-- results:end -->
@@ -157,7 +157,8 @@ The first hit shows a known weakness (see Limitations). `GET /health` returns th
 
 - **Small answer key.** 52 held-out duplicate pairs and 30 queries. Confidence intervals are wide (see the brackets above); differences inside them are ties. BM25 and the hybrid search are statistically indistinguishable here.
 - **The labels are AI-generated and unreviewed.** Every label was produced by an AI assistant (Claude) applying the written rules, and no person has checked them yet, so the metrics measure agreement with those labels. See *Human review of the labels* for the review workflow.
-- **Test pairs over-represent hard cases** (shared codes and lookalikes), so precision over all candidate pairs in the catalogue would differ. Only 5 of 139 labelled duplicates lack a shared model code, so the model has little evidence for that case, and candidate-generation recall is measured mostly on pairs it was designed to find.
+- **Test pairs over-represent hard cases** (shared codes and lookalikes), so precision over all candidate pairs in the catalogue would differ. Only 5 of 139 labelled duplicates lack a shared model code, so the model has little evidence for that case.
+- **Candidate-generation recall is not measured.** Every labelled pair was drawn from the candidate pools (the 150 random same-type pairs contain no duplicates), so all labelled duplicates are candidates by construction. How many true duplicates the candidate step misses is unknown.
 - **Type, category and brand are scored against seller-entered labels**, which have their own errors.
 - **The model extractor rarely abstains.** Its threshold was tuned on names that all contain a model, so it only says None when no code-like token exists (precision 0.82 against a 0.90 target on the 200 checked names).
 - **Search ignores product type.** For *notebook sony 4 GB* the top hit is a Sony 4 GB memory stick. The 2022 baseline, which adds a predicted type and brand to the query, still wins on 3 of 30 queries for this reason. Using the query's predicted type and brand (part b) to boost results is the obvious next step.

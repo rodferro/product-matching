@@ -61,8 +61,7 @@ def matching_section(m: dict) -> str:
         "¹ A cosine similarity is not a probability; Brier/ECE show what happens if it is read as one.",
         "",
         f"Candidate generation keeps {b['candidate_pairs']:,} of {b['all_pairs']:,} possible pairs "
-        f"({_pct(1 - b['reduction_ratio'])}) and {b['labelled_positives_kept']} of "
-        f"{b['labelled_positives']} labelled duplicates.",
+        f"({_pct(1 - b['reduction_ratio'])}). Its recall is not measured (see Limitations).",
     ]
     return "\n".join(out)
 
