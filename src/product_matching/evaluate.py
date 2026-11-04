@@ -400,6 +400,9 @@ def run_all(sections: tuple[str, ...] = ("matching", "extraction", "search")) ->
     metrics["runtime_seconds"] = round(time.time() - t0, 1)
     REPORTS_DIR.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(metrics, indent=2, ensure_ascii=False, default=_json_default))
+    from .report import write_reports
+
+    write_reports()
     return metrics
 
 
