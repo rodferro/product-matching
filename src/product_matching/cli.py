@@ -52,7 +52,7 @@ def cmd_pool_queries(args: argparse.Namespace) -> None:
 
 
 def cmd_build(args: argparse.Namespace) -> None:
-    from .build import build_all
+    from .service import build_all
 
     build_all(ARTIFACTS_DIR)
 
